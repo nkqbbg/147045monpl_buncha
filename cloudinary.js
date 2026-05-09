@@ -29,7 +29,7 @@ function uploadImage(buffer, publicId) {
   return new Promise((resolve, reject) => {
     const stream = cloudinary.uploader.upload_stream(
       {
-        folder: "matches",
+        folder: "phantatv",
         public_id: publicId,
         overwrite: true,
       },

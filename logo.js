@@ -9,7 +9,27 @@ let _backgroundPromise = null;
 
 function getBackgroundImage() {
   if (!_backgroundPromise) {
-    _backgroundPromise = loadImage("bg-soccer.jpg");
+    _backgroundPromise = (async () => {
+      const localPath = path.join(__dirname, "bg-soccer.jpg");
+      if (fs.existsSync(localPath)) {
+        try {
+          return await loadImage(localPath);
+        } catch {
+          // fall through
+        }
+      }
+
+      const remote = await loadImageSmart(
+        "https://phantatv.pro/assets/image/bg/bg-soccer.jpg",
+      );
+      if (remote) return remote;
+
+      const fallback = createCanvas(1, 1);
+      const fctx = fallback.getContext("2d");
+      fctx.fillStyle = "#0b0e14";
+      fctx.fillRect(0, 0, 1, 1);
+      return fallback;
+    })();
   }
   return _backgroundPromise;
 }

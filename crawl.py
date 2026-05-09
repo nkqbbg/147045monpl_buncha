@@ -329,8 +329,7 @@ def _clean_js_json(js_text):
 
 def extract_streams_for_match(match_url):
     """Fetch a match page and attempt to extract playable stream URLs.
-
-    Returns a list of stream dicts: {type, url, note}
+    Only extracts HLS streams with quality detection from URLs.
     """
     try:
         logger.debug(f"Fetching streams from: {match_url}")
@@ -354,28 +353,23 @@ def extract_streams_for_match(match_url):
             return
         seen.add(u2)
 
-        # normalize protocol/label
-        proto = t
-        friendly = None
+        # Only process HLS streams (m3u8)
         lu = u2.lower()
-        if ".m3u8" in lu or lu.endswith("/playlist.m3u8"):
-            proto = "hls"
-            friendly = "HLS (m3u8)"
-        elif lu.endswith(".flv") or ".flv" in lu:
-            proto = "flv"
-            friendly = "FLV"
-        elif lu.startswith("blob:"):
-            proto = "blob"
-            friendly = "Blob Video"
-        elif t == "iframe":
-            proto = "iframe"
-            friendly = "Iframe Embed"
-        elif t in ("video", "video_source"):
-            proto = "video"
-            friendly = "HTML5 Video"
+        if not (".m3u8" in lu or lu.endswith("/playlist.m3u8")):
+            return
+
+        proto = "hls"
+        # Auto-detect quality from URL
+        if "fullhd" in lu or "fhd" in lu or "1080" in lu:
+            friendly = "FullHD"
+        elif "hd" in lu or "720" in lu:
+            friendly = "HD"
+        elif "sd" in lu or "480" in lu or "360" in lu:
+            friendly = "SD"
+        elif "low" in lu:
+            friendly = "Low"
         else:
-            proto = t
-            friendly = t
+            friendly = "HLS"
 
         if label:
             friendly = label
@@ -389,21 +383,11 @@ def extract_streams_for_match(match_url):
         })
         logger.debug(f"Found stream: {friendly} ({proto})")
 
-    # 1) video/source tags
-    for src in soup.select("video source"):
-        add_stream("video_source", src.get("src") or src.get("data-src"))
-    for vtag in soup.select("video"):
-        add_stream("video", vtag.get("src"))
-
-    # 2) iframe embeds
-    for iframe in soup.select("iframe[src]"):
-        add_stream("iframe", iframe.get("src"))
-
-    # 3) direct m3u8 links in HTML/JS
+    # 1) direct m3u8 links in HTML/JS
     for m in re.findall(r"https?://[^\'\"\s<>]+\.m3u8[^\'\"\s<>]*", text):
         add_stream("m3u8", m)
 
-    # 4) look for JS variables containing JSON arrays/objects that may include sources
+    # 2) look for JS variables containing JSON arrays/objects that may include sources
     js_candidates = re.findall(r"(?:var|let|const)\s+(?:sources|playerSources|serverStreamLinks|streamLinks)\s*=\s*([\[\{].*?[\]\}]);", text, flags=re.S)
     for cand in js_candidates:
         try:
@@ -427,23 +411,18 @@ def extract_streams_for_match(match_url):
         if parsed is not None:
             _extract_from_obj(parsed)
 
-    # 5) fallback: look for data attributes like data-src, data-href containing urls
+    # 3) fallback: look for data attributes like data-src containing m3u8 urls
     for tag in soup.find_all(attrs=True):
         for attr, val in tag.attrs.items():
             if not isinstance(val, str):
                 continue
-            if ".m3u8" in val or val.startswith("http"):
-                if ".m3u8" in val:
-                    add_stream("m3u8", val, note=f"attr:{attr}")
-                elif val.startswith("http") and any(ext in val for ext in [".mp4", ".webm"]):
-                    add_stream("direct", val, note=f"attr:{attr}")
+            if ".m3u8" in val:
+                add_stream("m3u8", val, note=f"attr:{attr}")
 
-    # 6) final heuristic: sometimes links are obfuscated in base64 inside scripts
+    # 4) final heuristic: sometimes links are obfuscated in base64 inside scripts
     for b64 in re.findall(r"[A-Za-z0-9+/=]{40,}", text):
-        # skip obviously non-base64
         try:
             import base64
-
             dec = base64.b64decode(b64).decode("utf-8", errors="ignore")
             for m in re.findall(r"https?://[^\'\"\s<>]+\.m3u8[^\'\"\s<>]*", dec):
                 add_stream("m3u8", m, note="decoded_base64")
@@ -452,9 +431,9 @@ def extract_streams_for_match(match_url):
 
     if not streams:
         logger.warning(f"No streams found for {match_url}")
-        streams.append({"protocol": "none", "label": "none_found", "detected_type": "none", "url": None, "note": "no streams detected with current heuristics"})
+        streams.append({"protocol": "none", "label": "none_found", "detected_type": "none", "url": None, "note": "no streams detected"})
     else:
-        logger.info(f"Found {len(streams)} stream(s) for match")
+        logger.info(f"Found {len(streams)} HLS stream(s) for match")
 
     return streams
 
@@ -476,14 +455,6 @@ def transform_matches_to_template(matches_data, template_base=None):
             "description": "Xem bóng đá trực tiếp online miễn phí - Bun Cha TV",
             "share": {
                 "url": "https://tt.8share.pro/buncha"
-            },
-            "notice": {
-                "visible": False,
-                "closeable": True,
-                "icon": "https://media.hth4nh.eu.org/static/img/tele.png",
-                "id": "notice",
-                "link": "https://t.me/dqstore1",
-                "text": "Nhóm Telegram cập nhật"
             },
             "option": {
                 "save_history": False,
