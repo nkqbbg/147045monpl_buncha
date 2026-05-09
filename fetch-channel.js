@@ -1,36 +1,44 @@
-const { createMatchImage, clearFolder } = require("./logo.js");
+const { createMatchImage } = require("./logo.js");
 const axios = require("axios");
 const cheerio = require("cheerio");
 const fs = require("fs");
 const path = require("path");
 const crypto = require("crypto");
 const { uploadMultiThread, deleteOldImages } = require("./cloudinary.js");
-// const { channel } = require("diagnostics_channel");
 
-function absolutizeUrl(url, domain) {
+function absolutizeUrl(url, origin) {
   if (!url) return null;
   if (typeof url !== "string") return null;
   if (url.startsWith("data:")) return url;
   if (url.startsWith("http://") || url.startsWith("https://")) return url;
   if (url.startsWith("//")) return `https:${url}`;
-  if (url.startsWith("/")) return `${domain}${url}`;
+  if (url.startsWith("/")) return `${origin}${url}`;
   return url;
 }
 
-/**
- * Helper to generate a random ID
- */
 function generateId(prefix = "id") {
   return `${prefix}-${crypto.randomBytes(6).toString("hex")}`;
 }
 
-/**
- * Scrapes hoadaotv.org/soccer and returns a list of stream data
- */
+function stableChannelId(matchLink) {
+  const slug = String(matchLink).split("/").pop();
+  return "ch-" + slug.replace(/[^a-zA-Z0-9]/g, "");
+}
+
+function matchText(el, $) {
+  return $(el).text().replace(/\s+/g, " ").trim();
+}
+
+function findFirstTextMatch(texts, re) {
+  for (const t of texts) {
+    if (re.test(t)) return t;
+  }
+  return "";
+}
+
 async function scrapeSoccer() {
-  const domain = "https://phantatv.pro/soccer";
-  // const url = `${domain}/soccer`;
-  const url = domain;
+  const origin = "https://phantatv.pro";
+  const url = `${origin}/soccer`;
   console.log(`🚀 Fetching data from ${url}...`);
 
   try {
@@ -38,88 +46,95 @@ async function scrapeSoccer() {
       headers: {
         "User-Agent":
           "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+        "Accept-Language": "vi,en;q=0.9",
       },
+      timeout: 30000,
     });
 
-    const html = response.data;
-    const $ = cheerio.load(html);
-    // console.log($);
-    const btnWatchElements = $(".btn-watch");
-    console.log(
-      `✅ Found ${btnWatchElements.length} elements with class "link-match-main":\n`,
-    );
+    const $ = cheerio.load(response.data);
 
-    let elementLinks = btnWatchElements
-      .toArray()
-      .map((el) => $(el).attr("href"));
-
-    // Add the user requested link as a fallback if it's not already there
-    const testLink = "/havre-athletic-club-vs-paris-saint-germain-2397996";
-    if (!elementLinks.includes(testLink)) {
-      elementLinks.unshift(testLink);
-    }
+    const matchEls = $(
+      ".match-hot-card-container .match-item[data-type='soccer']",
+    ).toArray();
+    console.log(`✅ Found ${matchEls.length} HOT match cards`);
 
     const matches = [];
 
-    const card = $(".card-match").first(); // lấy card đầu tiên
-    const style = card.find(".card-bg-blur").attr("style");
-
-    let backgroundUrl = null;
-
-    if (style) {
-      const match = style.match(/url\((.*?)\)/);
-      if (match && match[1]) {
-        backgroundUrl = match[1];
-
-        if (backgroundUrl.startsWith("/")) {
-          backgroundUrl = `${domain}${backgroundUrl}`;
-        }
-      }
-    }
-
-    // Parallelize scrapelink with concurrency limit
-    const cmWrapEls = $(".cm-wrap").toArray();
-    const concurrency = 6; // adjust as needed
+    const concurrency = 6;
     let idx = 0;
+
     async function worker() {
-      while (idx < cmWrapEls.length) {
+      while (idx < matchEls.length) {
         const myIdx = idx++;
-        const el = cmWrapEls[myIdx];
+        const el = matchEls[myIdx];
         const card = $(el);
 
-        const home = card.find(".team-home .name-short").text().trim();
-        const away = card.find(".team-away .name-short").text().trim();
+        const overlayHref = card
+          .find("a.absolute.inset-0")
+          .first()
+          .attr("href");
+        if (!overlayHref) continue;
 
-        const [time, date] = card
-          .find(".time span")
-          .map((i, el) => $(el).text().trim())
-          .get();
+        const matchLink = absolutizeUrl(overlayHref, origin);
+        if (!matchLink) continue;
 
-        const league = card.find(".league").text().trim();
-        const status = card.find(".text-timeinplay").text().trim();
-
-        const leagueIcon = absolutizeUrl(
-          card.find(".corner img").attr("src"),
-          domain,
+        const topBarText = matchText(
+          card.find("div.absolute.top-0").first(),
+          $,
         );
+        const time = (topBarText.match(/\b\d{1,2}:\d{2}\b/) || [""])[0];
+        const date = (topBarText.match(/\b\d{2}\/\d{2}\b/) || [""])[0];
+
+        const leagueWrap = card.find("img[alt='sport-icon']").parent();
+        const league = matchText(leagueWrap.find("span").first(), $) || "";
+        const leagueIcon = absolutizeUrl(
+          card.find("img[alt='sport-icon']").attr("src"),
+          origin,
+        );
+
+        const homeIconEl = card.find("img[alt='home']").first();
+        const awayIconEl = card.find("img[alt='away']").first();
+
         const homeIcon = absolutizeUrl(
-          card.find(".team-home .base-icon img").attr("data-src"),
-          domain,
+          homeIconEl.attr("data-src") || homeIconEl.attr("src"),
+          origin,
         );
         const awayIcon = absolutizeUrl(
-          card.find(".team-away .base-icon img").attr("src"),
-          domain,
+          awayIconEl.attr("data-src") || awayIconEl.attr("src"),
+          origin,
         );
-        const matchPath = card.find(".match-link-overlay").attr("href");
-        if (!matchPath) return;
 
-        const matchLink = matchPath.startsWith("http")
-          ? matchPath
-          : `${domain}${matchPath}`;
+        const homeName = matchText(
+          homeIconEl.closest("div").parent().find("span").first(),
+          $,
+        );
+        const awayName = matchText(
+          awayIconEl.closest("div").parent().find("span").first(),
+          $,
+        );
 
-        console.log(`🔗 Scraping stream for: ${home} vs ${away}`);
+        const allTexts = card
+          .find("div")
+          .toArray()
+          .map((d) => matchText(d, $))
+          .filter(Boolean);
 
-        // ⭐ STREAM LINK Ở ĐÂY
+        const status =
+          findFirstTextMatch(
+            allTexts,
+            /^(Hiệp\s*\d+|Nghỉ Giữa Hiệp|Chưa Bắt Đầu|Đã Kết Thúc|Hoãn|Hủy|Tạm dừng)$/i,
+          ) ||
+          (card.find("span").filter((_, s) => matchText(s, $) === "Live")
+            .length > 0
+            ? "Hiệp 1"
+            : "");
+
+        const backUrl = absolutizeUrl(
+          card.find("img[alt='bg']").attr("src"),
+          origin,
+        );
+
+        console.log(`🔗 Scraping stream for: ${homeName} vs ${awayName}`);
         const streamLinks = await scrapelink(matchLink);
 
         matches[myIdx] = {
@@ -128,15 +143,15 @@ async function scrapeSoccer() {
           date,
           status,
           link: matchLink,
-          streams: streamLinks || [],
-          backUrl: backgroundUrl,
+          streams: streamLinks || {},
+          backUrl: backUrl || `${origin}/assets/image/bg/bg-soccer.jpg`,
           teams: {
             home: {
-              name: home,
+              name: homeName,
               icon: homeIcon,
             },
             away: {
-              name: away,
+              name: awayName,
               icon: awayIcon,
             },
           },
@@ -146,20 +161,21 @@ async function scrapeSoccer() {
         };
       }
     }
+
     await Promise.all(Array.from({ length: concurrency }, worker));
 
-    // console.log(matches);
+    const cleaned = matches.filter(Boolean);
 
-    const hasStream = matches.some(
+    const hasStream = cleaned.some(
       (m) => m.streams && Object.keys(m.streams).length > 0,
     );
-
     if (!hasStream) {
       console.log("⚠️ No stream links found.");
     }
-    return matches;
+
+    return cleaned;
   } catch (error) {
-    console.error("❌ Error during scraping:", error.message);
+    console.error("❌ Error during scraping:", error?.message || error);
     return [];
   }
 }
@@ -170,11 +186,12 @@ async function scrapelink(link) {
       headers: {
         "User-Agent":
           "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+        Referer: "https://phantatv.pro/",
       },
+      timeout: 30000,
     });
 
     const html = response.data;
-    // Search for the line with const serverStreamLinks
     const match = html.match(/const\s+serverStreamLinks\s*=\s*({.*?});/s);
 
     if (match && match[1]) {
@@ -187,25 +204,19 @@ async function scrapelink(link) {
     }
     return null;
   } catch (error) {
-    console.error(`❌ Error scraping ${link}:`, error.message);
+    console.error(`❌ Error scraping ${link}:`, error?.message || error);
     return null;
   }
 }
-function stableChannelId(matchLink) {
-  // Lấy phần cuối của URL làm ID, hoặc hash toàn bộ URL nếu muốn ngắn gọn
-  const slug = matchLink.split("/").pop();
-  return "ch-" + slug.replace(/[^a-zA-Z0-9]/g, "");
-}
+
 async function main() {
-  console.log("🏁 Starting Scraper...");
+  console.log("🏁 Starting Scraper (phantatv.pro)...");
   const list = await scrapeSoccer();
-  // console.log(list);
-  console.log(
-    `\n📊 Scraping finished. Total channels with streams: ${list.length}`,
-  );
+
+  console.log(`\n📊 Scraping finished. Total matches: ${list.length}`);
 
   if (list.length === 0) {
-    console.log("⚠️ No data to save. (Matches might not have started yet)");
+    console.log("⚠️ No data to save.");
     return;
   }
 
@@ -216,12 +227,17 @@ async function main() {
     }
 
     const templateData = JSON.parse(fs.readFileSync(templatePath, "utf8"));
+
     const statusConfig = {
       "Hiệp 1": {
         text: "● Live",
         color: "#FF0000",
       },
       "Hiệp 2": {
+        text: "● Live",
+        color: "#FF0000",
+      },
+      "Nghỉ Giữa Hiệp": {
         text: "● Live",
         color: "#FF0000",
       },
@@ -234,20 +250,21 @@ async function main() {
         color: "#9E9E9E",
       },
     };
+
     const channels = [];
     const uploadedIds = [];
-    // 1. Chuẩn bị danh sách publicId và item
+
     const itemsWithIds = list.map((item) => {
       const channelId = stableChannelId(item.link);
       const publicId = channelId.replace("ch-", "img-");
       return { item, channelId, publicId };
     });
 
-    // 2. Kiểm tra tồn tại trên Cloudinary trước khi tạo buffer
     const concurrency = 6;
     let idx = 0;
     const existResults = Array(itemsWithIds.length);
     const { v2: cloudinary } = require("cloudinary");
+
     async function existWorker() {
       while (idx < itemsWithIds.length) {
         const myIdx = idx++;
@@ -264,9 +281,9 @@ async function main() {
         }
       }
     }
+
     await Promise.all(Array.from({ length: concurrency }, existWorker));
 
-    // 3. Chỉ tạo buffer và upload với ảnh chưa tồn tại
     const uploadTasks = [];
     for (let i = 0; i < itemsWithIds.length; ++i) {
       const t = itemsWithIds[i];
@@ -281,6 +298,7 @@ async function main() {
           t.item.date,
           t.item.status,
         );
+
         uploadTasks.push({
           buffer,
           publicId: t.publicId,
@@ -288,40 +306,36 @@ async function main() {
           channelId: t.channelId,
         });
       }
+
       uploadedIds.push(t.publicId);
     }
 
-    // 4. Upload các ảnh chưa tồn tại
     let uploadResults = [];
     if (uploadTasks.length > 0) {
       uploadResults = await uploadMultiThread(
         uploadTasks.map((t) => ({ buffer: t.buffer, publicId: t.publicId })),
       );
     }
-    // Map publicId to url
+
     const urlMap = {};
-    // Ảnh đã tồn tại
     existResults.forEach((r) => {
       if (r.exists && typeof r.url === "string") urlMap[r.publicId] = r.url;
     });
-    // Ảnh vừa upload
     uploadTasks.forEach((t, i) => {
       const r = uploadResults[i];
       if (r && r.success && typeof r.url === "string")
         urlMap[t.publicId] = r.url;
     });
 
-    // 5. Build channels array
     for (const t of itemsWithIds) {
       const { item, channelId, publicId } = t;
       const urlImage = urlMap[publicId] || "";
-      if (existResults.find((r) => r.publicId === publicId && r.exists)) {
-        console.log(`[cache] Using cached image for publicId: ${publicId}`);
-      }
+
       const labelStatus = statusConfig[item.status] || {
-        text: " ● Live",
+        text: "● Live",
         color: "#FF0000",
       };
+
       if (!channels.some((c) => c.id === channelId)) {
         channels.push({
           id: channelId,
@@ -349,7 +363,7 @@ async function main() {
               contents: [
                 {
                   id: generateId("ct"),
-                  name: item.label,
+                  name: item.league || "Match",
                   streams: [
                     {
                       id: generateId("st"),
@@ -357,10 +371,10 @@ async function main() {
                       stream_links: [
                         {
                           id: generateId("lnk"),
-                          name: "Nhà đài",
+                          name: "Nhà đài SD",
                           type: "hls",
                           default: true,
-                          url: item.streams.ndsd,
+                          url: item.streams?.ndsd || "",
                           request_headers: [
                             { key: "Referer", value: item.link },
                             { key: "User-Agent", value: "Mozilla/5.0" },
@@ -368,10 +382,10 @@ async function main() {
                         },
                         {
                           id: generateId("lnk"),
-                          name: "HD",
+                          name: "Nhà đài HD",
                           type: "hls",
-                          default: true,
-                          url: item.streams.hd,
+                          default: false,
+                          url: item.streams?.ndhd || "",
                           request_headers: [
                             { key: "Referer", value: item.link },
                             { key: "User-Agent", value: "Mozilla/5.0" },
@@ -381,8 +395,19 @@ async function main() {
                           id: generateId("lnk"),
                           name: "SD",
                           type: "hls",
-                          default: true,
-                          url: item.streams.sd,
+                          default: false,
+                          url: item.streams?.sd || "",
+                          request_headers: [
+                            { key: "Referer", value: item.link },
+                            { key: "User-Agent", value: "Mozilla/5.0" },
+                          ],
+                        },
+                        {
+                          id: generateId("lnk"),
+                          name: "HD",
+                          type: "hls",
+                          default: false,
+                          url: item.streams?.hd || "",
                           request_headers: [
                             { key: "Referer", value: item.link },
                             { key: "User-Agent", value: "Mozilla/5.0" },
@@ -392,8 +417,8 @@ async function main() {
                           id: generateId("lnk"),
                           name: "FullHD",
                           type: "hls",
-                          default: true,
-                          url: item.streams.fullhd,
+                          default: false,
+                          url: item.streams?.fullhd || "",
                           request_headers: [
                             { key: "Referer", value: item.link },
                             { key: "User-Agent", value: "Mozilla/5.0" },
@@ -401,10 +426,10 @@ async function main() {
                         },
                         {
                           id: generateId("lnk"),
-                          name: "FL",
-                          type: "hls",
-                          default: true,
-                          url: item.streams.flv,
+                          name: "FLV",
+                          type: "flv",
+                          default: false,
+                          url: item.streams?.flv || "",
                           request_headers: [
                             { key: "Referer", value: item.link },
                             { key: "User-Agent", value: "Mozilla/5.0" },
@@ -413,9 +438,9 @@ async function main() {
                         {
                           id: generateId("lnk"),
                           name: "FLV2",
-                          type: "hls",
-                          default: true,
-                          url: item.streams.flv2,
+                          type: "flv",
+                          default: false,
+                          url: item.streams?.flv2 || "",
                           request_headers: [
                             { key: "Referer", value: item.link },
                             { key: "User-Agent", value: "Mozilla/5.0" },
@@ -431,22 +456,23 @@ async function main() {
         });
       }
     }
+
     await deleteOldImages(uploadedIds);
 
-    // Update template
     if (!templateData.groups) templateData.groups = [{}];
     templateData.groups[0].channels = channels;
 
-    const outputPath = path.join(__dirname, "channels.json");
+    const outputPath = path.join(__dirname, "matches_streams.json");
     fs.writeFileSync(outputPath, JSON.stringify(templateData, null, 4));
 
     console.log(`\n🎉 Success! File generated: ${outputPath}`);
-    console.log(`📁 Captured ${channels.length} live channels.`);
+    console.log(`📁 Captured ${channels.length} channels.`);
   } catch (error) {
     const message =
       error?.message ||
       (typeof error === "string" ? error : null) ||
       (error ? JSON.stringify(error) : "Unknown error");
+
     console.error("❌ Error generating JSON:", message);
     if (error?.stack) {
       console.error(error.stack);

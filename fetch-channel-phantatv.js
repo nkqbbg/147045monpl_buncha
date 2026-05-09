@@ -53,8 +53,10 @@ async function scrapeSoccer() {
 
     const $ = cheerio.load(response.data);
 
-    const matchEls = $(".match-item[data-type='soccer']").toArray();
-    console.log(`✅ Found ${matchEls.length} match cards`);
+    const matchEls = $(
+      ".match-hot-card-container .match-item[data-type='soccer']",
+    ).toArray();
+    console.log(`✅ Found ${matchEls.length} HOT match cards`);
 
     const matches = [];
 
@@ -76,7 +78,10 @@ async function scrapeSoccer() {
         const matchLink = absolutizeUrl(overlayHref, origin);
         if (!matchLink) continue;
 
-        const topBarText = matchText(card.find("div.absolute.top-0").first(), $);
+        const topBarText = matchText(
+          card.find("div.absolute.top-0").first(),
+          $,
+        );
         const time = (topBarText.match(/\b\d{1,2}:\d{2}\b/) || [""])[0];
         const date = (topBarText.match(/\b\d{2}\/\d{2}\b/) || [""])[0];
 
@@ -161,7 +166,9 @@ async function scrapeSoccer() {
 
     const cleaned = matches.filter(Boolean);
 
-    const hasStream = cleaned.some((m) => m.streams && Object.keys(m.streams).length > 0);
+    const hasStream = cleaned.some(
+      (m) => m.streams && Object.keys(m.streams).length > 0,
+    );
     if (!hasStream) {
       console.log("⚠️ No stream links found.");
     }
@@ -316,7 +323,8 @@ async function main() {
     });
     uploadTasks.forEach((t, i) => {
       const r = uploadResults[i];
-      if (r && r.success && typeof r.url === "string") urlMap[t.publicId] = r.url;
+      if (r && r.success && typeof r.url === "string")
+        urlMap[t.publicId] = r.url;
     });
 
     for (const t of itemsWithIds) {
