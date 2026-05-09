@@ -498,40 +498,33 @@ def transform_matches_to_template(matches_data, template_base=None):
         match_id = generate_id(match.get("link", str(idx)))
         match_name = match.get("text", "Match")
         
-        # Extract time info for labels
-        match_time = match.get("time", "")
-        labels = [
-            {
-                "position": "top-left",
-                "text": "● Live",
-                "color": "#FF0000",
-                "text_color": "#FFFFFF"
-            }
-        ]
+        # Build team names for display
+        home_team = match.get("home", {})
+        away_team = match.get("away", {})
+        home_name_display = home_team.get("name") if isinstance(home_team, dict) else (home_team or "")
+        away_name_display = away_team.get("name") if isinstance(away_team, dict) else (away_team or "")
         
-        if match_time:
-            labels.append({
-                "position": "center",
-                "text": match_time.split()[0] if match_time else "00:00",
-                "color": "#4CAF50",
-                "text_color": "#FFFFFF"
-            })
-        
-        # Build channel object
+        # Build channel object with new structure
         channel = {
             "id": match_id,
-            "name": match_name,
-            "labels": labels,
+            "name": f"{home_name_display} vs {away_name_display}" if home_name_display and away_name_display else match_name,
+            "labels": [
+                {
+                    "position": "top-left",
+                    "text": "● Live",
+                    "color": "#FF0000",
+                    "text_color": "#FFFFFF",
+                    "font_size": 6
+                }
+            ],
             "image": {
-                "padding": 1,
                 "url": template_base["image"]["url"],
                 "height": 480,
                 "width": 640,
-                "display": "cover",
-                "shape": "square"
+                "display": "cover"
             },
             "type": "single",
-            "display": "text-below",
+            "display": "overlay",
             "sources": []
         }
         
@@ -539,11 +532,14 @@ def transform_matches_to_template(matches_data, template_base=None):
         streams = match.get("streams", [])
         if streams and len(streams) > 0:
             source_id = generate_id(f"{match_id}-source")
-            source_name = "Bun Cha TV"
+            source_name = f"{home_name_display} - {away_name_display}" if home_name_display and away_name_display else "Bun Cha TV"
             
-            stream_links = []
-            for stream_idx, stream in enumerate(streams):
-                if stream.get("url"):
+            # Filter out error streams and build stream links
+            valid_streams = [s for s in streams if s.get("url") and s.get("protocol") != "none"]
+            
+            if valid_streams:
+                stream_links = []
+                for stream_idx, stream in enumerate(valid_streams):
                     stream_link = {
                         "id": generate_id(f"{source_id}-link-{stream_idx}"),
                         "name": stream.get("label", f"Link {stream_idx + 1}"),
@@ -562,27 +558,27 @@ def transform_matches_to_template(matches_data, template_base=None):
                         ]
                     }
                     stream_links.append(stream_link)
-            
-            if stream_links:
-                stream_obj = {
-                    "id": generate_id(f"{source_id}-stream"),
-                    "name": "Stream",
-                    "stream_links": stream_links
-                }
                 
-                content_obj = {
-                    "id": generate_id(f"{source_id}-content"),
-                    "name": match_name,
-                    "streams": [stream_obj]
-                }
-                
-                source_obj = {
-                    "id": source_id,
-                    "name": source_name,
-                    "contents": [content_obj]
-                }
-                
-                channel["sources"].append(source_obj)
+                if stream_links:
+                    stream_obj = {
+                        "id": generate_id(f"{source_id}-stream"),
+                        "name": "Stream",
+                        "stream_links": stream_links
+                    }
+                    
+                    content_obj = {
+                        "id": generate_id(f"{source_id}-content"),
+                        "name": match_name,
+                        "streams": [stream_obj]
+                    }
+                    
+                    source_obj = {
+                        "id": source_id,
+                        "name": source_name,
+                        "contents": [content_obj]
+                    }
+                    
+                    channel["sources"].append(source_obj)
         
         channels.append(channel)
     

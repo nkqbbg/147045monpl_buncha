@@ -35,31 +35,24 @@
       "channels": [
         {
           "id": "2717410bc206",
-          "name": "Live 23:00 09/05 Italian Serie A Lazio 0 : 2 Nghỉ Giữa Hiệp Inter Milan BLV Dylan CƯỢC FB88 XEM NGAY",
+          "name": "Live 23:00 09/05 Italian Serie A Lazio 0 : 2 Hiệp 2 Inter Milan BLV Dylan CƯỢC FB88 XEM NGAY",
           "labels": [
             {
               "position": "top-left",
               "text": "● Live",
               "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "center",
-              "text": "23:00",
-              "color": "#4CAF50",
-              "text_color": "#FFFFFF"
+              "text_color": "#FFFFFF",
+              "font_size": 6
             }
           ],
           "image": {
-            "padding": 1,
             "url": "https://raw.githubusercontent.com/nkqbbg/20251_CNWeb_User_Management/7c0829f097849f9cfc54b5f6f37e2dbddda468c6/hoadaologo.jpg",
             "height": 480,
             "width": 640,
-            "display": "cover",
-            "shape": "square"
+            "display": "cover"
           },
           "type": "single",
-          "display": "text-below",
+          "display": "overlay",
           "sources": [
             {
               "id": "c89fbaa7c27b",
@@ -67,7 +60,7 @@
               "contents": [
                 {
                   "id": "6832caad189e",
-                  "name": "Live 23:00 09/05 Italian Serie A Lazio 0 : 2 Nghỉ Giữa Hiệp Inter Milan BLV Dylan CƯỢC FB88 XEM NGAY",
+                  "name": "Live 23:00 09/05 Italian Serie A Lazio 0 : 2 Hiệp 2 Inter Milan BLV Dylan CƯỢC FB88 XEM NGAY",
                   "streams": [
                     {
                       "id": "a1a13afb3606",
@@ -174,25 +167,18 @@
               "position": "top-left",
               "text": "● Live",
               "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "center",
-              "text": "23:00",
-              "color": "#4CAF50",
-              "text_color": "#FFFFFF"
+              "text_color": "#FFFFFF",
+              "font_size": 6
             }
           ],
           "image": {
-            "padding": 1,
             "url": "https://raw.githubusercontent.com/nkqbbg/20251_CNWeb_User_Management/7c0829f097849f9cfc54b5f6f37e2dbddda468c6/hoadaologo.jpg",
             "height": 480,
             "width": 640,
-            "display": "cover",
-            "shape": "square"
+            "display": "cover"
           },
           "type": "single",
-          "display": "text-below",
+          "display": "overlay",
           "sources": []
         },
         {
@@ -203,25 +189,18 @@
               "position": "top-left",
               "text": "● Live",
               "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "center",
-              "text": "23:30",
-              "color": "#4CAF50",
-              "text_color": "#FFFFFF"
+              "text_color": "#FFFFFF",
+              "font_size": 6
             }
           ],
           "image": {
-            "padding": 1,
             "url": "https://raw.githubusercontent.com/nkqbbg/20251_CNWeb_User_Management/7c0829f097849f9cfc54b5f6f37e2dbddda468c6/hoadaologo.jpg",
             "height": 480,
             "width": 640,
-            "display": "cover",
-            "shape": "square"
+            "display": "cover"
           },
           "type": "single",
-          "display": "text-below",
+          "display": "overlay",
           "sources": [
             {
               "id": "c844fdd6f04b",
@@ -336,25 +315,18 @@
               "position": "top-left",
               "text": "● Live",
               "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "center",
-              "text": "23:30",
-              "color": "#4CAF50",
-              "text_color": "#FFFFFF"
+              "text_color": "#FFFFFF",
+              "font_size": 6
             }
           ],
           "image": {
-            "padding": 1,
             "url": "https://raw.githubusercontent.com/nkqbbg/20251_CNWeb_User_Management/7c0829f097849f9cfc54b5f6f37e2dbddda468c6/hoadaologo.jpg",
             "height": 480,
             "width": 640,
-            "display": "cover",
-            "shape": "square"
+            "display": "cover"
           },
           "type": "single",
-          "display": "text-below",
+          "display": "overlay",
           "sources": [
             {
               "id": "f8319738e6a5",
@@ -469,25 +441,18 @@
               "position": "top-left",
               "text": "● Live",
               "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "center",
-              "text": "23:30",
-              "color": "#4CAF50",
-              "text_color": "#FFFFFF"
+              "text_color": "#FFFFFF",
+              "font_size": 6
             }
           ],
           "image": {
-            "padding": 1,
             "url": "https://raw.githubusercontent.com/nkqbbg/20251_CNWeb_User_Management/7c0829f097849f9cfc54b5f6f37e2dbddda468c6/hoadaologo.jpg",
             "height": 480,
             "width": 640,
-            "display": "cover",
-            "shape": "square"
+            "display": "cover"
           },
           "type": "single",
-          "display": "text-below",
+          "display": "overlay",
           "sources": [
             {
               "id": "602704178fdc",
@@ -596,35 +561,28 @@
         },
         {
           "id": "8321f08b5458",
-          "name": "00:00 10/05 United States Major League Soccer Toronto FC VS Chưa Bắt Đầu Inter Miami CF BLV Người Kiến CƯỢC FB88 CHI TIẾT",
+          "name": "Toronto FC vs Chưa Bắt Đầu",
           "labels": [
             {
               "position": "top-left",
               "text": "● Live",
               "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "center",
-              "text": "00:00",
-              "color": "#4CAF50",
-              "text_color": "#FFFFFF"
+              "text_color": "#FFFFFF",
+              "font_size": 6
             }
           ],
           "image": {
-            "padding": 1,
             "url": "https://raw.githubusercontent.com/nkqbbg/20251_CNWeb_User_Management/7c0829f097849f9cfc54b5f6f37e2dbddda468c6/hoadaologo.jpg",
             "height": 480,
             "width": 640,
-            "display": "cover",
-            "shape": "square"
+            "display": "cover"
           },
           "type": "single",
-          "display": "text-below",
+          "display": "overlay",
           "sources": [
             {
               "id": "9165198554d4",
-              "name": "Bun Cha TV",
+              "name": "Toronto FC - Chưa Bắt Đầu",
               "contents": [
                 {
                   "id": "ce21704e97c5",
@@ -684,6 +642,23 @@
                               "value": "Mozilla/5.0"
                             }
                           ]
+                        },
+                        {
+                          "id": "20fa9217b6ab",
+                          "name": "HLS (m3u8)",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.rapidlive.shop/live/6d133b0b76714f7bd1994b08a25ea6d3/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phantatv.pro/toronto-fc-vs-inter-miami-cf-2450893"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
                         }
                       ]
                     }
@@ -695,35 +670,28 @@
         },
         {
           "id": "968e8a9a4474",
-          "name": "01:45 10/05 Italian Serie A Lecce VS Chưa Bắt Đầu Juventus BLV A Tai CƯỢC FB88 CHI TIẾT",
+          "name": "Lecce vs Chưa Bắt Đầu",
           "labels": [
             {
               "position": "top-left",
               "text": "● Live",
               "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "center",
-              "text": "01:45",
-              "color": "#4CAF50",
-              "text_color": "#FFFFFF"
+              "text_color": "#FFFFFF",
+              "font_size": 6
             }
           ],
           "image": {
-            "padding": 1,
             "url": "https://raw.githubusercontent.com/nkqbbg/20251_CNWeb_User_Management/7c0829f097849f9cfc54b5f6f37e2dbddda468c6/hoadaologo.jpg",
             "height": 480,
             "width": 640,
-            "display": "cover",
-            "shape": "square"
+            "display": "cover"
           },
           "type": "single",
-          "display": "text-below",
+          "display": "overlay",
           "sources": [
             {
               "id": "9b2e85275264",
-              "name": "Bun Cha TV",
+              "name": "Lecce - Chưa Bắt Đầu",
               "contents": [
                 {
                   "id": "25dca5cf9dd1",
@@ -828,35 +796,28 @@
         },
         {
           "id": "b06bc8576c95",
-          "name": "02:00 10/05 Spanish La Liga Real Sociedad VS Chưa Bắt Đầu Real Betis BLV Cháo Quẩy CƯỢC FB88 CHI TIẾT",
+          "name": "Real Sociedad vs Chưa Bắt Đầu",
           "labels": [
             {
               "position": "top-left",
               "text": "● Live",
               "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "center",
-              "text": "02:00",
-              "color": "#4CAF50",
-              "text_color": "#FFFFFF"
+              "text_color": "#FFFFFF",
+              "font_size": 6
             }
           ],
           "image": {
-            "padding": 1,
             "url": "https://raw.githubusercontent.com/nkqbbg/20251_CNWeb_User_Management/7c0829f097849f9cfc54b5f6f37e2dbddda468c6/hoadaologo.jpg",
             "height": 480,
             "width": 640,
-            "display": "cover",
-            "shape": "square"
+            "display": "cover"
           },
           "type": "single",
-          "display": "text-below",
+          "display": "overlay",
           "sources": [
             {
               "id": "702332483b6a",
-              "name": "Bun Cha TV",
+              "name": "Real Sociedad - Chưa Bắt Đầu",
               "contents": [
                 {
                   "id": "9cddd89c9a30",
@@ -961,35 +922,28 @@
         },
         {
           "id": "88cd1d525592",
-          "name": "09:30 10/05 United States Major League Soccer Seattle Sounders VS Chưa Bắt Đầu San Diego FC BLV Văn Chuẩn CƯỢC FB88 CHI TIẾT",
+          "name": "Seattle Sounders vs Chưa Bắt Đầu",
           "labels": [
             {
               "position": "top-left",
               "text": "● Live",
               "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "center",
-              "text": "09:30",
-              "color": "#4CAF50",
-              "text_color": "#FFFFFF"
+              "text_color": "#FFFFFF",
+              "font_size": 6
             }
           ],
           "image": {
-            "padding": 1,
             "url": "https://raw.githubusercontent.com/nkqbbg/20251_CNWeb_User_Management/7c0829f097849f9cfc54b5f6f37e2dbddda468c6/hoadaologo.jpg",
             "height": 480,
             "width": 640,
-            "display": "cover",
-            "shape": "square"
+            "display": "cover"
           },
           "type": "single",
-          "display": "text-below",
+          "display": "overlay",
           "sources": [
             {
               "id": "e5eea36408f1",
-              "name": "Bun Cha TV",
+              "name": "Seattle Sounders - Chưa Bắt Đầu",
               "contents": [
                 {
                   "id": "701b8d8473e0",
@@ -1060,35 +1014,28 @@
         },
         {
           "id": "567f64e8aa33",
-          "name": "12:00 10/05 Japanese J1 League Yokohama F. Marinos VS Chưa Bắt Đầu Kashima Antlers BLV Táo CƯỢC FB88 CHI TIẾT",
+          "name": "Yokohama F. Marinos vs Chưa Bắt Đầu",
           "labels": [
             {
               "position": "top-left",
               "text": "● Live",
               "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "center",
-              "text": "12:00",
-              "color": "#4CAF50",
-              "text_color": "#FFFFFF"
+              "text_color": "#FFFFFF",
+              "font_size": 6
             }
           ],
           "image": {
-            "padding": 1,
             "url": "https://raw.githubusercontent.com/nkqbbg/20251_CNWeb_User_Management/7c0829f097849f9cfc54b5f6f37e2dbddda468c6/hoadaologo.jpg",
             "height": 480,
             "width": 640,
-            "display": "cover",
-            "shape": "square"
+            "display": "cover"
           },
           "type": "single",
-          "display": "text-below",
+          "display": "overlay",
           "sources": [
             {
               "id": "6c721575a378",
-              "name": "Bun Cha TV",
+              "name": "Yokohama F. Marinos - Chưa Bắt Đầu",
               "contents": [
                 {
                   "id": "3bbac977d98a",
@@ -1159,35 +1106,28 @@
         },
         {
           "id": "858d5e7e21b4",
-          "name": "14:00 10/05 Japanese J1 League Kashiwa Reysol VS Chưa Bắt Đầu Kawasaki Frontale BLV Văn Chuẩn CƯỢC FB88 CHI TIẾT",
+          "name": "Kashiwa Reysol vs Chưa Bắt Đầu",
           "labels": [
             {
               "position": "top-left",
               "text": "● Live",
               "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "center",
-              "text": "14:00",
-              "color": "#4CAF50",
-              "text_color": "#FFFFFF"
+              "text_color": "#FFFFFF",
+              "font_size": 6
             }
           ],
           "image": {
-            "padding": 1,
             "url": "https://raw.githubusercontent.com/nkqbbg/20251_CNWeb_User_Management/7c0829f097849f9cfc54b5f6f37e2dbddda468c6/hoadaologo.jpg",
             "height": 480,
             "width": 640,
-            "display": "cover",
-            "shape": "square"
+            "display": "cover"
           },
           "type": "single",
-          "display": "text-below",
+          "display": "overlay",
           "sources": [
             {
               "id": "689b13925ec0",
-              "name": "Bun Cha TV",
+              "name": "Kashiwa Reysol - Chưa Bắt Đầu",
               "contents": [
                 {
                   "id": "fc2f638b460b",
@@ -1258,35 +1198,28 @@
         },
         {
           "id": "9ef431ac5d26",
-          "name": "17:00 10/05 Vietnam National Champion League Hoang Anh Gia Lai VS Chưa Bắt Đầu PVF CAND BLV A Tai CƯỢC FB88 CHI TIẾT",
+          "name": "Hoang Anh Gia Lai vs Chưa Bắt Đầu",
           "labels": [
             {
               "position": "top-left",
               "text": "● Live",
               "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "center",
-              "text": "17:00",
-              "color": "#4CAF50",
-              "text_color": "#FFFFFF"
+              "text_color": "#FFFFFF",
+              "font_size": 6
             }
           ],
           "image": {
-            "padding": 1,
             "url": "https://raw.githubusercontent.com/nkqbbg/20251_CNWeb_User_Management/7c0829f097849f9cfc54b5f6f37e2dbddda468c6/hoadaologo.jpg",
             "height": 480,
             "width": 640,
-            "display": "cover",
-            "shape": "square"
+            "display": "cover"
           },
           "type": "single",
-          "display": "text-below",
+          "display": "overlay",
           "sources": [
             {
               "id": "7aebb9f91c33",
-              "name": "Bun Cha TV",
+              "name": "Hoang Anh Gia Lai - Chưa Bắt Đầu",
               "contents": [
                 {
                   "id": "aed601a3972c",
@@ -1357,35 +1290,28 @@
         },
         {
           "id": "86c405328695",
-          "name": "17:30 10/05 Italian Serie A Hellas Verona VS Chưa Bắt Đầu Como BLV Táo CƯỢC FB88 CHI TIẾT",
+          "name": "Hellas Verona vs Chưa Bắt Đầu",
           "labels": [
             {
               "position": "top-left",
               "text": "● Live",
               "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "center",
-              "text": "17:30",
-              "color": "#4CAF50",
-              "text_color": "#FFFFFF"
+              "text_color": "#FFFFFF",
+              "font_size": 6
             }
           ],
           "image": {
-            "padding": 1,
             "url": "https://raw.githubusercontent.com/nkqbbg/20251_CNWeb_User_Management/7c0829f097849f9cfc54b5f6f37e2dbddda468c6/hoadaologo.jpg",
             "height": 480,
             "width": 640,
-            "display": "cover",
-            "shape": "square"
+            "display": "cover"
           },
           "type": "single",
-          "display": "text-below",
+          "display": "overlay",
           "sources": [
             {
               "id": "1b7ffea1a38f",
-              "name": "Bun Cha TV",
+              "name": "Hellas Verona - Chưa Bắt Đầu",
               "contents": [
                 {
                   "id": "8738ea90efcf",
@@ -1456,35 +1382,28 @@
         },
         {
           "id": "66907ed6b05a",
-          "name": "18:00 10/05 Vietnam National Champion League Hong Linh Ha Tinh VS Chưa Bắt Đầu The Cong Viettel BLV Pháo CƯỢC FB88 CHI TIẾT",
+          "name": "Hong Linh Ha Tinh vs Chưa Bắt Đầu",
           "labels": [
             {
               "position": "top-left",
               "text": "● Live",
               "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "center",
-              "text": "18:00",
-              "color": "#4CAF50",
-              "text_color": "#FFFFFF"
+              "text_color": "#FFFFFF",
+              "font_size": 6
             }
           ],
           "image": {
-            "padding": 1,
             "url": "https://raw.githubusercontent.com/nkqbbg/20251_CNWeb_User_Management/7c0829f097849f9cfc54b5f6f37e2dbddda468c6/hoadaologo.jpg",
             "height": 480,
             "width": 640,
-            "display": "cover",
-            "shape": "square"
+            "display": "cover"
           },
           "type": "single",
-          "display": "text-below",
+          "display": "overlay",
           "sources": [
             {
               "id": "48f2ef7dad4c",
-              "name": "Bun Cha TV",
+              "name": "Hong Linh Ha Tinh - Chưa Bắt Đầu",
               "contents": [
                 {
                   "id": "e557efbe533f",
@@ -1555,35 +1474,28 @@
         },
         {
           "id": "5ec444e850c0",
-          "name": "18:00 10/05 Vietnam National Champion League Cong An Ho Chi Minh City VS Chưa Bắt Đầu Song Lam Nghe An BLV Mèo Béo CƯỢC FB88 CHI TIẾT",
+          "name": "Cong An Ho Chi Minh City vs Chưa Bắt Đầu",
           "labels": [
             {
               "position": "top-left",
               "text": "● Live",
               "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "center",
-              "text": "18:00",
-              "color": "#4CAF50",
-              "text_color": "#FFFFFF"
+              "text_color": "#FFFFFF",
+              "font_size": 6
             }
           ],
           "image": {
-            "padding": 1,
             "url": "https://raw.githubusercontent.com/nkqbbg/20251_CNWeb_User_Management/7c0829f097849f9cfc54b5f6f37e2dbddda468c6/hoadaologo.jpg",
             "height": 480,
             "width": 640,
-            "display": "cover",
-            "shape": "square"
+            "display": "cover"
           },
           "type": "single",
-          "display": "text-below",
+          "display": "overlay",
           "sources": [
             {
               "id": "9ee4d63fef86",
-              "name": "Bun Cha TV",
+              "name": "Cong An Ho Chi Minh City - Chưa Bắt Đầu",
               "contents": [
                 {
                   "id": "501747afce17",
@@ -1654,35 +1566,28 @@
         },
         {
           "id": "601f145fec81",
-          "name": "19:15 10/05 Vietnam National Champion League Cong An Ha Noi FC VS Chưa Bắt Đầu Thep Xanh Nam Dinh FC BLV Lò A Mập CƯỢC FB88 CHI TIẾT",
+          "name": "Cong An Ha Noi FC vs Chưa Bắt Đầu",
           "labels": [
             {
               "position": "top-left",
               "text": "● Live",
               "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "center",
-              "text": "19:15",
-              "color": "#4CAF50",
-              "text_color": "#FFFFFF"
+              "text_color": "#FFFFFF",
+              "font_size": 6
             }
           ],
           "image": {
-            "padding": 1,
             "url": "https://raw.githubusercontent.com/nkqbbg/20251_CNWeb_User_Management/7c0829f097849f9cfc54b5f6f37e2dbddda468c6/hoadaologo.jpg",
             "height": 480,
             "width": 640,
-            "display": "cover",
-            "shape": "square"
+            "display": "cover"
           },
           "type": "single",
-          "display": "text-below",
+          "display": "overlay",
           "sources": [
             {
               "id": "0cf9ccd1ff7c",
-              "name": "Bun Cha TV",
+              "name": "Cong An Ha Noi FC - Chưa Bắt Đầu",
               "contents": [
                 {
                   "id": "5da0e67a5aec",
@@ -1753,35 +1658,28 @@
         },
         {
           "id": "412a92db00d9",
-          "name": "20:00 10/05 English Premier League Nottingham Forest VS Chưa Bắt Đầu Newcastle United BLV Cháo Quẩy CƯỢC FB88 CHI TIẾT",
+          "name": "Nottingham Forest vs Chưa Bắt Đầu",
           "labels": [
             {
               "position": "top-left",
               "text": "● Live",
               "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "center",
-              "text": "20:00",
-              "color": "#4CAF50",
-              "text_color": "#FFFFFF"
+              "text_color": "#FFFFFF",
+              "font_size": 6
             }
           ],
           "image": {
-            "padding": 1,
             "url": "https://raw.githubusercontent.com/nkqbbg/20251_CNWeb_User_Management/7c0829f097849f9cfc54b5f6f37e2dbddda468c6/hoadaologo.jpg",
             "height": 480,
             "width": 640,
-            "display": "cover",
-            "shape": "square"
+            "display": "cover"
           },
           "type": "single",
-          "display": "text-below",
+          "display": "overlay",
           "sources": [
             {
               "id": "abecca6a3993",
-              "name": "Bun Cha TV",
+              "name": "Nottingham Forest - Chưa Bắt Đầu",
               "contents": [
                 {
                   "id": "fecc1128341f",
@@ -1852,35 +1750,28 @@
         },
         {
           "id": "1af300337c28",
-          "name": "20:00 10/05 English Premier League Crystal Palace VS Chưa Bắt Đầu Everton BLV Dylan CƯỢC FB88 CHI TIẾT",
+          "name": "Crystal Palace vs Chưa Bắt Đầu",
           "labels": [
             {
               "position": "top-left",
               "text": "● Live",
               "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "center",
-              "text": "20:00",
-              "color": "#4CAF50",
-              "text_color": "#FFFFFF"
+              "text_color": "#FFFFFF",
+              "font_size": 6
             }
           ],
           "image": {
-            "padding": 1,
             "url": "https://raw.githubusercontent.com/nkqbbg/20251_CNWeb_User_Management/7c0829f097849f9cfc54b5f6f37e2dbddda468c6/hoadaologo.jpg",
             "height": 480,
             "width": 640,
-            "display": "cover",
-            "shape": "square"
+            "display": "cover"
           },
           "type": "single",
-          "display": "text-below",
+          "display": "overlay",
           "sources": [
             {
               "id": "04c1b5256131",
-              "name": "Bun Cha TV",
+              "name": "Crystal Palace - Chưa Bắt Đầu",
               "contents": [
                 {
                   "id": "d626d973fa46",
@@ -1951,35 +1842,28 @@
         },
         {
           "id": "ecc41eeee8f1",
-          "name": "21:15 10/05 Spanish La Liga Athletic Club VS Chưa Bắt Đầu Valencia CF BLV Chim Nhỏ CƯỢC FB88 CHI TIẾT",
+          "name": "Athletic Club vs Chưa Bắt Đầu",
           "labels": [
             {
               "position": "top-left",
               "text": "● Live",
               "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "center",
-              "text": "21:15",
-              "color": "#4CAF50",
-              "text_color": "#FFFFFF"
+              "text_color": "#FFFFFF",
+              "font_size": 6
             }
           ],
           "image": {
-            "padding": 1,
             "url": "https://raw.githubusercontent.com/nkqbbg/20251_CNWeb_User_Management/7c0829f097849f9cfc54b5f6f37e2dbddda468c6/hoadaologo.jpg",
             "height": 480,
             "width": 640,
-            "display": "cover",
-            "shape": "square"
+            "display": "cover"
           },
           "type": "single",
-          "display": "text-below",
+          "display": "overlay",
           "sources": [
             {
               "id": "155f234972be",
-              "name": "Bun Cha TV",
+              "name": "Athletic Club - Chưa Bắt Đầu",
               "contents": [
                 {
                   "id": "f2dfdfec5525",
@@ -2050,35 +1934,28 @@
         },
         {
           "id": "4e9b10b2cdde",
-          "name": "22:30 10/05 Bundesliga FC Köln VS Chưa Bắt Đầu 1. FC Heidenheim 1846 BLV Văn Chuẩn CƯỢC FB88 CHI TIẾT",
+          "name": "FC Köln vs Chưa Bắt Đầu",
           "labels": [
             {
               "position": "top-left",
               "text": "● Live",
               "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "center",
-              "text": "22:30",
-              "color": "#4CAF50",
-              "text_color": "#FFFFFF"
+              "text_color": "#FFFFFF",
+              "font_size": 6
             }
           ],
           "image": {
-            "padding": 1,
             "url": "https://raw.githubusercontent.com/nkqbbg/20251_CNWeb_User_Management/7c0829f097849f9cfc54b5f6f37e2dbddda468c6/hoadaologo.jpg",
             "height": 480,
             "width": 640,
-            "display": "cover",
-            "shape": "square"
+            "display": "cover"
           },
           "type": "single",
-          "display": "text-below",
+          "display": "overlay",
           "sources": [
             {
               "id": "4b129e335dd9",
-              "name": "Bun Cha TV",
+              "name": "FC Köln - Chưa Bắt Đầu",
               "contents": [
                 {
                   "id": "437630d5c99e",
@@ -2149,35 +2026,28 @@
         },
         {
           "id": "391f118a69a3",
-          "name": "22:30 10/05 Off Fan Arsenal West Ham United VS Chưa Bắt Đầu Arsenal BLV Pháo CƯỢC FB88 CHI TIẾT",
+          "name": "West Ham United vs Chưa Bắt Đầu",
           "labels": [
             {
               "position": "top-left",
               "text": "● Live",
               "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "center",
-              "text": "22:30",
-              "color": "#4CAF50",
-              "text_color": "#FFFFFF"
+              "text_color": "#FFFFFF",
+              "font_size": 6
             }
           ],
           "image": {
-            "padding": 1,
             "url": "https://raw.githubusercontent.com/nkqbbg/20251_CNWeb_User_Management/7c0829f097849f9cfc54b5f6f37e2dbddda468c6/hoadaologo.jpg",
             "height": 480,
             "width": 640,
-            "display": "cover",
-            "shape": "square"
+            "display": "cover"
           },
           "type": "single",
-          "display": "text-below",
+          "display": "overlay",
           "sources": [
             {
               "id": "600b13b99c17",
-              "name": "Bun Cha TV",
+              "name": "West Ham United - Chưa Bắt Đầu",
               "contents": [
                 {
                   "id": "22a5bcbc33e5",
@@ -2248,35 +2118,28 @@
         },
         {
           "id": "3feadad14c70",
-          "name": "22:30 10/05 Trung Lập West Ham United VS Chưa Bắt Đầu Arsenal BLV Lò A Mập CƯỢC FB88 CHI TIẾT",
+          "name": "West Ham United vs Chưa Bắt Đầu",
           "labels": [
             {
               "position": "top-left",
               "text": "● Live",
               "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "center",
-              "text": "22:30",
-              "color": "#4CAF50",
-              "text_color": "#FFFFFF"
+              "text_color": "#FFFFFF",
+              "font_size": 6
             }
           ],
           "image": {
-            "padding": 1,
             "url": "https://raw.githubusercontent.com/nkqbbg/20251_CNWeb_User_Management/7c0829f097849f9cfc54b5f6f37e2dbddda468c6/hoadaologo.jpg",
             "height": 480,
             "width": 640,
-            "display": "cover",
-            "shape": "square"
+            "display": "cover"
           },
           "type": "single",
-          "display": "text-below",
+          "display": "overlay",
           "sources": [
             {
               "id": "a8cb6549c38f",
-              "name": "Bun Cha TV",
+              "name": "West Ham United - Chưa Bắt Đầu",
               "contents": [
                 {
                   "id": "687bd1e752b7",
@@ -2347,35 +2210,28 @@
         },
         {
           "id": "245e29b6b108",
-          "name": "23:00 10/05 Italian Serie A Parma VS Chưa Bắt Đầu AS Roma BLV Dylan CƯỢC FB88 CHI TIẾT",
+          "name": "Parma vs Chưa Bắt Đầu",
           "labels": [
             {
               "position": "top-left",
               "text": "● Live",
               "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "center",
-              "text": "23:00",
-              "color": "#4CAF50",
-              "text_color": "#FFFFFF"
+              "text_color": "#FFFFFF",
+              "font_size": 6
             }
           ],
           "image": {
-            "padding": 1,
             "url": "https://raw.githubusercontent.com/nkqbbg/20251_CNWeb_User_Management/7c0829f097849f9cfc54b5f6f37e2dbddda468c6/hoadaologo.jpg",
             "height": 480,
             "width": 640,
-            "display": "cover",
-            "shape": "square"
+            "display": "cover"
           },
           "type": "single",
-          "display": "text-below",
+          "display": "overlay",
           "sources": [
             {
               "id": "4463c5a1e9be",
-              "name": "Bun Cha TV",
+              "name": "Parma - Chưa Bắt Đầu",
               "contents": [
                 {
                   "id": "e94881362b7d",
@@ -2446,35 +2302,28 @@
         },
         {
           "id": "f43b0b847b98",
-          "name": "23:00 10/05 AFC U17 Asian Cup Vietnam U17 VS Chưa Bắt Đầu South Korea U17 BLV Cháo Quẩy CƯỢC FB88 CHI TIẾT",
+          "name": "Vietnam U17 vs Chưa Bắt Đầu",
           "labels": [
             {
               "position": "top-left",
               "text": "● Live",
               "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "center",
-              "text": "23:00",
-              "color": "#4CAF50",
-              "text_color": "#FFFFFF"
+              "text_color": "#FFFFFF",
+              "font_size": 6
             }
           ],
           "image": {
-            "padding": 1,
             "url": "https://raw.githubusercontent.com/nkqbbg/20251_CNWeb_User_Management/7c0829f097849f9cfc54b5f6f37e2dbddda468c6/hoadaologo.jpg",
             "height": 480,
             "width": 640,
-            "display": "cover",
-            "shape": "square"
+            "display": "cover"
           },
           "type": "single",
-          "display": "text-below",
+          "display": "overlay",
           "sources": [
             {
               "id": "4ecd7c55d179",
-              "name": "Bun Cha TV",
+              "name": "Vietnam U17 - Chưa Bắt Đầu",
               "contents": [
                 {
                   "id": "014f45c6236f",
@@ -2545,35 +2394,28 @@
         },
         {
           "id": "30aa66ed586e",
-          "name": "23:30 10/05 Spanish La Liga Real Oviedo VS Chưa Bắt Đầu Getafe BLV Người Kiến CƯỢC FB88 CHI TIẾT",
+          "name": "Real Oviedo vs Chưa Bắt Đầu",
           "labels": [
             {
               "position": "top-left",
               "text": "● Live",
               "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "center",
-              "text": "23:30",
-              "color": "#4CAF50",
-              "text_color": "#FFFFFF"
+              "text_color": "#FFFFFF",
+              "font_size": 6
             }
           ],
           "image": {
-            "padding": 1,
             "url": "https://raw.githubusercontent.com/nkqbbg/20251_CNWeb_User_Management/7c0829f097849f9cfc54b5f6f37e2dbddda468c6/hoadaologo.jpg",
             "height": 480,
             "width": 640,
-            "display": "cover",
-            "shape": "square"
+            "display": "cover"
           },
           "type": "single",
-          "display": "text-below",
+          "display": "overlay",
           "sources": [
             {
               "id": "394b17f90067",
-              "name": "Bun Cha TV",
+              "name": "Real Oviedo - Chưa Bắt Đầu",
               "contents": [
                 {
                   "id": "d3406b067542",
@@ -2643,1095 +2485,6 @@
           ]
         },
         {
-          "id": "654fc682a23e",
-          "name": "Live 22:00 09/05 Austrian Bundesliga WSG Tirol 1 : 1 Hiệp 2 FC Blau Weiss Linz CƯỢC FB88 XEM NGAY",
-          "labels": [
-            {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "center",
-              "text": "22:00",
-              "color": "#4CAF50",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "padding": 1,
-            "url": "https://raw.githubusercontent.com/nkqbbg/20251_CNWeb_User_Management/7c0829f097849f9cfc54b5f6f37e2dbddda468c6/hoadaologo.jpg",
-            "height": 480,
-            "width": 640,
-            "display": "cover",
-            "shape": "square"
-          },
-          "type": "single",
-          "display": "text-below",
-          "sources": [
-            {
-              "id": "0c66f5c7630c",
-              "name": "Bun Cha TV",
-              "contents": [
-                {
-                  "id": "05dc00054373",
-                  "name": "Live 22:00 09/05 Austrian Bundesliga WSG Tirol 1 : 1 Hiệp 2 FC Blau Weiss Linz CƯỢC FB88 XEM NGAY",
-                  "streams": [
-                    {
-                      "id": "8539b67ecaf4",
-                      "name": "Stream",
-                      "stream_links": [
-                        {
-                          "id": "e0466dbb7c65",
-                          "name": "HTML5 Video",
-                          "type": "video",
-                          "default": true,
-                          "url": "https://phantatv.pro/assets/image/ads/1xbet/tvc-optimize.mp4",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phantatv.pro/wsg-tirol-vs-fc-blau-weiss-linz-2450256"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "9bd61ab849a3",
-                          "name": "Iframe Embed",
-                          "type": "iframe",
-                          "default": false,
-                          "url": "https://www5.cbox.ws/box/?boxid=961762&boxtag=zxplnt",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phantatv.pro/wsg-tirol-vs-fc-blau-weiss-linz-2450256"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "fc90282f03c6",
-                          "name": "HLS (m3u8)",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.rapidlive.shop/live/e82757e29084c3aa80798c015db760ee/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phantatv.pro/wsg-tirol-vs-fc-blau-weiss-linz-2450256"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "3af0cdfc4be9",
-          "name": "Live 22:00 09/05 Ukrainian Premier League Zorya 1 : 1 Hiệp 2 Metalist 1925 Kharkiv CƯỢC FB88 XEM NGAY",
-          "labels": [
-            {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "center",
-              "text": "22:00",
-              "color": "#4CAF50",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "padding": 1,
-            "url": "https://raw.githubusercontent.com/nkqbbg/20251_CNWeb_User_Management/7c0829f097849f9cfc54b5f6f37e2dbddda468c6/hoadaologo.jpg",
-            "height": 480,
-            "width": 640,
-            "display": "cover",
-            "shape": "square"
-          },
-          "type": "single",
-          "display": "text-below",
-          "sources": [
-            {
-              "id": "48e7a3c80e49",
-              "name": "Bun Cha TV",
-              "contents": [
-                {
-                  "id": "ca6b435514d5",
-                  "name": "Live 22:00 09/05 Ukrainian Premier League Zorya 1 : 1 Hiệp 2 Metalist 1925 Kharkiv CƯỢC FB88 XEM NGAY",
-                  "streams": [
-                    {
-                      "id": "c04d1209d697",
-                      "name": "Stream",
-                      "stream_links": [
-                        {
-                          "id": "c301e912fbdf",
-                          "name": "HTML5 Video",
-                          "type": "video",
-                          "default": true,
-                          "url": "https://phantatv.pro/assets/image/ads/1xbet/tvc-optimize.mp4",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phantatv.pro/zorya-vs-metalist-1925-kharkiv-2450271"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "e915c37e9873",
-                          "name": "Iframe Embed",
-                          "type": "iframe",
-                          "default": false,
-                          "url": "https://www5.cbox.ws/box/?boxid=961762&boxtag=zxplnt",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phantatv.pro/zorya-vs-metalist-1925-kharkiv-2450271"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "d4ce1401e5a4",
-                          "name": "HLS (m3u8)",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.rapidlive.shop/live/0375c6f23a573888d1fe99f4e35dfefe/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phantatv.pro/zorya-vs-metalist-1925-kharkiv-2450271"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "5fd38f42bc96",
-          "name": "Live 22:00 09/05 Kazakhstan Premier League Tobol Kostanai 1 : 0 Hiệp 2 Irtysh Pavlodar CƯỢC FB88 XEM NGAY",
-          "labels": [
-            {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "center",
-              "text": "22:00",
-              "color": "#4CAF50",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "padding": 1,
-            "url": "https://raw.githubusercontent.com/nkqbbg/20251_CNWeb_User_Management/7c0829f097849f9cfc54b5f6f37e2dbddda468c6/hoadaologo.jpg",
-            "height": 480,
-            "width": 640,
-            "display": "cover",
-            "shape": "square"
-          },
-          "type": "single",
-          "display": "text-below",
-          "sources": [
-            {
-              "id": "1d370966cce8",
-              "name": "Bun Cha TV",
-              "contents": [
-                {
-                  "id": "6c4b2b127547",
-                  "name": "Live 22:00 09/05 Kazakhstan Premier League Tobol Kostanai 1 : 0 Hiệp 2 Irtysh Pavlodar CƯỢC FB88 XEM NGAY",
-                  "streams": [
-                    {
-                      "id": "7c5c401d264b",
-                      "name": "Stream",
-                      "stream_links": [
-                        {
-                          "id": "a17866e78957",
-                          "name": "HTML5 Video",
-                          "type": "video",
-                          "default": true,
-                          "url": "https://phantatv.pro/assets/image/ads/1xbet/tvc-optimize.mp4",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phantatv.pro/tobol-kostanai-vs-irtysh-pavlodar-2450289"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "1df6c92866c6",
-                          "name": "Iframe Embed",
-                          "type": "iframe",
-                          "default": false,
-                          "url": "https://www5.cbox.ws/box/?boxid=961762&boxtag=zxplnt",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phantatv.pro/tobol-kostanai-vs-irtysh-pavlodar-2450289"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "d7fa67cfba1f",
-                          "name": "HLS (m3u8)",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.rapidlive.shop/live/680bec6abae17bb99cec363f3b02cbd6/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phantatv.pro/tobol-kostanai-vs-irtysh-pavlodar-2450289"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "a04df09e22f4",
-          "name": "Live 22:00 09/05 Romanian Super Liga FC Otelul Galati 3 : 2 Hiệp 2 Farul Constanta CƯỢC FB88 XEM NGAY",
-          "labels": [
-            {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "center",
-              "text": "22:00",
-              "color": "#4CAF50",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "padding": 1,
-            "url": "https://raw.githubusercontent.com/nkqbbg/20251_CNWeb_User_Management/7c0829f097849f9cfc54b5f6f37e2dbddda468c6/hoadaologo.jpg",
-            "height": 480,
-            "width": 640,
-            "display": "cover",
-            "shape": "square"
-          },
-          "type": "single",
-          "display": "text-below",
-          "sources": [
-            {
-              "id": "aa7afc2c8c7c",
-              "name": "Bun Cha TV",
-              "contents": [
-                {
-                  "id": "05c94789948f",
-                  "name": "Live 22:00 09/05 Romanian Super Liga FC Otelul Galati 3 : 2 Hiệp 2 Farul Constanta CƯỢC FB88 XEM NGAY",
-                  "streams": [
-                    {
-                      "id": "7f49644b622c",
-                      "name": "Stream",
-                      "stream_links": [
-                        {
-                          "id": "2da2fe93b60c",
-                          "name": "HTML5 Video",
-                          "type": "video",
-                          "default": true,
-                          "url": "https://phantatv.pro/assets/image/ads/1xbet/tvc-optimize.mp4",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phantatv.pro/fc-otelul-galati-vs-farul-constanta-2450313"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "c99287423f97",
-                          "name": "Iframe Embed",
-                          "type": "iframe",
-                          "default": false,
-                          "url": "https://www5.cbox.ws/box/?boxid=961762&boxtag=zxplnt",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phantatv.pro/fc-otelul-galati-vs-farul-constanta-2450313"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "47dba34917b9",
-                          "name": "HLS (m3u8)",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.rapidlive.shop/live/ab7f7269bf5af174fa398b2e3bc9c698/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phantatv.pro/fc-otelul-galati-vs-farul-constanta-2450313"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "8352f2ca909e",
-          "name": "Live 22:00 09/05 Austrian Bundesliga SV Ried 0 : 1 Hiệp 2 Wolfsberger AC CƯỢC FB88 XEM NGAY",
-          "labels": [
-            {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "center",
-              "text": "22:00",
-              "color": "#4CAF50",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "padding": 1,
-            "url": "https://raw.githubusercontent.com/nkqbbg/20251_CNWeb_User_Management/7c0829f097849f9cfc54b5f6f37e2dbddda468c6/hoadaologo.jpg",
-            "height": 480,
-            "width": 640,
-            "display": "cover",
-            "shape": "square"
-          },
-          "type": "single",
-          "display": "text-below",
-          "sources": [
-            {
-              "id": "b6e1142be0f2",
-              "name": "Bun Cha TV",
-              "contents": [
-                {
-                  "id": "991c58a57c2e",
-                  "name": "Live 22:00 09/05 Austrian Bundesliga SV Ried 0 : 1 Hiệp 2 Wolfsberger AC CƯỢC FB88 XEM NGAY",
-                  "streams": [
-                    {
-                      "id": "5ae5816a13b1",
-                      "name": "Stream",
-                      "stream_links": [
-                        {
-                          "id": "3d8da65eac3c",
-                          "name": "HTML5 Video",
-                          "type": "video",
-                          "default": true,
-                          "url": "https://phantatv.pro/assets/image/ads/1xbet/tvc-optimize.mp4",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phantatv.pro/sv-ried-vs-wolfsberger-ac-2450327"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "67f1070a7c69",
-                          "name": "Iframe Embed",
-                          "type": "iframe",
-                          "default": false,
-                          "url": "https://www5.cbox.ws/box/?boxid=961762&boxtag=zxplnt",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phantatv.pro/sv-ried-vs-wolfsberger-ac-2450327"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "f300d630db0e",
-                          "name": "HLS (m3u8)",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.rapidlive.shop/live/78b94cbbe3f0fcc34938f9cf7a8d2be1/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phantatv.pro/sv-ried-vs-wolfsberger-ac-2450327"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "3b64164cb4ae",
-          "name": "Live 22:00 09/05 Ukrainian Premier League Obolon Kyiv 1 : 2 Hiệp 2 FK Epitsentr Dunayivtsi CƯỢC FB88 XEM NGAY",
-          "labels": [
-            {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "center",
-              "text": "22:00",
-              "color": "#4CAF50",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "padding": 1,
-            "url": "https://raw.githubusercontent.com/nkqbbg/20251_CNWeb_User_Management/7c0829f097849f9cfc54b5f6f37e2dbddda468c6/hoadaologo.jpg",
-            "height": 480,
-            "width": 640,
-            "display": "cover",
-            "shape": "square"
-          },
-          "type": "single",
-          "display": "text-below",
-          "sources": [
-            {
-              "id": "7a9bb06e64bd",
-              "name": "Bun Cha TV",
-              "contents": [
-                {
-                  "id": "882e434ac1da",
-                  "name": "Live 22:00 09/05 Ukrainian Premier League Obolon Kyiv 1 : 2 Hiệp 2 FK Epitsentr Dunayivtsi CƯỢC FB88 XEM NGAY",
-                  "streams": [
-                    {
-                      "id": "b8cb4a5a79ea",
-                      "name": "Stream",
-                      "stream_links": [
-                        {
-                          "id": "cd71723df2a7",
-                          "name": "HTML5 Video",
-                          "type": "video",
-                          "default": true,
-                          "url": "https://phantatv.pro/assets/image/ads/1xbet/tvc-optimize.mp4",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phantatv.pro/obolon-kyiv-vs-fk-epitsentr-dunayivtsi-2450330"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "c4775e70e004",
-                          "name": "Iframe Embed",
-                          "type": "iframe",
-                          "default": false,
-                          "url": "https://www5.cbox.ws/box/?boxid=961762&boxtag=zxplnt",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phantatv.pro/obolon-kyiv-vs-fk-epitsentr-dunayivtsi-2450330"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "f962d110a21d",
-                          "name": "HLS (m3u8)",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.rapidlive.shop/live/dcd3d7c9bcf3bf1d90dfeac8f7b817be/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phantatv.pro/obolon-kyiv-vs-fk-epitsentr-dunayivtsi-2450330"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "62d58f76f918",
-          "name": "Live 22:00 09/05 Sweden Superettan GIF Sundsvall 1 : 3 Hiệp 2 IFK Norrkoping FK CƯỢC FB88 XEM NGAY",
-          "labels": [
-            {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "center",
-              "text": "22:00",
-              "color": "#4CAF50",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "padding": 1,
-            "url": "https://raw.githubusercontent.com/nkqbbg/20251_CNWeb_User_Management/7c0829f097849f9cfc54b5f6f37e2dbddda468c6/hoadaologo.jpg",
-            "height": 480,
-            "width": 640,
-            "display": "cover",
-            "shape": "square"
-          },
-          "type": "single",
-          "display": "text-below",
-          "sources": [
-            {
-              "id": "b4eae91d08ad",
-              "name": "Bun Cha TV",
-              "contents": [
-                {
-                  "id": "6cc2f1489d49",
-                  "name": "Live 22:00 09/05 Sweden Superettan GIF Sundsvall 1 : 3 Hiệp 2 IFK Norrkoping FK CƯỢC FB88 XEM NGAY",
-                  "streams": [
-                    {
-                      "id": "4d0ceaec7d17",
-                      "name": "Stream",
-                      "stream_links": [
-                        {
-                          "id": "6cb36d236e96",
-                          "name": "HTML5 Video",
-                          "type": "video",
-                          "default": true,
-                          "url": "https://phantatv.pro/assets/image/ads/1xbet/tvc-optimize.mp4",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phantatv.pro/gif-sundsvall-vs-ifk-norrkoping-fk-2450336"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "e0eceab978b5",
-                          "name": "Iframe Embed",
-                          "type": "iframe",
-                          "default": false,
-                          "url": "https://www5.cbox.ws/box/?boxid=961762&boxtag=zxplnt",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phantatv.pro/gif-sundsvall-vs-ifk-norrkoping-fk-2450336"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "74e2522cbd00",
-                          "name": "HLS (m3u8)",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.rapidlive.shop/live/f13ce18a571c5b01a458feee1019a444/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phantatv.pro/gif-sundsvall-vs-ifk-norrkoping-fk-2450336"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "c63f5f35423a",
-          "name": "Live 22:00 09/05 Belarusian Premier League FC Torpedo Zhodino 1 : 0 Hiệp 2 Neman Grodno CƯỢC FB88 XEM NGAY",
-          "labels": [
-            {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "center",
-              "text": "22:00",
-              "color": "#4CAF50",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "padding": 1,
-            "url": "https://raw.githubusercontent.com/nkqbbg/20251_CNWeb_User_Management/7c0829f097849f9cfc54b5f6f37e2dbddda468c6/hoadaologo.jpg",
-            "height": 480,
-            "width": 640,
-            "display": "cover",
-            "shape": "square"
-          },
-          "type": "single",
-          "display": "text-below",
-          "sources": [
-            {
-              "id": "57b11360f050",
-              "name": "Bun Cha TV",
-              "contents": [
-                {
-                  "id": "6c110b1f5d3e",
-                  "name": "Live 22:00 09/05 Belarusian Premier League FC Torpedo Zhodino 1 : 0 Hiệp 2 Neman Grodno CƯỢC FB88 XEM NGAY",
-                  "streams": [
-                    {
-                      "id": "8a1d37903aa0",
-                      "name": "Stream",
-                      "stream_links": [
-                        {
-                          "id": "e39c5f5e66b5",
-                          "name": "HTML5 Video",
-                          "type": "video",
-                          "default": true,
-                          "url": "https://phantatv.pro/assets/image/ads/1xbet/tvc-optimize.mp4",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phantatv.pro/fc-torpedo-zhodino-vs-neman-grodno-2450337"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "8c863b0aba85",
-                          "name": "Iframe Embed",
-                          "type": "iframe",
-                          "default": false,
-                          "url": "https://www5.cbox.ws/box/?boxid=961762&boxtag=zxplnt",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phantatv.pro/fc-torpedo-zhodino-vs-neman-grodno-2450337"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "b8aef143bb1b",
-                          "name": "HLS (m3u8)",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.rapidlive.shop/live/7e3851e3011100d142d0b21166dfd808/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phantatv.pro/fc-torpedo-zhodino-vs-neman-grodno-2450337"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "946418c54fcd",
-          "name": "Live 22:00 09/05 Austrian Bundesliga Grazer AK 0 : 2 Hiệp 2 Rheindorf Altach CƯỢC FB88 XEM NGAY",
-          "labels": [
-            {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "center",
-              "text": "22:00",
-              "color": "#4CAF50",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "padding": 1,
-            "url": "https://raw.githubusercontent.com/nkqbbg/20251_CNWeb_User_Management/7c0829f097849f9cfc54b5f6f37e2dbddda468c6/hoadaologo.jpg",
-            "height": 480,
-            "width": 640,
-            "display": "cover",
-            "shape": "square"
-          },
-          "type": "single",
-          "display": "text-below",
-          "sources": [
-            {
-              "id": "f9e8fe600647",
-              "name": "Bun Cha TV",
-              "contents": [
-                {
-                  "id": "471b051c16d2",
-                  "name": "Live 22:00 09/05 Austrian Bundesliga Grazer AK 0 : 2 Hiệp 2 Rheindorf Altach CƯỢC FB88 XEM NGAY",
-                  "streams": [
-                    {
-                      "id": "e54bd7e3623e",
-                      "name": "Stream",
-                      "stream_links": [
-                        {
-                          "id": "750359fd8b82",
-                          "name": "HTML5 Video",
-                          "type": "video",
-                          "default": true,
-                          "url": "https://phantatv.pro/assets/image/ads/1xbet/tvc-optimize.mp4",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phantatv.pro/grazer-ak-vs-rheindorf-altach-2450347"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "21185cfce5b7",
-                          "name": "Iframe Embed",
-                          "type": "iframe",
-                          "default": false,
-                          "url": "https://www5.cbox.ws/box/?boxid=961762&boxtag=zxplnt",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phantatv.pro/grazer-ak-vs-rheindorf-altach-2450347"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "d7412293f732",
-                          "name": "HLS (m3u8)",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.rapidlive.shop/live/c4cd19994fac40ca94e0f7a26aa16341/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phantatv.pro/grazer-ak-vs-rheindorf-altach-2450347"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "08c3eecc1b87",
-          "name": "Live 22:00 09/05 Armenian Premier League FC Pyunik 2 : 0 Hiệp 2 BKMA CƯỢC FB88 XEM NGAY",
-          "labels": [
-            {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "center",
-              "text": "22:00",
-              "color": "#4CAF50",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "padding": 1,
-            "url": "https://raw.githubusercontent.com/nkqbbg/20251_CNWeb_User_Management/7c0829f097849f9cfc54b5f6f37e2dbddda468c6/hoadaologo.jpg",
-            "height": 480,
-            "width": 640,
-            "display": "cover",
-            "shape": "square"
-          },
-          "type": "single",
-          "display": "text-below",
-          "sources": [
-            {
-              "id": "96c9c3d21dcc",
-              "name": "Bun Cha TV",
-              "contents": [
-                {
-                  "id": "8c1c6bc133b1",
-                  "name": "Live 22:00 09/05 Armenian Premier League FC Pyunik 2 : 0 Hiệp 2 BKMA CƯỢC FB88 XEM NGAY",
-                  "streams": [
-                    {
-                      "id": "7b541b6c65d1",
-                      "name": "Stream",
-                      "stream_links": [
-                        {
-                          "id": "1b93e59e0956",
-                          "name": "HTML5 Video",
-                          "type": "video",
-                          "default": true,
-                          "url": "https://phantatv.pro/assets/image/ads/1xbet/tvc-optimize.mp4",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phantatv.pro/fc-pyunik-vs-bkma-2450351"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "ea39b8077fde",
-                          "name": "Iframe Embed",
-                          "type": "iframe",
-                          "default": false,
-                          "url": "https://www5.cbox.ws/box/?boxid=961762&boxtag=zxplnt",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phantatv.pro/fc-pyunik-vs-bkma-2450351"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "9235fa29dd46",
-                          "name": "HLS (m3u8)",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.rapidlive.shop/live/0cbff01d0c61bee793cf2d1ba12517cb/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phantatv.pro/fc-pyunik-vs-bkma-2450351"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "624d279d86c7",
-          "name": "Live 22:00 09/05 Lithuanian A Lyga Dziugas Telsiai 1 : 0 Hiệp 2 FK Riteriai CƯỢC FB88 XEM NGAY",
-          "labels": [
-            {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "center",
-              "text": "22:00",
-              "color": "#4CAF50",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "padding": 1,
-            "url": "https://raw.githubusercontent.com/nkqbbg/20251_CNWeb_User_Management/7c0829f097849f9cfc54b5f6f37e2dbddda468c6/hoadaologo.jpg",
-            "height": 480,
-            "width": 640,
-            "display": "cover",
-            "shape": "square"
-          },
-          "type": "single",
-          "display": "text-below",
-          "sources": [
-            {
-              "id": "9b2c561e88c0",
-              "name": "Bun Cha TV",
-              "contents": [
-                {
-                  "id": "d080af3432be",
-                  "name": "Live 22:00 09/05 Lithuanian A Lyga Dziugas Telsiai 1 : 0 Hiệp 2 FK Riteriai CƯỢC FB88 XEM NGAY",
-                  "streams": [
-                    {
-                      "id": "51f5ac1e7310",
-                      "name": "Stream",
-                      "stream_links": [
-                        {
-                          "id": "c9796d5af8d5",
-                          "name": "HTML5 Video",
-                          "type": "video",
-                          "default": true,
-                          "url": "https://phantatv.pro/assets/image/ads/1xbet/tvc-optimize.mp4",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phantatv.pro/dziugas-telsiai-vs-fk-riteriai-2450898"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "341fe4a795ef",
-                          "name": "Iframe Embed",
-                          "type": "iframe",
-                          "default": false,
-                          "url": "https://www5.cbox.ws/box/?boxid=961762&boxtag=zxplnt",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phantatv.pro/dziugas-telsiai-vs-fk-riteriai-2450898"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "e981d526cfc4",
-                          "name": "HLS (m3u8)",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.rapidlive.shop/live/72afd271fffe3a44db403c877820641b/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phantatv.pro/dziugas-telsiai-vs-fk-riteriai-2450898"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "9355ecf2cbe3",
           "name": "Live 22:30 09/05 PKO Bank Polski EKSTRAKLASA Jagiellonia Bialystok 2 : 1 Hiệp 2 Pogon Szczecin CƯỢC FB88 XEM NGAY",
           "labels": [
@@ -3739,25 +2492,18 @@
               "position": "top-left",
               "text": "● Live",
               "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "center",
-              "text": "22:30",
-              "color": "#4CAF50",
-              "text_color": "#FFFFFF"
+              "text_color": "#FFFFFF",
+              "font_size": 6
             }
           ],
           "image": {
-            "padding": 1,
             "url": "https://raw.githubusercontent.com/nkqbbg/20251_CNWeb_User_Management/7c0829f097849f9cfc54b5f6f37e2dbddda468c6/hoadaologo.jpg",
             "height": 480,
             "width": 640,
-            "display": "cover",
-            "shape": "square"
+            "display": "cover"
           },
           "type": "single",
-          "display": "text-below",
+          "display": "overlay",
           "sources": [
             {
               "id": "5060ef0f85ae",
@@ -3831,105 +2577,6 @@
           ]
         },
         {
-          "id": "e521867b8826",
-          "name": "Live 22:30 09/05 Slovenia 1.Liga FC Koper 0 : 0 Hiệp 2 NK Aluminij CƯỢC FB88 XEM NGAY",
-          "labels": [
-            {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "center",
-              "text": "22:30",
-              "color": "#4CAF50",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "padding": 1,
-            "url": "https://raw.githubusercontent.com/nkqbbg/20251_CNWeb_User_Management/7c0829f097849f9cfc54b5f6f37e2dbddda468c6/hoadaologo.jpg",
-            "height": 480,
-            "width": 640,
-            "display": "cover",
-            "shape": "square"
-          },
-          "type": "single",
-          "display": "text-below",
-          "sources": [
-            {
-              "id": "24951666fd57",
-              "name": "Bun Cha TV",
-              "contents": [
-                {
-                  "id": "e9f27bd7f238",
-                  "name": "Live 22:30 09/05 Slovenia 1.Liga FC Koper 0 : 0 Hiệp 2 NK Aluminij CƯỢC FB88 XEM NGAY",
-                  "streams": [
-                    {
-                      "id": "e2a026aa0d47",
-                      "name": "Stream",
-                      "stream_links": [
-                        {
-                          "id": "541f09ac6702",
-                          "name": "HTML5 Video",
-                          "type": "video",
-                          "default": true,
-                          "url": "https://phantatv.pro/assets/image/ads/1xbet/tvc-optimize.mp4",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phantatv.pro/fc-koper-vs-nk-aluminij-2450367"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "130a9b7f42e0",
-                          "name": "Iframe Embed",
-                          "type": "iframe",
-                          "default": false,
-                          "url": "https://www5.cbox.ws/box/?boxid=961762&boxtag=zxplnt",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phantatv.pro/fc-koper-vs-nk-aluminij-2450367"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "ea00d260f08b",
-                          "name": "HLS (m3u8)",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.rapidlive.shop/live/78c89492431a3e4d31987716c6984f57/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phantatv.pro/fc-koper-vs-nk-aluminij-2450367"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "575e2ab598b0",
           "name": "Live 22:30 09/05 Serbian Mozzart Bet Superliga FK Zeleznicar Pancevo 0 : 1 Hiệp 2 Radnik Surdulica CƯỢC FB88 XEM NGAY",
           "labels": [
@@ -3937,25 +2584,18 @@
               "position": "top-left",
               "text": "● Live",
               "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "center",
-              "text": "22:30",
-              "color": "#4CAF50",
-              "text_color": "#FFFFFF"
+              "text_color": "#FFFFFF",
+              "font_size": 6
             }
           ],
           "image": {
-            "padding": 1,
             "url": "https://raw.githubusercontent.com/nkqbbg/20251_CNWeb_User_Management/7c0829f097849f9cfc54b5f6f37e2dbddda468c6/hoadaologo.jpg",
             "height": 480,
             "width": 640,
-            "display": "cover",
-            "shape": "square"
+            "display": "cover"
           },
           "type": "single",
-          "display": "text-below",
+          "display": "overlay",
           "sources": [
             {
               "id": "725655329df6",
@@ -4030,31 +2670,24 @@
         },
         {
           "id": "5690c6ca2f87",
-          "name": "Live 22:45 09/05 Bulgarian First League Levski Sofia 0 : 0 Nghỉ Giữa Hiệp Ludogorets Razgrad CƯỢC FB88 XEM NGAY",
+          "name": "Live 22:45 09/05 Bulgarian First League Levski Sofia 0 : 0 Hiệp 2 Ludogorets Razgrad CƯỢC FB88 XEM NGAY",
           "labels": [
             {
               "position": "top-left",
               "text": "● Live",
               "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "center",
-              "text": "22:45",
-              "color": "#4CAF50",
-              "text_color": "#FFFFFF"
+              "text_color": "#FFFFFF",
+              "font_size": 6
             }
           ],
           "image": {
-            "padding": 1,
             "url": "https://raw.githubusercontent.com/nkqbbg/20251_CNWeb_User_Management/7c0829f097849f9cfc54b5f6f37e2dbddda468c6/hoadaologo.jpg",
             "height": 480,
             "width": 640,
-            "display": "cover",
-            "shape": "square"
+            "display": "cover"
           },
           "type": "single",
-          "display": "text-below",
+          "display": "overlay",
           "sources": [
             {
               "id": "b9b97d9b9345",
@@ -4062,7 +2695,7 @@
               "contents": [
                 {
                   "id": "1656970fed75",
-                  "name": "Live 22:45 09/05 Bulgarian First League Levski Sofia 0 : 0 Nghỉ Giữa Hiệp Ludogorets Razgrad CƯỢC FB88 XEM NGAY",
+                  "name": "Live 22:45 09/05 Bulgarian First League Levski Sofia 0 : 0 Hiệp 2 Ludogorets Razgrad CƯỢC FB88 XEM NGAY",
                   "streams": [
                     {
                       "id": "7ce40f4e40e9",
@@ -4129,31 +2762,24 @@
         },
         {
           "id": "521ec146e324",
-          "name": "Live 22:55 09/05 Saudi Professional League Al Khaleej Club 0 : 1 Nghỉ Giữa Hiệp Al Ettifaq FC CƯỢC FB88 XEM NGAY",
+          "name": "Live 22:55 09/05 Saudi Professional League Al Khaleej Club 0 : 2 Hiệp 2 Al Ettifaq FC CƯỢC FB88 XEM NGAY",
           "labels": [
             {
               "position": "top-left",
               "text": "● Live",
               "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "center",
-              "text": "22:55",
-              "color": "#4CAF50",
-              "text_color": "#FFFFFF"
+              "text_color": "#FFFFFF",
+              "font_size": 6
             }
           ],
           "image": {
-            "padding": 1,
             "url": "https://raw.githubusercontent.com/nkqbbg/20251_CNWeb_User_Management/7c0829f097849f9cfc54b5f6f37e2dbddda468c6/hoadaologo.jpg",
             "height": 480,
             "width": 640,
-            "display": "cover",
-            "shape": "square"
+            "display": "cover"
           },
           "type": "single",
-          "display": "text-below",
+          "display": "overlay",
           "sources": [
             {
               "id": "c4f7a1fb5869",
@@ -4161,7 +2787,7 @@
               "contents": [
                 {
                   "id": "47840fdd1ecf",
-                  "name": "Live 22:55 09/05 Saudi Professional League Al Khaleej Club 0 : 1 Nghỉ Giữa Hiệp Al Ettifaq FC CƯỢC FB88 XEM NGAY",
+                  "name": "Live 22:55 09/05 Saudi Professional League Al Khaleej Club 0 : 2 Hiệp 2 Al Ettifaq FC CƯỢC FB88 XEM NGAY",
                   "streams": [
                     {
                       "id": "3b98c902982c",
@@ -4228,31 +2854,24 @@
         },
         {
           "id": "fd173f6ef0e5",
-          "name": "Live 23:00 09/05 Slovak Nike liga Sport Podbrezova 0 : 0 Nghỉ Giữa Hiệp Slovan Bratislava CƯỢC FB88 XEM NGAY",
+          "name": "Live 23:00 09/05 Slovak Nike liga Sport Podbrezova 0 : 0 Hiệp 2 Slovan Bratislava CƯỢC FB88 XEM NGAY",
           "labels": [
             {
               "position": "top-left",
               "text": "● Live",
               "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "center",
-              "text": "23:00",
-              "color": "#4CAF50",
-              "text_color": "#FFFFFF"
+              "text_color": "#FFFFFF",
+              "font_size": 6
             }
           ],
           "image": {
-            "padding": 1,
             "url": "https://raw.githubusercontent.com/nkqbbg/20251_CNWeb_User_Management/7c0829f097849f9cfc54b5f6f37e2dbddda468c6/hoadaologo.jpg",
             "height": 480,
             "width": 640,
-            "display": "cover",
-            "shape": "square"
+            "display": "cover"
           },
           "type": "single",
-          "display": "text-below",
+          "display": "overlay",
           "sources": [
             {
               "id": "82d0bead0df0",
@@ -4260,7 +2879,7 @@
               "contents": [
                 {
                   "id": "296b8a4139e2",
-                  "name": "Live 23:00 09/05 Slovak Nike liga Sport Podbrezova 0 : 0 Nghỉ Giữa Hiệp Slovan Bratislava CƯỢC FB88 XEM NGAY",
+                  "name": "Live 23:00 09/05 Slovak Nike liga Sport Podbrezova 0 : 0 Hiệp 2 Slovan Bratislava CƯỢC FB88 XEM NGAY",
                   "streams": [
                     {
                       "id": "45e6902253dc",
@@ -4327,31 +2946,24 @@
         },
         {
           "id": "308258976cff",
-          "name": "Live 23:00 09/05 Switzerland Women's Division 1 Rapperswil Jona Women 0 : 2 Hiệp 1 Basel Women CƯỢC FB88 XEM NGAY",
+          "name": "Live 23:00 09/05 Switzerland Women's Division 1 Rapperswil Jona Women 0 : 2 Nghỉ Giữa Hiệp Basel Women CƯỢC FB88 XEM NGAY",
           "labels": [
             {
               "position": "top-left",
               "text": "● Live",
               "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "center",
-              "text": "23:00",
-              "color": "#4CAF50",
-              "text_color": "#FFFFFF"
+              "text_color": "#FFFFFF",
+              "font_size": 6
             }
           ],
           "image": {
-            "padding": 1,
             "url": "https://raw.githubusercontent.com/nkqbbg/20251_CNWeb_User_Management/7c0829f097849f9cfc54b5f6f37e2dbddda468c6/hoadaologo.jpg",
             "height": 480,
             "width": 640,
-            "display": "cover",
-            "shape": "square"
+            "display": "cover"
           },
           "type": "single",
-          "display": "text-below",
+          "display": "overlay",
           "sources": [
             {
               "id": "04b58c1c65bd",
@@ -4359,7 +2971,7 @@
               "contents": [
                 {
                   "id": "0d74f57937e7",
-                  "name": "Live 23:00 09/05 Switzerland Women's Division 1 Rapperswil Jona Women 0 : 2 Hiệp 1 Basel Women CƯỢC FB88 XEM NGAY",
+                  "name": "Live 23:00 09/05 Switzerland Women's Division 1 Rapperswil Jona Women 0 : 2 Nghỉ Giữa Hiệp Basel Women CƯỢC FB88 XEM NGAY",
                   "streams": [
                     {
                       "id": "2f4e5b8463c0",
@@ -4426,31 +3038,24 @@
         },
         {
           "id": "b96a0a149660",
-          "name": "Live 23:00 09/05 AFC U17 Asian Cup China U17 0 : 1 Nghỉ Giữa Hiệp Japan U17 CƯỢC FB88 XEM NGAY",
+          "name": "Live 23:00 09/05 AFC U17 Asian Cup China U17 0 : 1 Hiệp 2 Japan U17 CƯỢC FB88 XEM NGAY",
           "labels": [
             {
               "position": "top-left",
               "text": "● Live",
               "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "center",
-              "text": "23:00",
-              "color": "#4CAF50",
-              "text_color": "#FFFFFF"
+              "text_color": "#FFFFFF",
+              "font_size": 6
             }
           ],
           "image": {
-            "padding": 1,
             "url": "https://raw.githubusercontent.com/nkqbbg/20251_CNWeb_User_Management/7c0829f097849f9cfc54b5f6f37e2dbddda468c6/hoadaologo.jpg",
             "height": 480,
             "width": 640,
-            "display": "cover",
-            "shape": "square"
+            "display": "cover"
           },
           "type": "single",
-          "display": "text-below",
+          "display": "overlay",
           "sources": [
             {
               "id": "1727366f9b29",
@@ -4458,7 +3063,7 @@
               "contents": [
                 {
                   "id": "71222f7a55c6",
-                  "name": "Live 23:00 09/05 AFC U17 Asian Cup China U17 0 : 1 Nghỉ Giữa Hiệp Japan U17 CƯỢC FB88 XEM NGAY",
+                  "name": "Live 23:00 09/05 AFC U17 Asian Cup China U17 0 : 1 Hiệp 2 Japan U17 CƯỢC FB88 XEM NGAY",
                   "streams": [
                     {
                       "id": "901f85ae93ec",
@@ -4542,31 +3147,24 @@
         },
         {
           "id": "8dae4cdd8817",
-          "name": "Live 23:00 09/05 Switzerland Super League Winterthur 1 : 0 Nghỉ Giữa Hiệp Lausanne Sports CƯỢC FB88 XEM NGAY",
+          "name": "Live 23:00 09/05 Switzerland Super League Winterthur 1 : 0 Hiệp 2 Lausanne Sports CƯỢC FB88 XEM NGAY",
           "labels": [
             {
               "position": "top-left",
               "text": "● Live",
               "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "center",
-              "text": "23:00",
-              "color": "#4CAF50",
-              "text_color": "#FFFFFF"
+              "text_color": "#FFFFFF",
+              "font_size": 6
             }
           ],
           "image": {
-            "padding": 1,
             "url": "https://raw.githubusercontent.com/nkqbbg/20251_CNWeb_User_Management/7c0829f097849f9cfc54b5f6f37e2dbddda468c6/hoadaologo.jpg",
             "height": 480,
             "width": 640,
-            "display": "cover",
-            "shape": "square"
+            "display": "cover"
           },
           "type": "single",
-          "display": "text-below",
+          "display": "overlay",
           "sources": [
             {
               "id": "a6bc64e12829",
@@ -4574,7 +3172,7 @@
               "contents": [
                 {
                   "id": "1a6c9ea65f01",
-                  "name": "Live 23:00 09/05 Switzerland Super League Winterthur 1 : 0 Nghỉ Giữa Hiệp Lausanne Sports CƯỢC FB88 XEM NGAY",
+                  "name": "Live 23:00 09/05 Switzerland Super League Winterthur 1 : 0 Hiệp 2 Lausanne Sports CƯỢC FB88 XEM NGAY",
                   "streams": [
                     {
                       "id": "19708711d52e",
@@ -4641,31 +3239,24 @@
         },
         {
           "id": "add5e0237b4c",
-          "name": "Live 23:00 09/05 German Regionalliga TuS Blau-Weiss Lohne 0 : 0 Hiệp 1 FC Schoningen08 CƯỢC FB88 XEM NGAY",
+          "name": "Live 23:00 09/05 German Regionalliga TuS Blau-Weiss Lohne 0 : 0 Nghỉ Giữa Hiệp FC Schoningen08 CƯỢC FB88 XEM NGAY",
           "labels": [
             {
               "position": "top-left",
               "text": "● Live",
               "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "center",
-              "text": "23:00",
-              "color": "#4CAF50",
-              "text_color": "#FFFFFF"
+              "text_color": "#FFFFFF",
+              "font_size": 6
             }
           ],
           "image": {
-            "padding": 1,
             "url": "https://raw.githubusercontent.com/nkqbbg/20251_CNWeb_User_Management/7c0829f097849f9cfc54b5f6f37e2dbddda468c6/hoadaologo.jpg",
             "height": 480,
             "width": 640,
-            "display": "cover",
-            "shape": "square"
+            "display": "cover"
           },
           "type": "single",
-          "display": "text-below",
+          "display": "overlay",
           "sources": [
             {
               "id": "10b28c384df1",
@@ -4673,7 +3264,7 @@
               "contents": [
                 {
                   "id": "5c92ac421cc6",
-                  "name": "Live 23:00 09/05 German Regionalliga TuS Blau-Weiss Lohne 0 : 0 Hiệp 1 FC Schoningen08 CƯỢC FB88 XEM NGAY",
+                  "name": "Live 23:00 09/05 German Regionalliga TuS Blau-Weiss Lohne 0 : 0 Nghỉ Giữa Hiệp FC Schoningen08 CƯỢC FB88 XEM NGAY",
                   "streams": [
                     {
                       "id": "c92b03ad1307",
@@ -4740,31 +3331,24 @@
         },
         {
           "id": "24afd807866c",
-          "name": "Live 23:00 09/05 German Regionalliga Kickers Emden 1 : 0 Hiệp 1 VFB Lubeck CƯỢC FB88 XEM NGAY",
+          "name": "Live 23:00 09/05 German Regionalliga Kickers Emden 1 : 0 Nghỉ Giữa Hiệp VFB Lubeck CƯỢC FB88 XEM NGAY",
           "labels": [
             {
               "position": "top-left",
               "text": "● Live",
               "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "center",
-              "text": "23:00",
-              "color": "#4CAF50",
-              "text_color": "#FFFFFF"
+              "text_color": "#FFFFFF",
+              "font_size": 6
             }
           ],
           "image": {
-            "padding": 1,
             "url": "https://raw.githubusercontent.com/nkqbbg/20251_CNWeb_User_Management/7c0829f097849f9cfc54b5f6f37e2dbddda468c6/hoadaologo.jpg",
             "height": 480,
             "width": 640,
-            "display": "cover",
-            "shape": "square"
+            "display": "cover"
           },
           "type": "single",
-          "display": "text-below",
+          "display": "overlay",
           "sources": [
             {
               "id": "4a45ea9ebdcd",
@@ -4772,7 +3356,7 @@
               "contents": [
                 {
                   "id": "f8fab4f51479",
-                  "name": "Live 23:00 09/05 German Regionalliga Kickers Emden 1 : 0 Hiệp 1 VFB Lubeck CƯỢC FB88 XEM NGAY",
+                  "name": "Live 23:00 09/05 German Regionalliga Kickers Emden 1 : 0 Nghỉ Giữa Hiệp VFB Lubeck CƯỢC FB88 XEM NGAY",
                   "streams": [
                     {
                       "id": "01d58c712728",
@@ -4839,31 +3423,24 @@
         },
         {
           "id": "414fe32d0ff5",
-          "name": "Live 23:00 09/05 Slovak Nike liga Michalovce 0 : 0 Nghỉ Giữa Hiệp Dunajska Streda CƯỢC FB88 XEM NGAY",
+          "name": "Live 23:00 09/05 Slovak Nike liga Michalovce 0 : 0 Hiệp 2 Dunajska Streda CƯỢC FB88 XEM NGAY",
           "labels": [
             {
               "position": "top-left",
               "text": "● Live",
               "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "center",
-              "text": "23:00",
-              "color": "#4CAF50",
-              "text_color": "#FFFFFF"
+              "text_color": "#FFFFFF",
+              "font_size": 6
             }
           ],
           "image": {
-            "padding": 1,
             "url": "https://raw.githubusercontent.com/nkqbbg/20251_CNWeb_User_Management/7c0829f097849f9cfc54b5f6f37e2dbddda468c6/hoadaologo.jpg",
             "height": 480,
             "width": 640,
-            "display": "cover",
-            "shape": "square"
+            "display": "cover"
           },
           "type": "single",
-          "display": "text-below",
+          "display": "overlay",
           "sources": [
             {
               "id": "368062201366",
@@ -4871,7 +3448,7 @@
               "contents": [
                 {
                   "id": "b548dbd3bd57",
-                  "name": "Live 23:00 09/05 Slovak Nike liga Michalovce 0 : 0 Nghỉ Giữa Hiệp Dunajska Streda CƯỢC FB88 XEM NGAY",
+                  "name": "Live 23:00 09/05 Slovak Nike liga Michalovce 0 : 0 Hiệp 2 Dunajska Streda CƯỢC FB88 XEM NGAY",
                   "streams": [
                     {
                       "id": "19e4728a0a71",
@@ -4938,31 +3515,24 @@
         },
         {
           "id": "21d8605c161c",
-          "name": "Live 23:00 09/05 Slovak Nike liga MFK Ruzomberok 3 : 3 Hiệp 1 Trencin CƯỢC FB88 XEM NGAY",
+          "name": "Live 23:00 09/05 Slovak Nike liga MFK Ruzomberok 3 : 3 Nghỉ Giữa Hiệp Trencin CƯỢC FB88 XEM NGAY",
           "labels": [
             {
               "position": "top-left",
               "text": "● Live",
               "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "center",
-              "text": "23:00",
-              "color": "#4CAF50",
-              "text_color": "#FFFFFF"
+              "text_color": "#FFFFFF",
+              "font_size": 6
             }
           ],
           "image": {
-            "padding": 1,
             "url": "https://raw.githubusercontent.com/nkqbbg/20251_CNWeb_User_Management/7c0829f097849f9cfc54b5f6f37e2dbddda468c6/hoadaologo.jpg",
             "height": 480,
             "width": 640,
-            "display": "cover",
-            "shape": "square"
+            "display": "cover"
           },
           "type": "single",
-          "display": "text-below",
+          "display": "overlay",
           "sources": [
             {
               "id": "33455a64d2e4",
@@ -4970,7 +3540,7 @@
               "contents": [
                 {
                   "id": "c40c5490bc04",
-                  "name": "Live 23:00 09/05 Slovak Nike liga MFK Ruzomberok 3 : 3 Hiệp 1 Trencin CƯỢC FB88 XEM NGAY",
+                  "name": "Live 23:00 09/05 Slovak Nike liga MFK Ruzomberok 3 : 3 Nghỉ Giữa Hiệp Trencin CƯỢC FB88 XEM NGAY",
                   "streams": [
                     {
                       "id": "45a47444a31d",
@@ -5037,31 +3607,24 @@
         },
         {
           "id": "321d39c36a17",
-          "name": "Live 23:00 09/05 Switzerland Super League FC Zurich 0 : 1 Nghỉ Giữa Hiệp Grasshopper CƯỢC FB88 XEM NGAY",
+          "name": "Live 23:00 09/05 Switzerland Super League FC Zurich 0 : 1 Hiệp 2 Grasshopper CƯỢC FB88 XEM NGAY",
           "labels": [
             {
               "position": "top-left",
               "text": "● Live",
               "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "center",
-              "text": "23:00",
-              "color": "#4CAF50",
-              "text_color": "#FFFFFF"
+              "text_color": "#FFFFFF",
+              "font_size": 6
             }
           ],
           "image": {
-            "padding": 1,
             "url": "https://raw.githubusercontent.com/nkqbbg/20251_CNWeb_User_Management/7c0829f097849f9cfc54b5f6f37e2dbddda468c6/hoadaologo.jpg",
             "height": 480,
             "width": 640,
-            "display": "cover",
-            "shape": "square"
+            "display": "cover"
           },
           "type": "single",
-          "display": "text-below",
+          "display": "overlay",
           "sources": [
             {
               "id": "5221efa26873",
@@ -5069,7 +3632,7 @@
               "contents": [
                 {
                   "id": "8414f1cb8e3a",
-                  "name": "Live 23:00 09/05 Switzerland Super League FC Zurich 0 : 1 Nghỉ Giữa Hiệp Grasshopper CƯỢC FB88 XEM NGAY",
+                  "name": "Live 23:00 09/05 Switzerland Super League FC Zurich 0 : 1 Hiệp 2 Grasshopper CƯỢC FB88 XEM NGAY",
                   "streams": [
                     {
                       "id": "32823a04e443",
@@ -5135,131 +3698,25 @@
           ]
         },
         {
-          "id": "af84c6fa7ef3",
-          "name": "Live 23:00 09/05 Serbian Mozzart Bet Superliga Crvena Zvezda 0 : 0 Nghỉ Giữa Hiệp Novi Pazar CƯỢC FB88 XEM NGAY",
-          "labels": [
-            {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "center",
-              "text": "23:00",
-              "color": "#4CAF50",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "padding": 1,
-            "url": "https://raw.githubusercontent.com/nkqbbg/20251_CNWeb_User_Management/7c0829f097849f9cfc54b5f6f37e2dbddda468c6/hoadaologo.jpg",
-            "height": 480,
-            "width": 640,
-            "display": "cover",
-            "shape": "square"
-          },
-          "type": "single",
-          "display": "text-below",
-          "sources": [
-            {
-              "id": "b94331591d02",
-              "name": "Bun Cha TV",
-              "contents": [
-                {
-                  "id": "6d398095f759",
-                  "name": "Live 23:00 09/05 Serbian Mozzart Bet Superliga Crvena Zvezda 0 : 0 Nghỉ Giữa Hiệp Novi Pazar CƯỢC FB88 XEM NGAY",
-                  "streams": [
-                    {
-                      "id": "ab9e8bfe1782",
-                      "name": "Stream",
-                      "stream_links": [
-                        {
-                          "id": "98eb36721a05",
-                          "name": "HTML5 Video",
-                          "type": "video",
-                          "default": true,
-                          "url": "https://phantatv.pro/assets/image/ads/1xbet/tvc-optimize.mp4",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phantatv.pro/crvena-zvezda-vs-novi-pazar-2450845"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "104f132ce2fe",
-                          "name": "Iframe Embed",
-                          "type": "iframe",
-                          "default": false,
-                          "url": "https://www5.cbox.ws/box/?boxid=961762&boxtag=zxplnt",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phantatv.pro/crvena-zvezda-vs-novi-pazar-2450845"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "8822ef3baf24",
-                          "name": "HLS (m3u8)",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.rapidlive.shop/live/9c02612a9da96d24b5c3cb8cbf94ac64/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phantatv.pro/crvena-zvezda-vs-novi-pazar-2450845"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "5fa84e6a1ef4",
-          "name": "Live 23:00 09/05 San Marino Campionato di Calcio SP La Fiorita 1 : 0 Nghỉ Giữa Hiệp Tre Penne CƯỢC FB88 XEM NGAY",
+          "name": "Live 23:00 09/05 San Marino Campionato di Calcio SP La Fiorita 1 : 0 Hiệp 2 Tre Penne CƯỢC FB88 XEM NGAY",
           "labels": [
             {
               "position": "top-left",
               "text": "● Live",
               "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "center",
-              "text": "23:00",
-              "color": "#4CAF50",
-              "text_color": "#FFFFFF"
+              "text_color": "#FFFFFF",
+              "font_size": 6
             }
           ],
           "image": {
-            "padding": 1,
             "url": "https://raw.githubusercontent.com/nkqbbg/20251_CNWeb_User_Management/7c0829f097849f9cfc54b5f6f37e2dbddda468c6/hoadaologo.jpg",
             "height": 480,
             "width": 640,
-            "display": "cover",
-            "shape": "square"
+            "display": "cover"
           },
           "type": "single",
-          "display": "text-below",
+          "display": "overlay",
           "sources": [
             {
               "id": "02e8d2219028",
@@ -5267,7 +3724,7 @@
               "contents": [
                 {
                   "id": "0825c05bc062",
-                  "name": "Live 23:00 09/05 San Marino Campionato di Calcio SP La Fiorita 1 : 0 Nghỉ Giữa Hiệp Tre Penne CƯỢC FB88 XEM NGAY",
+                  "name": "Live 23:00 09/05 San Marino Campionato di Calcio SP La Fiorita 1 : 0 Hiệp 2 Tre Penne CƯỢC FB88 XEM NGAY",
                   "streams": [
                     {
                       "id": "279702ab81d9",
@@ -5333,131 +3790,25 @@
           ]
         },
         {
-          "id": "29e7f772b0f7",
-          "name": "Live 23:00 09/05 Italian Serie C A.S.D. Bra 0 : 1 Hiệp 1 Sassari Torres CƯỢC FB88 XEM NGAY",
-          "labels": [
-            {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "center",
-              "text": "23:00",
-              "color": "#4CAF50",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "padding": 1,
-            "url": "https://raw.githubusercontent.com/nkqbbg/20251_CNWeb_User_Management/7c0829f097849f9cfc54b5f6f37e2dbddda468c6/hoadaologo.jpg",
-            "height": 480,
-            "width": 640,
-            "display": "cover",
-            "shape": "square"
-          },
-          "type": "single",
-          "display": "text-below",
-          "sources": [
-            {
-              "id": "468add0747bd",
-              "name": "Bun Cha TV",
-              "contents": [
-                {
-                  "id": "f2130adae76a",
-                  "name": "Live 23:00 09/05 Italian Serie C A.S.D. Bra 0 : 1 Hiệp 1 Sassari Torres CƯỢC FB88 XEM NGAY",
-                  "streams": [
-                    {
-                      "id": "c48c9bf01257",
-                      "name": "Stream",
-                      "stream_links": [
-                        {
-                          "id": "7e4009d06751",
-                          "name": "HTML5 Video",
-                          "type": "video",
-                          "default": true,
-                          "url": "https://phantatv.pro/assets/image/ads/1xbet/tvc-optimize.mp4",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phantatv.pro/asd-bra-vs-sassari-torres-2454262"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "6d9eeb2191ef",
-                          "name": "Iframe Embed",
-                          "type": "iframe",
-                          "default": false,
-                          "url": "https://www5.cbox.ws/box/?boxid=961762&boxtag=zxplnt",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phantatv.pro/asd-bra-vs-sassari-torres-2454262"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "bdee1ef2ee7e",
-                          "name": "HLS (m3u8)",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.rapidlive.shop/live/d8023aefd8a3acb2bb96010dcdd7f983/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phantatv.pro/asd-bra-vs-sassari-torres-2454262"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "900542a85a96",
-          "name": "Live 23:15 09/05 Belgian Challenger Pro League Beerschot Wilrijk 0 : 0 Hiệp 1 KVSK Lommel CƯỢC FB88 XEM NGAY",
+          "name": "Live 23:15 09/05 Belgian Challenger Pro League Beerschot Wilrijk 0 : 0 Nghỉ Giữa Hiệp KVSK Lommel CƯỢC FB88 XEM NGAY",
           "labels": [
             {
               "position": "top-left",
               "text": "● Live",
               "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "center",
-              "text": "23:15",
-              "color": "#4CAF50",
-              "text_color": "#FFFFFF"
+              "text_color": "#FFFFFF",
+              "font_size": 6
             }
           ],
           "image": {
-            "padding": 1,
             "url": "https://raw.githubusercontent.com/nkqbbg/20251_CNWeb_User_Management/7c0829f097849f9cfc54b5f6f37e2dbddda468c6/hoadaologo.jpg",
             "height": 480,
             "width": 640,
-            "display": "cover",
-            "shape": "square"
+            "display": "cover"
           },
           "type": "single",
-          "display": "text-below",
+          "display": "overlay",
           "sources": [
             {
               "id": "57c7b66b5651",
@@ -5465,7 +3816,7 @@
               "contents": [
                 {
                   "id": "81376f4b4aa4",
-                  "name": "Live 23:15 09/05 Belgian Challenger Pro League Beerschot Wilrijk 0 : 0 Hiệp 1 KVSK Lommel CƯỢC FB88 XEM NGAY",
+                  "name": "Live 23:15 09/05 Belgian Challenger Pro League Beerschot Wilrijk 0 : 0 Nghỉ Giữa Hiệp KVSK Lommel CƯỢC FB88 XEM NGAY",
                   "streams": [
                     {
                       "id": "308a178bbd12",
@@ -5532,31 +3883,24 @@
         },
         {
           "id": "312b88cc44ab",
-          "name": "Live 23:15 09/05 Saudi Professional League Al Najma(KSA) 1 : 1 Hiệp 1 Al Hazem CƯỢC FB88 XEM NGAY",
+          "name": "Live 23:15 09/05 Saudi Professional League Al Najma(KSA) 2 : 2 Nghỉ Giữa Hiệp Al Hazem CƯỢC FB88 XEM NGAY",
           "labels": [
             {
               "position": "top-left",
               "text": "● Live",
               "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "center",
-              "text": "23:15",
-              "color": "#4CAF50",
-              "text_color": "#FFFFFF"
+              "text_color": "#FFFFFF",
+              "font_size": 6
             }
           ],
           "image": {
-            "padding": 1,
             "url": "https://raw.githubusercontent.com/nkqbbg/20251_CNWeb_User_Management/7c0829f097849f9cfc54b5f6f37e2dbddda468c6/hoadaologo.jpg",
             "height": 480,
             "width": 640,
-            "display": "cover",
-            "shape": "square"
+            "display": "cover"
           },
           "type": "single",
-          "display": "text-below",
+          "display": "overlay",
           "sources": [
             {
               "id": "ad007ecee321",
@@ -5564,7 +3908,7 @@
               "contents": [
                 {
                   "id": "6523bf505531",
-                  "name": "Live 23:15 09/05 Saudi Professional League Al Najma(KSA) 1 : 1 Hiệp 1 Al Hazem CƯỢC FB88 XEM NGAY",
+                  "name": "Live 23:15 09/05 Saudi Professional League Al Najma(KSA) 2 : 2 Nghỉ Giữa Hiệp Al Hazem CƯỢC FB88 XEM NGAY",
                   "streams": [
                     {
                       "id": "5a8a60f14b32",
@@ -5637,25 +3981,18 @@
               "position": "top-left",
               "text": "● Live",
               "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "center",
-              "text": "23:30",
-              "color": "#4CAF50",
-              "text_color": "#FFFFFF"
+              "text_color": "#FFFFFF",
+              "font_size": 6
             }
           ],
           "image": {
-            "padding": 1,
             "url": "https://raw.githubusercontent.com/nkqbbg/20251_CNWeb_User_Management/7c0829f097849f9cfc54b5f6f37e2dbddda468c6/hoadaologo.jpg",
             "height": 480,
             "width": 640,
-            "display": "cover",
-            "shape": "square"
+            "display": "cover"
           },
           "type": "single",
-          "display": "text-below",
+          "display": "overlay",
           "sources": [
             {
               "id": "4b7b8dd6ee16",
@@ -5736,25 +4073,18 @@
               "position": "top-left",
               "text": "● Live",
               "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "center",
-              "text": "23:30",
-              "color": "#4CAF50",
-              "text_color": "#FFFFFF"
+              "text_color": "#FFFFFF",
+              "font_size": 6
             }
           ],
           "image": {
-            "padding": 1,
             "url": "https://raw.githubusercontent.com/nkqbbg/20251_CNWeb_User_Management/7c0829f097849f9cfc54b5f6f37e2dbddda468c6/hoadaologo.jpg",
             "height": 480,
             "width": 640,
-            "display": "cover",
-            "shape": "square"
+            "display": "cover"
           },
           "type": "single",
-          "display": "text-below",
+          "display": "overlay",
           "sources": [
             {
               "id": "0bd5fc9d3403",
@@ -5835,25 +4165,18 @@
               "position": "top-left",
               "text": "● Live",
               "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "center",
-              "text": "23:30",
-              "color": "#4CAF50",
-              "text_color": "#FFFFFF"
+              "text_color": "#FFFFFF",
+              "font_size": 6
             }
           ],
           "image": {
-            "padding": 1,
             "url": "https://raw.githubusercontent.com/nkqbbg/20251_CNWeb_User_Management/7c0829f097849f9cfc54b5f6f37e2dbddda468c6/hoadaologo.jpg",
             "height": 480,
             "width": 640,
-            "display": "cover",
-            "shape": "square"
+            "display": "cover"
           },
           "type": "single",
-          "display": "text-below",
+          "display": "overlay",
           "sources": [
             {
               "id": "9faafd75b53e",
@@ -5934,25 +4257,18 @@
               "position": "top-left",
               "text": "● Live",
               "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "center",
-              "text": "23:30",
-              "color": "#4CAF50",
-              "text_color": "#FFFFFF"
+              "text_color": "#FFFFFF",
+              "font_size": 6
             }
           ],
           "image": {
-            "padding": 1,
             "url": "https://raw.githubusercontent.com/nkqbbg/20251_CNWeb_User_Management/7c0829f097849f9cfc54b5f6f37e2dbddda468c6/hoadaologo.jpg",
             "height": 480,
             "width": 640,
-            "display": "cover",
-            "shape": "square"
+            "display": "cover"
           },
           "type": "single",
-          "display": "text-below",
+          "display": "overlay",
           "sources": [
             {
               "id": "a729ba6ac170",
@@ -6033,25 +4349,18 @@
               "position": "top-left",
               "text": "● Live",
               "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "center",
-              "text": "23:30",
-              "color": "#4CAF50",
-              "text_color": "#FFFFFF"
+              "text_color": "#FFFFFF",
+              "font_size": 6
             }
           ],
           "image": {
-            "padding": 1,
             "url": "https://raw.githubusercontent.com/nkqbbg/20251_CNWeb_User_Management/7c0829f097849f9cfc54b5f6f37e2dbddda468c6/hoadaologo.jpg",
             "height": 480,
             "width": 640,
-            "display": "cover",
-            "shape": "square"
+            "display": "cover"
           },
           "type": "single",
-          "display": "text-below",
+          "display": "overlay",
           "sources": [
             {
               "id": "a79a92986361",
@@ -6132,25 +4441,18 @@
               "position": "top-left",
               "text": "● Live",
               "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "center",
-              "text": "23:30",
-              "color": "#4CAF50",
-              "text_color": "#FFFFFF"
+              "text_color": "#FFFFFF",
+              "font_size": 6
             }
           ],
           "image": {
-            "padding": 1,
             "url": "https://raw.githubusercontent.com/nkqbbg/20251_CNWeb_User_Management/7c0829f097849f9cfc54b5f6f37e2dbddda468c6/hoadaologo.jpg",
             "height": 480,
             "width": 640,
-            "display": "cover",
-            "shape": "square"
+            "display": "cover"
           },
           "type": "single",
-          "display": "text-below",
+          "display": "overlay",
           "sources": [
             {
               "id": "6c79c8ac73b5",
@@ -6231,25 +4533,18 @@
               "position": "top-left",
               "text": "● Live",
               "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "center",
-              "text": "23:30",
-              "color": "#4CAF50",
-              "text_color": "#FFFFFF"
+              "text_color": "#FFFFFF",
+              "font_size": 6
             }
           ],
           "image": {
-            "padding": 1,
             "url": "https://raw.githubusercontent.com/nkqbbg/20251_CNWeb_User_Management/7c0829f097849f9cfc54b5f6f37e2dbddda468c6/hoadaologo.jpg",
             "height": 480,
             "width": 640,
-            "display": "cover",
-            "shape": "square"
+            "display": "cover"
           },
           "type": "single",
-          "display": "text-below",
+          "display": "overlay",
           "sources": [
             {
               "id": "5808cc20b47b",
@@ -6330,25 +4625,18 @@
               "position": "top-left",
               "text": "● Live",
               "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "center",
-              "text": "23:45",
-              "color": "#4CAF50",
-              "text_color": "#FFFFFF"
+              "text_color": "#FFFFFF",
+              "font_size": 6
             }
           ],
           "image": {
-            "padding": 1,
             "url": "https://raw.githubusercontent.com/nkqbbg/20251_CNWeb_User_Management/7c0829f097849f9cfc54b5f6f37e2dbddda468c6/hoadaologo.jpg",
             "height": 480,
             "width": 640,
-            "display": "cover",
-            "shape": "square"
+            "display": "cover"
           },
           "type": "single",
-          "display": "text-below",
+          "display": "overlay",
           "sources": [
             {
               "id": "735101539a17",
@@ -6406,6 +4694,558 @@
                             {
                               "key": "Referer",
                               "value": "https://phantatv.pro/nk-varteks-varazdin-vs-nk-lokomotiva-zagreb-2450881"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "de5b51b18c7d",
+          "name": "Live 00:00 10/05 Turkish Super League Alanyaspor 0 : 0 Hiệp 1 Kayserispor CƯỢC FB88 XEM NGAY",
+          "labels": [
+            {
+              "position": "top-left",
+              "text": "● Live",
+              "color": "#FF0000",
+              "text_color": "#FFFFFF",
+              "font_size": 6
+            }
+          ],
+          "image": {
+            "url": "https://raw.githubusercontent.com/nkqbbg/20251_CNWeb_User_Management/7c0829f097849f9cfc54b5f6f37e2dbddda468c6/hoadaologo.jpg",
+            "height": 480,
+            "width": 640,
+            "display": "cover"
+          },
+          "type": "single",
+          "display": "overlay",
+          "sources": [
+            {
+              "id": "a04d3aca33bf",
+              "name": "Bun Cha TV",
+              "contents": [
+                {
+                  "id": "d2065727696d",
+                  "name": "Live 00:00 10/05 Turkish Super League Alanyaspor 0 : 0 Hiệp 1 Kayserispor CƯỢC FB88 XEM NGAY",
+                  "streams": [
+                    {
+                      "id": "e12df19ef13a",
+                      "name": "Stream",
+                      "stream_links": [
+                        {
+                          "id": "19beb4cbb1c7",
+                          "name": "HTML5 Video",
+                          "type": "video",
+                          "default": true,
+                          "url": "https://phantatv.pro/assets/image/ads/1xbet/tvc-optimize.mp4",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phantatv.pro/alanyaspor-vs-kayserispor-2450887"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "44d8be71dd45",
+                          "name": "Iframe Embed",
+                          "type": "iframe",
+                          "default": false,
+                          "url": "https://www5.cbox.ws/box/?boxid=961762&boxtag=zxplnt",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phantatv.pro/alanyaspor-vs-kayserispor-2450887"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "6a3336b2ba00",
+                          "name": "HLS (m3u8)",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.rapidlive.shop/live/7dbf607cab2a7d107d0315ca1aba74b2/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phantatv.pro/alanyaspor-vs-kayserispor-2450887"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3f293ec8cd72",
+          "name": "Live 00:00 10/05 Turkish Super League Genclerbirligi 0 : 1 Hiệp 1 Kasimpasa CƯỢC FB88 XEM NGAY",
+          "labels": [
+            {
+              "position": "top-left",
+              "text": "● Live",
+              "color": "#FF0000",
+              "text_color": "#FFFFFF",
+              "font_size": 6
+            }
+          ],
+          "image": {
+            "url": "https://raw.githubusercontent.com/nkqbbg/20251_CNWeb_User_Management/7c0829f097849f9cfc54b5f6f37e2dbddda468c6/hoadaologo.jpg",
+            "height": 480,
+            "width": 640,
+            "display": "cover"
+          },
+          "type": "single",
+          "display": "overlay",
+          "sources": [
+            {
+              "id": "abd2580e735f",
+              "name": "Bun Cha TV",
+              "contents": [
+                {
+                  "id": "eaab5c3242e0",
+                  "name": "Live 00:00 10/05 Turkish Super League Genclerbirligi 0 : 1 Hiệp 1 Kasimpasa CƯỢC FB88 XEM NGAY",
+                  "streams": [
+                    {
+                      "id": "6c17b03441ec",
+                      "name": "Stream",
+                      "stream_links": [
+                        {
+                          "id": "45d29739d7f4",
+                          "name": "HTML5 Video",
+                          "type": "video",
+                          "default": true,
+                          "url": "https://phantatv.pro/assets/image/ads/1xbet/tvc-optimize.mp4",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phantatv.pro/genclerbirligi-vs-kasimpasa-2450888"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "9590e9a4b215",
+                          "name": "Iframe Embed",
+                          "type": "iframe",
+                          "default": false,
+                          "url": "https://www5.cbox.ws/box/?boxid=961762&boxtag=zxplnt",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phantatv.pro/genclerbirligi-vs-kasimpasa-2450888"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "c222d900da9c",
+                          "name": "HLS (m3u8)",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.rapidlive.shop/live/37cc6099b78cb4f401b6302e43923c9f/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phantatv.pro/genclerbirligi-vs-kasimpasa-2450888"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3f2839e2b839",
+          "name": "Live 00:00 10/05 Turkish Super League Goztepe 1 : 0 Hiệp 1 Gazisehir Gaziantep CƯỢC FB88 XEM NGAY",
+          "labels": [
+            {
+              "position": "top-left",
+              "text": "● Live",
+              "color": "#FF0000",
+              "text_color": "#FFFFFF",
+              "font_size": 6
+            }
+          ],
+          "image": {
+            "url": "https://raw.githubusercontent.com/nkqbbg/20251_CNWeb_User_Management/7c0829f097849f9cfc54b5f6f37e2dbddda468c6/hoadaologo.jpg",
+            "height": 480,
+            "width": 640,
+            "display": "cover"
+          },
+          "type": "single",
+          "display": "overlay",
+          "sources": [
+            {
+              "id": "a57da229bb4e",
+              "name": "Bun Cha TV",
+              "contents": [
+                {
+                  "id": "7db8646ec59e",
+                  "name": "Live 00:00 10/05 Turkish Super League Goztepe 1 : 0 Hiệp 1 Gazisehir Gaziantep CƯỢC FB88 XEM NGAY",
+                  "streams": [
+                    {
+                      "id": "4cd12e02908d",
+                      "name": "Stream",
+                      "stream_links": [
+                        {
+                          "id": "63c10e0f1ce9",
+                          "name": "HTML5 Video",
+                          "type": "video",
+                          "default": true,
+                          "url": "https://phantatv.pro/assets/image/ads/1xbet/tvc-optimize.mp4",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phantatv.pro/goztepe-vs-gazisehir-gaziantep-2450890"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "6669bfedd0d6",
+                          "name": "Iframe Embed",
+                          "type": "iframe",
+                          "default": false,
+                          "url": "https://www5.cbox.ws/box/?boxid=961762&boxtag=zxplnt",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phantatv.pro/goztepe-vs-gazisehir-gaziantep-2450890"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "cd927afad914",
+                          "name": "HLS (m3u8)",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.rapidlive.shop/live/ae705d13667ce2acaa6c1e52733cbd5d/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phantatv.pro/goztepe-vs-gazisehir-gaziantep-2450890"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "852f8d2b1046",
+          "name": "Live 00:00 10/05 AFC U17 Asian Cup Thailand U17 0 : 0 Hiệp 1 Saudi Arabia U17 CƯỢC FB88 XEM NGAY",
+          "labels": [
+            {
+              "position": "top-left",
+              "text": "● Live",
+              "color": "#FF0000",
+              "text_color": "#FFFFFF",
+              "font_size": 6
+            }
+          ],
+          "image": {
+            "url": "https://raw.githubusercontent.com/nkqbbg/20251_CNWeb_User_Management/7c0829f097849f9cfc54b5f6f37e2dbddda468c6/hoadaologo.jpg",
+            "height": 480,
+            "width": 640,
+            "display": "cover"
+          },
+          "type": "single",
+          "display": "overlay",
+          "sources": [
+            {
+              "id": "6fd669856b55",
+              "name": "Bun Cha TV",
+              "contents": [
+                {
+                  "id": "42e6c7ba2aec",
+                  "name": "Live 00:00 10/05 AFC U17 Asian Cup Thailand U17 0 : 0 Hiệp 1 Saudi Arabia U17 CƯỢC FB88 XEM NGAY",
+                  "streams": [
+                    {
+                      "id": "dba06abeabc6",
+                      "name": "Stream",
+                      "stream_links": [
+                        {
+                          "id": "62791e96143d",
+                          "name": "HTML5 Video",
+                          "type": "video",
+                          "default": true,
+                          "url": "https://phantatv.pro/assets/image/ads/1xbet/tvc-optimize.mp4",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phantatv.pro/thailand-u17-vs-saudi-arabia-u17-2450892"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "f450dba07b1c",
+                          "name": "Iframe Embed",
+                          "type": "iframe",
+                          "default": false,
+                          "url": "https://www5.cbox.ws/box/?boxid=961762&boxtag=zxplnt",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phantatv.pro/thailand-u17-vs-saudi-arabia-u17-2450892"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "507ac9457d8a",
+                          "name": "HLS (m3u8)",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.rapidlive.shop/live/a27edf06b0bac87688fa2ac7de4e2028/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phantatv.pro/thailand-u17-vs-saudi-arabia-u17-2450892"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "72b3da2c80e3",
+          "name": "Live 00:00 10/05 Danish 1st Division Esbjerg 0 : 0 Hiệp 1 Kolding FC CƯỢC FB88 XEM NGAY",
+          "labels": [
+            {
+              "position": "top-left",
+              "text": "● Live",
+              "color": "#FF0000",
+              "text_color": "#FFFFFF",
+              "font_size": 6
+            }
+          ],
+          "image": {
+            "url": "https://raw.githubusercontent.com/nkqbbg/20251_CNWeb_User_Management/7c0829f097849f9cfc54b5f6f37e2dbddda468c6/hoadaologo.jpg",
+            "height": 480,
+            "width": 640,
+            "display": "cover"
+          },
+          "type": "single",
+          "display": "overlay",
+          "sources": [
+            {
+              "id": "50ca94de81c9",
+              "name": "Bun Cha TV",
+              "contents": [
+                {
+                  "id": "b700655678d4",
+                  "name": "Live 00:00 10/05 Danish 1st Division Esbjerg 0 : 0 Hiệp 1 Kolding FC CƯỢC FB88 XEM NGAY",
+                  "streams": [
+                    {
+                      "id": "258201eea0ae",
+                      "name": "Stream",
+                      "stream_links": [
+                        {
+                          "id": "3b17909ea2ed",
+                          "name": "HTML5 Video",
+                          "type": "video",
+                          "default": true,
+                          "url": "https://phantatv.pro/assets/image/ads/1xbet/tvc-optimize.mp4",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phantatv.pro/esbjerg-vs-kolding-fc-2450894"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "ba7a8362b975",
+                          "name": "Iframe Embed",
+                          "type": "iframe",
+                          "default": false,
+                          "url": "https://www5.cbox.ws/box/?boxid=961762&boxtag=zxplnt",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phantatv.pro/esbjerg-vs-kolding-fc-2450894"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "7ae11c147f9c",
+                          "name": "HLS (m3u8)",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.rapidlive.shop/live/3c2f3084c2a3a99090c002c6b6501f3d/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phantatv.pro/esbjerg-vs-kolding-fc-2450894"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "aed594b839bf",
+          "name": "Live 00:00 10/05 Turkish Super League Eyupspor 0 : 0 Hiệp 1 Caykur Rizespor CƯỢC FB88 XEM NGAY",
+          "labels": [
+            {
+              "position": "top-left",
+              "text": "● Live",
+              "color": "#FF0000",
+              "text_color": "#FFFFFF",
+              "font_size": 6
+            }
+          ],
+          "image": {
+            "url": "https://raw.githubusercontent.com/nkqbbg/20251_CNWeb_User_Management/7c0829f097849f9cfc54b5f6f37e2dbddda468c6/hoadaologo.jpg",
+            "height": 480,
+            "width": 640,
+            "display": "cover"
+          },
+          "type": "single",
+          "display": "overlay",
+          "sources": [
+            {
+              "id": "1a9fda302566",
+              "name": "Bun Cha TV",
+              "contents": [
+                {
+                  "id": "65dd77a36a20",
+                  "name": "Live 00:00 10/05 Turkish Super League Eyupspor 0 : 0 Hiệp 1 Caykur Rizespor CƯỢC FB88 XEM NGAY",
+                  "streams": [
+                    {
+                      "id": "5a66796eef6e",
+                      "name": "Stream",
+                      "stream_links": [
+                        {
+                          "id": "db48165d5105",
+                          "name": "HTML5 Video",
+                          "type": "video",
+                          "default": true,
+                          "url": "https://phantatv.pro/assets/image/ads/1xbet/tvc-optimize.mp4",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phantatv.pro/eyupspor-vs-caykur-rizespor-2450895"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "0c60f9f8fc15",
+                          "name": "Iframe Embed",
+                          "type": "iframe",
+                          "default": false,
+                          "url": "https://www5.cbox.ws/box/?boxid=961762&boxtag=zxplnt",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phantatv.pro/eyupspor-vs-caykur-rizespor-2450895"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "44a95d0443dd",
+                          "name": "HLS (m3u8)",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.rapidlive.shop/live/2bd8ae6807307432c1413c71aa134fb3/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phantatv.pro/eyupspor-vs-caykur-rizespor-2450895"
                             },
                             {
                               "key": "User-Agent",
