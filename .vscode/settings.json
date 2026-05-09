@@ -1,0 +1,4 @@
+{
+  "github-actions.workflows.pinned.workflows": [".github/workflows/scrape.yml"],
+  "python-envs.defaultEnvManager": "ms-python.python:system"
+}
