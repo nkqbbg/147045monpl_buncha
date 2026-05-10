@@ -29,813 +29,13 @@
             "enable_detail": true,
             "channels": [
                 {
-                    "id": "ch-westhamunitedvsarsenalfanta17783819661473752455595",
-                    "name": "West Ham United vs Arsenal",
-                    "labels": [
-                        {
-                            "position": "top-left",
-                            "text": "Fulltime",
-                            "color": "#9E9E9E",
-                            "text_color": "#FFFFFF",
-                            "font_size": 6
-                        }
-                    ],
-                    "image": {
-                        "url": "https://res.cloudinary.com/dxfplnfuo/image/upload/v1778386162/phantatv/img-westhamunitedvsarsenalfanta17783819661473752455595.png",
-                        "height": 480,
-                        "width": 640,
-                        "display": "cover"
-                    },
-                    "type": "single",
-                    "display": "overlay",
-                    "sources": [
-                        {
-                            "id": "src-bd12c6415d67",
-                            "name": "West Ham United - Arsenal",
-                            "contents": [
-                                {
-                                    "id": "ct-a6819bf3323d",
-                                    "name": "Luồng Doanh Nhân (Anti Phú Ngao)",
-                                    "streams": [
-                                        {
-                                            "id": "st-6fa496b69501",
-                                            "name": "Stream",
-                                            "stream_links": [
-                                                {
-                                                    "id": "lnk-3522f6737022",
-                                                    "name": "Nhà đài SD",
-                                                    "type": "hls",
-                                                    "default": true,
-                                                    "url": "",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://phantatv.pro/west-ham-united-vs-arsenal-fanta-1778381966147-375-2455595"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-ac3ba8dd1ceb",
-                                                    "name": "Nhà đài HD",
-                                                    "type": "hls",
-                                                    "default": false,
-                                                    "url": "",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://phantatv.pro/west-ham-united-vs-arsenal-fanta-1778381966147-375-2455595"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-bb7e9871ef8b",
-                                                    "name": "SD",
-                                                    "type": "hls",
-                                                    "default": false,
-                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-fanta/index.m3u8",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://phantatv.pro/west-ham-united-vs-arsenal-fanta-1778381966147-375-2455595"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-c6ab85617c85",
-                                                    "name": "HD",
-                                                    "type": "hls",
-                                                    "default": false,
-                                                    "url": "",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://phantatv.pro/west-ham-united-vs-arsenal-fanta-1778381966147-375-2455595"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-977db96d480c",
-                                                    "name": "FullHD",
-                                                    "type": "hls",
-                                                    "default": false,
-                                                    "url": "",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://phantatv.pro/west-ham-united-vs-arsenal-fanta-1778381966147-375-2455595"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-68ad3eb57837",
-                                                    "name": "FLV",
-                                                    "type": "flv",
-                                                    "default": false,
-                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-fanta.flv",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://phantatv.pro/west-ham-united-vs-arsenal-fanta-1778381966147-375-2455595"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-5b586fd49ecf",
-                                                    "name": "FLV2",
-                                                    "type": "flv",
-                                                    "default": false,
-                                                    "url": "",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://phantatv.pro/west-ham-united-vs-arsenal-fanta-1778381966147-375-2455595"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                }
-                                            ]
-                                        }
-                                    ]
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "id": "ch-fcklnvs1fcheidenheim18462451908",
-                    "name": "FC Köln vs 1. FC Heidenheim 1846",
-                    "labels": [
-                        {
-                            "position": "top-left",
-                            "text": "Fulltime",
-                            "color": "#9E9E9E",
-                            "text_color": "#FFFFFF",
-                            "font_size": 6
-                        }
-                    ],
-                    "image": {
-                        "url": "https://res.cloudinary.com/dxfplnfuo/image/upload/v1778348540/phantatv/img-fcklnvs1fcheidenheim18462451908.png",
-                        "height": 480,
-                        "width": 640,
-                        "display": "cover"
-                    },
-                    "type": "single",
-                    "display": "overlay",
-                    "sources": [
-                        {
-                            "id": "src-3ee59b74a60d",
-                            "name": "FC Köln - 1. FC Heidenheim 1846",
-                            "contents": [
-                                {
-                                    "id": "ct-e83ee261c9ca",
-                                    "name": "Bundesliga",
-                                    "streams": [
-                                        {
-                                            "id": "st-d3f09808e672",
-                                            "name": "Stream",
-                                            "stream_links": [
-                                                {
-                                                    "id": "lnk-91eaf311da73",
-                                                    "name": "Nhà đài SD",
-                                                    "type": "hls",
-                                                    "default": true,
-                                                    "url": "https://dlqcalr.alilicloud.com/live/a3f29475b33a559a552d004088a336a2/playlist.m3u8",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://phantatv.pro/fc-kln-vs-1-fc-heidenheim-1846-2451908"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-6f044cd5ee0f",
-                                                    "name": "Nhà đài HD",
-                                                    "type": "hls",
-                                                    "default": false,
-                                                    "url": "https://dlqcalr.alilicloud.com/livehd/a3f29475b33a559a552d004088a336a2/playlist.m3u8",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://phantatv.pro/fc-kln-vs-1-fc-heidenheim-1846-2451908"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-2c2e0695de8c",
-                                                    "name": "SD",
-                                                    "type": "hls",
-                                                    "default": false,
-                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-van-chuan/index.m3u8",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://phantatv.pro/fc-kln-vs-1-fc-heidenheim-1846-2451908"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-0bf0a341363b",
-                                                    "name": "HD",
-                                                    "type": "hls",
-                                                    "default": false,
-                                                    "url": "",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://phantatv.pro/fc-kln-vs-1-fc-heidenheim-1846-2451908"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-ae02738fceab",
-                                                    "name": "FullHD",
-                                                    "type": "hls",
-                                                    "default": false,
-                                                    "url": "",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://phantatv.pro/fc-kln-vs-1-fc-heidenheim-1846-2451908"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-71516f830f62",
-                                                    "name": "FLV",
-                                                    "type": "flv",
-                                                    "default": false,
-                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-van-chuan.flv",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://phantatv.pro/fc-kln-vs-1-fc-heidenheim-1846-2451908"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-14b89924f486",
-                                                    "name": "FLV2",
-                                                    "type": "flv",
-                                                    "default": false,
-                                                    "url": "",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://phantatv.pro/fc-kln-vs-1-fc-heidenheim-1846-2451908"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                }
-                                            ]
-                                        }
-                                    ]
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "id": "ch-westhamunitedvsarsenalphao17782831448472402453986",
-                    "name": "West Ham United vs Arsenal",
-                    "labels": [
-                        {
-                            "position": "top-left",
-                            "text": "Fulltime",
-                            "color": "#9E9E9E",
-                            "text_color": "#FFFFFF",
-                            "font_size": 6
-                        }
-                    ],
-                    "image": {
-                        "url": "https://res.cloudinary.com/dxfplnfuo/image/upload/v1778348540/phantatv/img-westhamunitedvsarsenalphao17782831448472402453986.png",
-                        "height": 480,
-                        "width": 640,
-                        "display": "cover"
-                    },
-                    "type": "single",
-                    "display": "overlay",
-                    "sources": [
-                        {
-                            "id": "src-d596839a93d6",
-                            "name": "West Ham United - Arsenal",
-                            "contents": [
-                                {
-                                    "id": "ct-e6008040c58b",
-                                    "name": "Off Fan Arsenal",
-                                    "streams": [
-                                        {
-                                            "id": "st-811b52ab72c7",
-                                            "name": "Stream",
-                                            "stream_links": [
-                                                {
-                                                    "id": "lnk-bf4a4567494a",
-                                                    "name": "Nhà đài SD",
-                                                    "type": "hls",
-                                                    "default": true,
-                                                    "url": "",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://phantatv.pro/west-ham-united-vs-arsenal-phao-1778283144847-240-2453986"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-a7c0c3ac4936",
-                                                    "name": "Nhà đài HD",
-                                                    "type": "hls",
-                                                    "default": false,
-                                                    "url": "",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://phantatv.pro/west-ham-united-vs-arsenal-phao-1778283144847-240-2453986"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-19821bdccc58",
-                                                    "name": "SD",
-                                                    "type": "hls",
-                                                    "default": false,
-                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-phao/index.m3u8",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://phantatv.pro/west-ham-united-vs-arsenal-phao-1778283144847-240-2453986"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-7bea8983dd96",
-                                                    "name": "HD",
-                                                    "type": "hls",
-                                                    "default": false,
-                                                    "url": "",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://phantatv.pro/west-ham-united-vs-arsenal-phao-1778283144847-240-2453986"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-de3d04cda942",
-                                                    "name": "FullHD",
-                                                    "type": "hls",
-                                                    "default": false,
-                                                    "url": "",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://phantatv.pro/west-ham-united-vs-arsenal-phao-1778283144847-240-2453986"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-f74f7257640a",
-                                                    "name": "FLV",
-                                                    "type": "flv",
-                                                    "default": false,
-                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-phao.flv",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://phantatv.pro/west-ham-united-vs-arsenal-phao-1778283144847-240-2453986"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-d1c8b1da9ee7",
-                                                    "name": "FLV2",
-                                                    "type": "flv",
-                                                    "default": false,
-                                                    "url": "",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://phantatv.pro/west-ham-united-vs-arsenal-phao-1778283144847-240-2453986"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                }
-                                            ]
-                                        }
-                                    ]
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "id": "ch-westhamunitedvsarsenalmap17782831448474732453987",
-                    "name": "West Ham United vs Arsenal",
-                    "labels": [
-                        {
-                            "position": "top-left",
-                            "text": "Fulltime",
-                            "color": "#9E9E9E",
-                            "text_color": "#FFFFFF",
-                            "font_size": 6
-                        }
-                    ],
-                    "image": {
-                        "url": "https://res.cloudinary.com/dxfplnfuo/image/upload/v1778348541/phantatv/img-westhamunitedvsarsenalmap17782831448474732453987.png",
-                        "height": 480,
-                        "width": 640,
-                        "display": "cover"
-                    },
-                    "type": "single",
-                    "display": "overlay",
-                    "sources": [
-                        {
-                            "id": "src-7ea9adc5c81e",
-                            "name": "West Ham United - Arsenal",
-                            "contents": [
-                                {
-                                    "id": "ct-a2b9a721132d",
-                                    "name": "Trung Lập",
-                                    "streams": [
-                                        {
-                                            "id": "st-33b93b36e7ea",
-                                            "name": "Stream",
-                                            "stream_links": [
-                                                {
-                                                    "id": "lnk-6ede0df06a98",
-                                                    "name": "Nhà đài SD",
-                                                    "type": "hls",
-                                                    "default": true,
-                                                    "url": "",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://phantatv.pro/west-ham-united-vs-arsenal-map-1778283144847-473-2453987"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-96dca36f5c65",
-                                                    "name": "Nhà đài HD",
-                                                    "type": "hls",
-                                                    "default": false,
-                                                    "url": "",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://phantatv.pro/west-ham-united-vs-arsenal-map-1778283144847-473-2453987"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-96b8653cc135",
-                                                    "name": "SD",
-                                                    "type": "hls",
-                                                    "default": false,
-                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-a-map/index.m3u8",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://phantatv.pro/west-ham-united-vs-arsenal-map-1778283144847-473-2453987"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-01ec0075cac8",
-                                                    "name": "HD",
-                                                    "type": "hls",
-                                                    "default": false,
-                                                    "url": "",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://phantatv.pro/west-ham-united-vs-arsenal-map-1778283144847-473-2453987"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-f6c66b792cfe",
-                                                    "name": "FullHD",
-                                                    "type": "hls",
-                                                    "default": false,
-                                                    "url": "",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://phantatv.pro/west-ham-united-vs-arsenal-map-1778283144847-473-2453987"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-37f917b9111b",
-                                                    "name": "FLV",
-                                                    "type": "flv",
-                                                    "default": false,
-                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-a-map.flv",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://phantatv.pro/west-ham-united-vs-arsenal-map-1778283144847-473-2453987"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-6fe3c399fc0c",
-                                                    "name": "FLV2",
-                                                    "type": "flv",
-                                                    "default": false,
-                                                    "url": "",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://phantatv.pro/west-ham-united-vs-arsenal-map-1778283144847-473-2453987"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                }
-                                            ]
-                                        }
-                                    ]
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "id": "ch-parmavsasroma2452161",
-                    "name": "Parma vs AS Roma",
-                    "labels": [
-                        {
-                            "position": "top-left",
-                            "text": "● Live",
-                            "color": "#FF0000",
-                            "text_color": "#FFFFFF",
-                            "font_size": 6
-                        }
-                    ],
-                    "image": {
-                        "url": "https://res.cloudinary.com/dxfplnfuo/image/upload/v1778348541/phantatv/img-parmavsasroma2452161.png",
-                        "height": 480,
-                        "width": 640,
-                        "display": "cover"
-                    },
-                    "type": "single",
-                    "display": "overlay",
-                    "sources": [
-                        {
-                            "id": "src-f85c98beff6e",
-                            "name": "Parma - AS Roma",
-                            "contents": [
-                                {
-                                    "id": "ct-93c0a56d03ef",
-                                    "name": "Italian Serie A",
-                                    "streams": [
-                                        {
-                                            "id": "st-6582ca23aae6",
-                                            "name": "Stream",
-                                            "stream_links": [
-                                                {
-                                                    "id": "lnk-43964e5786f4",
-                                                    "name": "Nhà đài SD",
-                                                    "type": "hls",
-                                                    "default": true,
-                                                    "url": "https://dlqcalr.alilicloud.com/live/300227633bee73928fafefb0a8764665/playlist.m3u8",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://phantatv.pro/parma-vs-as-roma-2452161"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-c297c6f2a3f4",
-                                                    "name": "Nhà đài HD",
-                                                    "type": "hls",
-                                                    "default": false,
-                                                    "url": "https://dlqcalr.alilicloud.com/livehd/300227633bee73928fafefb0a8764665/playlist.m3u8",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://phantatv.pro/parma-vs-as-roma-2452161"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-3b99fb4b0006",
-                                                    "name": "SD",
-                                                    "type": "hls",
-                                                    "default": false,
-                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-dylan/index.m3u8",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://phantatv.pro/parma-vs-as-roma-2452161"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-dad1e1f7bac9",
-                                                    "name": "HD",
-                                                    "type": "hls",
-                                                    "default": false,
-                                                    "url": "",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://phantatv.pro/parma-vs-as-roma-2452161"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-f7110111eedc",
-                                                    "name": "FullHD",
-                                                    "type": "hls",
-                                                    "default": false,
-                                                    "url": "",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://phantatv.pro/parma-vs-as-roma-2452161"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-7ce61813e274",
-                                                    "name": "FLV",
-                                                    "type": "flv",
-                                                    "default": false,
-                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-dylan.flv",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://phantatv.pro/parma-vs-as-roma-2452161"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-7a82de1f595d",
-                                                    "name": "FLV2",
-                                                    "type": "flv",
-                                                    "default": false,
-                                                    "url": "",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://phantatv.pro/parma-vs-as-roma-2452161"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                }
-                                            ]
-                                        }
-                                    ]
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
                     "id": "ch-vietnamu17vssouthkoreau1717782831448472812453988",
                     "name": "Vietnam U17 vs South Korea U17",
                     "labels": [
                         {
                             "position": "top-left",
-                            "text": "● Live",
-                            "color": "#FF0000",
+                            "text": "Fulltime",
+                            "color": "#9E9E9E",
                             "text_color": "#FFFFFF",
                             "font_size": 6
                         }
@@ -850,19 +50,19 @@
                     "display": "overlay",
                     "sources": [
                         {
-                            "id": "src-b79fec8d1506",
+                            "id": "src-1d37ada45dd0",
                             "name": "Vietnam U17 - South Korea U17",
                             "contents": [
                                 {
-                                    "id": "ct-a0d5210f3152",
+                                    "id": "ct-3ff2ddacf033",
                                     "name": "AFC U17 Asian Cup",
                                     "streams": [
                                         {
-                                            "id": "st-54db497b0a4d",
+                                            "id": "st-4d79d7898457",
                                             "name": "Stream",
                                             "stream_links": [
                                                 {
-                                                    "id": "lnk-bc567bcf2644",
+                                                    "id": "lnk-becc9ed18af8",
                                                     "name": "Nhà đài SD",
                                                     "type": "hls",
                                                     "default": true,
@@ -879,7 +79,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-9515a062478f",
+                                                    "id": "lnk-5b7386b26dae",
                                                     "name": "Nhà đài HD",
                                                     "type": "hls",
                                                     "default": false,
@@ -896,7 +96,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-0ec2fca83f97",
+                                                    "id": "lnk-595bb32c6520",
                                                     "name": "SD",
                                                     "type": "hls",
                                                     "default": false,
@@ -913,7 +113,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-803efc90ed7b",
+                                                    "id": "lnk-8745adc26b38",
                                                     "name": "HD",
                                                     "type": "hls",
                                                     "default": false,
@@ -930,7 +130,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-3e1e9522d377",
+                                                    "id": "lnk-3b1022c48a1d",
                                                     "name": "FullHD",
                                                     "type": "hls",
                                                     "default": false,
@@ -947,7 +147,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-4d86bb191578",
+                                                    "id": "lnk-6f568df165fb",
                                                     "name": "FLV",
                                                     "type": "flv",
                                                     "default": false,
@@ -964,7 +164,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-6eb782aefd80",
+                                                    "id": "lnk-c0d86d93de59",
                                                     "name": "FLV2",
                                                     "type": "flv",
                                                     "default": false,
@@ -1010,23 +210,23 @@
                     "display": "overlay",
                     "sources": [
                         {
-                            "id": "src-3c631d5386f4",
+                            "id": "src-106c6711a1a8",
                             "name": "1. FSV Mainz 05 - 1. FC Union Berlin",
                             "contents": [
                                 {
-                                    "id": "ct-c3631844345e",
+                                    "id": "ct-8df878b73618",
                                     "name": "Bundesliga",
                                     "streams": [
                                         {
-                                            "id": "st-50b7af209b9d",
+                                            "id": "st-2c3e50103232",
                                             "name": "Stream",
                                             "stream_links": [
                                                 {
-                                                    "id": "lnk-9d0fa81b3cc4",
+                                                    "id": "lnk-6c720fd57201",
                                                     "name": "Nhà đài SD",
                                                     "type": "hls",
                                                     "default": true,
-                                                    "url": "",
+                                                    "url": "https://dlqcalr.alilicloud.com/live/b51ed3e6da0d83915170416a8c06c573/playlist.m3u8",
                                                     "request_headers": [
                                                         {
                                                             "key": "Referer",
@@ -1039,11 +239,11 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-97c7de6d1b11",
+                                                    "id": "lnk-6383bc59deb1",
                                                     "name": "Nhà đài HD",
                                                     "type": "hls",
                                                     "default": false,
-                                                    "url": "",
+                                                    "url": "https://dlqcalr.alilicloud.com/livehd/b51ed3e6da0d83915170416a8c06c573/playlist.m3u8",
                                                     "request_headers": [
                                                         {
                                                             "key": "Referer",
@@ -1056,7 +256,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-24d30fb1756f",
+                                                    "id": "lnk-6a4b7945c8aa",
                                                     "name": "SD",
                                                     "type": "hls",
                                                     "default": false,
@@ -1073,7 +273,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-95c18132e476",
+                                                    "id": "lnk-3aa9da1f7aac",
                                                     "name": "HD",
                                                     "type": "hls",
                                                     "default": false,
@@ -1090,7 +290,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-4b195bbb02d7",
+                                                    "id": "lnk-bee8561d4195",
                                                     "name": "FullHD",
                                                     "type": "hls",
                                                     "default": false,
@@ -1107,7 +307,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-917b7104caf5",
+                                                    "id": "lnk-ac34ea42752e",
                                                     "name": "FLV",
                                                     "type": "flv",
                                                     "default": false,
@@ -1124,7 +324,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-3be1a4114bec",
+                                                    "id": "lnk-ec22b9342a09",
                                                     "name": "FLV2",
                                                     "type": "flv",
                                                     "default": false,
@@ -1170,19 +370,19 @@
                     "display": "overlay",
                     "sources": [
                         {
-                            "id": "src-ae306ce6af67",
+                            "id": "src-5ef59330925a",
                             "name": "AC Milan - Atalanta",
                             "contents": [
                                 {
-                                    "id": "ct-5f18c9941d02",
+                                    "id": "ct-6d5988822b9b",
                                     "name": "Italian Serie A",
                                     "streams": [
                                         {
-                                            "id": "st-a5918acf2510",
+                                            "id": "st-f8e5d6e1991e",
                                             "name": "Stream",
                                             "stream_links": [
                                                 {
-                                                    "id": "lnk-fd266e585468",
+                                                    "id": "lnk-2c04f7c517f3",
                                                     "name": "Nhà đài SD",
                                                     "type": "hls",
                                                     "default": true,
@@ -1199,7 +399,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-5b83160bbea7",
+                                                    "id": "lnk-3b334b6d5f82",
                                                     "name": "Nhà đài HD",
                                                     "type": "hls",
                                                     "default": false,
@@ -1216,7 +416,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-c13ad510a2ce",
+                                                    "id": "lnk-affd919ca953",
                                                     "name": "SD",
                                                     "type": "hls",
                                                     "default": false,
@@ -1233,7 +433,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-583bd777d01a",
+                                                    "id": "lnk-4f6647599fa6",
                                                     "name": "HD",
                                                     "type": "hls",
                                                     "default": false,
@@ -1250,7 +450,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-ec094af8eafd",
+                                                    "id": "lnk-f2349c19f436",
                                                     "name": "FullHD",
                                                     "type": "hls",
                                                     "default": false,
@@ -1267,7 +467,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-20f5a596d82b",
+                                                    "id": "lnk-067e6a46e4d7",
                                                     "name": "FLV",
                                                     "type": "flv",
                                                     "default": false,
@@ -1284,7 +484,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-af9176661ea7",
+                                                    "id": "lnk-b0ceef03ef1c",
                                                     "name": "FLV2",
                                                     "type": "flv",
                                                     "default": false,
@@ -1330,19 +530,19 @@
                     "display": "overlay",
                     "sources": [
                         {
-                            "id": "src-64095705c1c1",
+                            "id": "src-ff79fcf9540d",
                             "name": "FC Barcelona - Real Madrid",
                             "contents": [
                                 {
-                                    "id": "ct-c27e574a9d2f",
+                                    "id": "ct-ff15db557170",
                                     "name": "Trung Lập",
                                     "streams": [
                                         {
-                                            "id": "st-d565906c6b30",
+                                            "id": "st-c5b1a0708b73",
                                             "name": "Stream",
                                             "stream_links": [
                                                 {
-                                                    "id": "lnk-f77e3780f705",
+                                                    "id": "lnk-d39b1b96837f",
                                                     "name": "Nhà đài SD",
                                                     "type": "hls",
                                                     "default": true,
@@ -1359,7 +559,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-1316548e827b",
+                                                    "id": "lnk-5055f346c66c",
                                                     "name": "Nhà đài HD",
                                                     "type": "hls",
                                                     "default": false,
@@ -1376,7 +576,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-ba0c298e9695",
+                                                    "id": "lnk-05b0278b67ef",
                                                     "name": "SD",
                                                     "type": "hls",
                                                     "default": false,
@@ -1393,7 +593,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-253e407ecb6a",
+                                                    "id": "lnk-9d119e65d0a4",
                                                     "name": "HD",
                                                     "type": "hls",
                                                     "default": false,
@@ -1410,7 +610,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-478567436a18",
+                                                    "id": "lnk-26c91eee1771",
                                                     "name": "FullHD",
                                                     "type": "hls",
                                                     "default": false,
@@ -1427,7 +627,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-50131d86dbd4",
+                                                    "id": "lnk-2a876e73f71a",
                                                     "name": "FLV",
                                                     "type": "flv",
                                                     "default": false,
@@ -1444,7 +644,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-b1f16270fcb9",
+                                                    "id": "lnk-4853c6ad2669",
                                                     "name": "FLV2",
                                                     "type": "flv",
                                                     "default": false,
@@ -1490,19 +690,19 @@
                     "display": "overlay",
                     "sources": [
                         {
-                            "id": "src-36f2cc12fbf8",
+                            "id": "src-751ac3f24cc2",
                             "name": "FC Barcelona - Real Madrid",
                             "contents": [
                                 {
-                                    "id": "ct-699f68c02648",
+                                    "id": "ct-83e08d2775f4",
                                     "name": "Off Fan Barcelona",
                                     "streams": [
                                         {
-                                            "id": "st-03c35f8cb3bd",
+                                            "id": "st-1dcc26434ed3",
                                             "name": "Stream",
                                             "stream_links": [
                                                 {
-                                                    "id": "lnk-5547f8865a85",
+                                                    "id": "lnk-bbb396b6b012",
                                                     "name": "Nhà đài SD",
                                                     "type": "hls",
                                                     "default": true,
@@ -1519,7 +719,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-16dbbc2310de",
+                                                    "id": "lnk-d736e3e96f3b",
                                                     "name": "Nhà đài HD",
                                                     "type": "hls",
                                                     "default": false,
@@ -1536,7 +736,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-f4e05be5438e",
+                                                    "id": "lnk-6e950bc710ff",
                                                     "name": "SD",
                                                     "type": "hls",
                                                     "default": false,
@@ -1553,7 +753,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-867404365f6d",
+                                                    "id": "lnk-0b2997f80bd0",
                                                     "name": "HD",
                                                     "type": "hls",
                                                     "default": false,
@@ -1570,7 +770,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-0970c180f15f",
+                                                    "id": "lnk-fdc040bcfafc",
                                                     "name": "FullHD",
                                                     "type": "hls",
                                                     "default": false,
@@ -1587,7 +787,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-aaf045aa35c3",
+                                                    "id": "lnk-aaab2555b25c",
                                                     "name": "FLV",
                                                     "type": "flv",
                                                     "default": false,
@@ -1604,7 +804,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-6aeeaf538336",
+                                                    "id": "lnk-ca3fa720fe3d",
                                                     "name": "FLV2",
                                                     "type": "flv",
                                                     "default": false,
@@ -1650,19 +850,19 @@
                     "display": "overlay",
                     "sources": [
                         {
-                            "id": "src-889268900a6f",
+                            "id": "src-2dbc1eb92128",
                             "name": "FC Barcelona - Real Madrid",
                             "contents": [
                                 {
-                                    "id": "ct-2dbd9d0e139b",
+                                    "id": "ct-76ea83a66352",
                                     "name": "Luồng Doanh Nhân",
                                     "streams": [
                                         {
-                                            "id": "st-9875c9d6a394",
+                                            "id": "st-5271e0cdb25c",
                                             "name": "Stream",
                                             "stream_links": [
                                                 {
-                                                    "id": "lnk-0d6cf95222cd",
+                                                    "id": "lnk-e77f6b296898",
                                                     "name": "Nhà đài SD",
                                                     "type": "hls",
                                                     "default": true,
@@ -1679,7 +879,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-411a82faaee5",
+                                                    "id": "lnk-c940f4741697",
                                                     "name": "Nhà đài HD",
                                                     "type": "hls",
                                                     "default": false,
@@ -1696,7 +896,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-aa8e829b0445",
+                                                    "id": "lnk-895fa76f7d4d",
                                                     "name": "SD",
                                                     "type": "hls",
                                                     "default": false,
@@ -1713,7 +913,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-a23ad83c3778",
+                                                    "id": "lnk-5ea53e087453",
                                                     "name": "HD",
                                                     "type": "hls",
                                                     "default": false,
@@ -1730,7 +930,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-cc1830f1a805",
+                                                    "id": "lnk-c061ab7b6aae",
                                                     "name": "FullHD",
                                                     "type": "hls",
                                                     "default": false,
@@ -1747,7 +947,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-359d356f0e08",
+                                                    "id": "lnk-5cf02e6f279b",
                                                     "name": "FLV",
                                                     "type": "flv",
                                                     "default": false,
@@ -1764,7 +964,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-33866433c89f",
+                                                    "id": "lnk-9c98d161b113",
                                                     "name": "FLV2",
                                                     "type": "flv",
                                                     "default": false,
@@ -1810,19 +1010,19 @@
                     "display": "overlay",
                     "sources": [
                         {
-                            "id": "src-8394f90a75f0",
+                            "id": "src-ea53a28ecf5c",
                             "name": "FC Barcelona - Real Madrid",
                             "contents": [
                                 {
-                                    "id": "ct-9dc304099dc6",
+                                    "id": "ct-0dc1f327149b",
                                     "name": "Trung Lập",
                                     "streams": [
                                         {
-                                            "id": "st-ed1873f1d10a",
+                                            "id": "st-b96271826930",
                                             "name": "Stream",
                                             "stream_links": [
                                                 {
-                                                    "id": "lnk-380e3f047cc3",
+                                                    "id": "lnk-8c29c7c620be",
                                                     "name": "Nhà đài SD",
                                                     "type": "hls",
                                                     "default": true,
@@ -1839,7 +1039,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-e2e1f0b4e519",
+                                                    "id": "lnk-e014550f8075",
                                                     "name": "Nhà đài HD",
                                                     "type": "hls",
                                                     "default": false,
@@ -1856,7 +1056,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-edbcee6ee37d",
+                                                    "id": "lnk-fa90baf66fac",
                                                     "name": "SD",
                                                     "type": "hls",
                                                     "default": false,
@@ -1873,7 +1073,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-b59066ed5bc2",
+                                                    "id": "lnk-f6d295ff11e1",
                                                     "name": "HD",
                                                     "type": "hls",
                                                     "default": false,
@@ -1890,7 +1090,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-af43285f1b2e",
+                                                    "id": "lnk-9885167c2bbf",
                                                     "name": "FullHD",
                                                     "type": "hls",
                                                     "default": false,
@@ -1907,7 +1107,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-b1abc22600d2",
+                                                    "id": "lnk-3a33ea69d051",
                                                     "name": "FLV",
                                                     "type": "flv",
                                                     "default": false,
@@ -1924,7 +1124,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-412aedd4e4a5",
+                                                    "id": "lnk-dfceb1cd4943",
                                                     "name": "FLV2",
                                                     "type": "flv",
                                                     "default": false,
@@ -1970,19 +1170,19 @@
                     "display": "overlay",
                     "sources": [
                         {
-                            "id": "src-15a1ae19b5ec",
+                            "id": "src-942e2a7348cb",
                             "name": "Paris Saint Germain - Stade Brestois 29",
                             "contents": [
                                 {
-                                    "id": "ct-2b999e6b3740",
+                                    "id": "ct-7d2ac608a812",
                                     "name": "French Ligue 1",
                                     "streams": [
                                         {
-                                            "id": "st-9f6a2c865429",
+                                            "id": "st-3d5e3497c2d9",
                                             "name": "Stream",
                                             "stream_links": [
                                                 {
-                                                    "id": "lnk-f82fbf2d46a0",
+                                                    "id": "lnk-98759b54cab5",
                                                     "name": "Nhà đài SD",
                                                     "type": "hls",
                                                     "default": true,
@@ -1999,7 +1199,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-91dc590c2a1d",
+                                                    "id": "lnk-c5ede02684c1",
                                                     "name": "Nhà đài HD",
                                                     "type": "hls",
                                                     "default": false,
@@ -2016,7 +1216,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-14539260e30f",
+                                                    "id": "lnk-206b112fe33c",
                                                     "name": "SD",
                                                     "type": "hls",
                                                     "default": false,
@@ -2033,7 +1233,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-61b0b7204f07",
+                                                    "id": "lnk-78e0594ba849",
                                                     "name": "HD",
                                                     "type": "hls",
                                                     "default": false,
@@ -2050,7 +1250,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-cc4227103118",
+                                                    "id": "lnk-4b0e80f540bf",
                                                     "name": "FullHD",
                                                     "type": "hls",
                                                     "default": false,
@@ -2067,7 +1267,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-74d71b624532",
+                                                    "id": "lnk-4b9b48e73db0",
                                                     "name": "FLV",
                                                     "type": "flv",
                                                     "default": false,
@@ -2084,7 +1284,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-5544ea4b40c5",
+                                                    "id": "lnk-4bf7daee5643",
                                                     "name": "FLV2",
                                                     "type": "flv",
                                                     "default": false,
@@ -2130,19 +1330,19 @@
                     "display": "overlay",
                     "sources": [
                         {
-                            "id": "src-03b4b3fbb1d4",
+                            "id": "src-2d4a608654d6",
                             "name": "Santos Fc - SP - Red Bull Bragantino",
                             "contents": [
                                 {
-                                    "id": "ct-f3d5430b58af",
+                                    "id": "ct-a859385168d8",
                                     "name": "Brazilian Serie A",
                                     "streams": [
                                         {
-                                            "id": "st-b41d72d65917",
+                                            "id": "st-4080f98bfb99",
                                             "name": "Stream",
                                             "stream_links": [
                                                 {
-                                                    "id": "lnk-161a10c79ec1",
+                                                    "id": "lnk-b048775482e8",
                                                     "name": "Nhà đài SD",
                                                     "type": "hls",
                                                     "default": true,
@@ -2159,7 +1359,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-f37cad035b34",
+                                                    "id": "lnk-3270c97fb70c",
                                                     "name": "Nhà đài HD",
                                                     "type": "hls",
                                                     "default": false,
@@ -2176,7 +1376,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-d66f4996ee1e",
+                                                    "id": "lnk-e6e994fb374e",
                                                     "name": "SD",
                                                     "type": "hls",
                                                     "default": false,
@@ -2193,7 +1393,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-420811aa7560",
+                                                    "id": "lnk-8860416d82e8",
                                                     "name": "HD",
                                                     "type": "hls",
                                                     "default": false,
@@ -2210,7 +1410,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-cd0a24d75ff6",
+                                                    "id": "lnk-27ca1a209425",
                                                     "name": "FullHD",
                                                     "type": "hls",
                                                     "default": false,
@@ -2227,7 +1427,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-b851920e78f6",
+                                                    "id": "lnk-d08de8a148cf",
                                                     "name": "FLV",
                                                     "type": "flv",
                                                     "default": false,
@@ -2244,7 +1444,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-23586100db2f",
+                                                    "id": "lnk-920a3b386d98",
                                                     "name": "FLV2",
                                                     "type": "flv",
                                                     "default": false,
@@ -2290,19 +1490,19 @@
                     "display": "overlay",
                     "sources": [
                         {
-                            "id": "src-3443deedd0a8",
+                            "id": "src-a8f93b7549c1",
                             "name": "Los Angeles FC - Houston Dynamo",
                             "contents": [
                                 {
-                                    "id": "ct-8fe4523279c8",
+                                    "id": "ct-139e4fd62a09",
                                     "name": "United States Major League Soccer",
                                     "streams": [
                                         {
-                                            "id": "st-d8e0e703db81",
+                                            "id": "st-7d1e73c2866f",
                                             "name": "Stream",
                                             "stream_links": [
                                                 {
-                                                    "id": "lnk-ec8d2022910e",
+                                                    "id": "lnk-7bf3c60ec29c",
                                                     "name": "Nhà đài SD",
                                                     "type": "hls",
                                                     "default": true,
@@ -2319,7 +1519,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-4a245882b38d",
+                                                    "id": "lnk-452142630844",
                                                     "name": "Nhà đài HD",
                                                     "type": "hls",
                                                     "default": false,
@@ -2336,7 +1536,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-e57fd4aa65de",
+                                                    "id": "lnk-bb69b0e70465",
                                                     "name": "SD",
                                                     "type": "hls",
                                                     "default": false,
@@ -2353,7 +1553,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-175bc4e91d9e",
+                                                    "id": "lnk-3970530a0843",
                                                     "name": "HD",
                                                     "type": "hls",
                                                     "default": false,
@@ -2370,7 +1570,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-f02dc53326c6",
+                                                    "id": "lnk-98e25ea9e682",
                                                     "name": "FullHD",
                                                     "type": "hls",
                                                     "default": false,
@@ -2387,7 +1587,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-cf443269d7cc",
+                                                    "id": "lnk-cbf426ed287c",
                                                     "name": "FLV",
                                                     "type": "flv",
                                                     "default": false,
@@ -2404,7 +1604,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-a7d89ceead1c",
+                                                    "id": "lnk-93e68dff44c5",
                                                     "name": "FLV2",
                                                     "type": "flv",
                                                     "default": false,
@@ -2450,19 +1650,19 @@
                     "display": "overlay",
                     "sources": [
                         {
-                            "id": "src-d6d8f47bb3bb",
+                            "id": "src-983bf939abc8",
                             "name": "Vietnam U17 Women - Australia Women U17",
                             "contents": [
                                 {
-                                    "id": "ct-3dc21dc7b8e3",
+                                    "id": "ct-9134a29b309b",
                                     "name": "AFC U17 Women's Asian Cup",
                                     "streams": [
                                         {
-                                            "id": "st-bc47e1b60fdd",
+                                            "id": "st-965f2e89bfe4",
                                             "name": "Stream",
                                             "stream_links": [
                                                 {
-                                                    "id": "lnk-3252c825816e",
+                                                    "id": "lnk-99316d4f00cf",
                                                     "name": "Nhà đài SD",
                                                     "type": "hls",
                                                     "default": true,
@@ -2479,7 +1679,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-e4685a7b64ba",
+                                                    "id": "lnk-8f83c3a1fe85",
                                                     "name": "Nhà đài HD",
                                                     "type": "hls",
                                                     "default": false,
@@ -2496,7 +1696,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-db2d9a077f24",
+                                                    "id": "lnk-84bfe3fc4707",
                                                     "name": "SD",
                                                     "type": "hls",
                                                     "default": false,
@@ -2513,7 +1713,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-d9142b96564d",
+                                                    "id": "lnk-7577cb82d5c0",
                                                     "name": "HD",
                                                     "type": "hls",
                                                     "default": false,
@@ -2530,7 +1730,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-46dabc329da0",
+                                                    "id": "lnk-a07173e44c36",
                                                     "name": "FullHD",
                                                     "type": "hls",
                                                     "default": false,
@@ -2547,7 +1747,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-a4ef61ba6c67",
+                                                    "id": "lnk-fd0c0894ce9c",
                                                     "name": "FLV",
                                                     "type": "flv",
                                                     "default": false,
@@ -2564,7 +1764,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-76d2e0f12134",
+                                                    "id": "lnk-09fd0a4ad631",
                                                     "name": "FLV2",
                                                     "type": "flv",
                                                     "default": false,
@@ -2610,19 +1810,19 @@
                     "display": "overlay",
                     "sources": [
                         {
-                            "id": "src-36035acb016a",
+                            "id": "src-c4b6b43b4e12",
                             "name": "Akron Togliatti - FK Rostov",
                             "contents": [
                                 {
-                                    "id": "ct-dd3c0b8e3b45",
+                                    "id": "ct-f698093a56c3",
                                     "name": "Russian Premier League",
                                     "streams": [
                                         {
-                                            "id": "st-2b1583339c73",
+                                            "id": "st-01a52fdf6a8b",
                                             "name": "Stream",
                                             "stream_links": [
                                                 {
-                                                    "id": "lnk-e09729bd2b4a",
+                                                    "id": "lnk-327485de2333",
                                                     "name": "Nhà đài SD",
                                                     "type": "hls",
                                                     "default": true,
@@ -2639,7 +1839,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-b471d2f67822",
+                                                    "id": "lnk-5a309e239330",
                                                     "name": "Nhà đài HD",
                                                     "type": "hls",
                                                     "default": false,
@@ -2656,7 +1856,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-8578e0043d08",
+                                                    "id": "lnk-04f47edb584c",
                                                     "name": "SD",
                                                     "type": "hls",
                                                     "default": false,
@@ -2673,7 +1873,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-0cbb940ac59c",
+                                                    "id": "lnk-2c61cbe6e7a7",
                                                     "name": "HD",
                                                     "type": "hls",
                                                     "default": false,
@@ -2690,7 +1890,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-a52bbf18621e",
+                                                    "id": "lnk-c30a092ca3ec",
                                                     "name": "FullHD",
                                                     "type": "hls",
                                                     "default": false,
@@ -2707,7 +1907,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-ab069956deb8",
+                                                    "id": "lnk-94a6a7245462",
                                                     "name": "FLV",
                                                     "type": "flv",
                                                     "default": false,
@@ -2724,7 +1924,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-1e903217ec88",
+                                                    "id": "lnk-e0d62b2b37b0",
                                                     "name": "FLV2",
                                                     "type": "flv",
                                                     "default": false,
@@ -2770,19 +1970,19 @@
                     "display": "overlay",
                     "sources": [
                         {
-                            "id": "src-e84a65ada9a9",
+                            "id": "src-ad53c978615c",
                             "name": "North Korea U17 Women - Thailand U17 Women",
                             "contents": [
                                 {
-                                    "id": "ct-b8ceb8c57558",
+                                    "id": "ct-8df177a1e4a2",
                                     "name": "AFC U17 Women's Asian Cup",
                                     "streams": [
                                         {
-                                            "id": "st-ccd0fc33e6c8",
+                                            "id": "st-805417592aec",
                                             "name": "Stream",
                                             "stream_links": [
                                                 {
-                                                    "id": "lnk-fbc02ab9c451",
+                                                    "id": "lnk-b4098b8a7a3d",
                                                     "name": "Nhà đài SD",
                                                     "type": "hls",
                                                     "default": true,
@@ -2799,7 +1999,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-43ea632206c7",
+                                                    "id": "lnk-f3286a983148",
                                                     "name": "Nhà đài HD",
                                                     "type": "hls",
                                                     "default": false,
@@ -2816,7 +2016,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-c4132200f30b",
+                                                    "id": "lnk-0ea14f9bc1d2",
                                                     "name": "SD",
                                                     "type": "hls",
                                                     "default": false,
@@ -2833,7 +2033,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-bd5b035999f3",
+                                                    "id": "lnk-68af1956eaa2",
                                                     "name": "HD",
                                                     "type": "hls",
                                                     "default": false,
@@ -2850,7 +2050,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-6a5a7b918a9a",
+                                                    "id": "lnk-e61ee5eca4a1",
                                                     "name": "FullHD",
                                                     "type": "hls",
                                                     "default": false,
@@ -2867,7 +2067,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-c9082010f0a8",
+                                                    "id": "lnk-44d263a91605",
                                                     "name": "FLV",
                                                     "type": "flv",
                                                     "default": false,
@@ -2884,7 +2084,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-10e8b37c8cf9",
+                                                    "id": "lnk-9737bcf4befc",
                                                     "name": "FLV2",
                                                     "type": "flv",
                                                     "default": false,
@@ -2930,19 +2130,19 @@
                     "display": "overlay",
                     "sources": [
                         {
-                            "id": "src-21b2c5c796f3",
+                            "id": "src-f30455e352dd",
                             "name": "Bali United - Borneo FC",
                             "contents": [
                                 {
-                                    "id": "ct-5abaf6d646f0",
+                                    "id": "ct-9aeb985b3983",
                                     "name": "Indonesian Super League",
                                     "streams": [
                                         {
-                                            "id": "st-d845d143d51e",
+                                            "id": "st-c7a3c670ffa8",
                                             "name": "Stream",
                                             "stream_links": [
                                                 {
-                                                    "id": "lnk-52df17aef468",
+                                                    "id": "lnk-336f7c08eaa3",
                                                     "name": "Nhà đài SD",
                                                     "type": "hls",
                                                     "default": true,
@@ -2959,7 +2159,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-7d5873622db0",
+                                                    "id": "lnk-24a8973aa54f",
                                                     "name": "Nhà đài HD",
                                                     "type": "hls",
                                                     "default": false,
@@ -2976,7 +2176,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-0d465c64d583",
+                                                    "id": "lnk-ee13cc6302f6",
                                                     "name": "SD",
                                                     "type": "hls",
                                                     "default": false,
@@ -2993,7 +2193,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-3af715938e04",
+                                                    "id": "lnk-b2c332073da1",
                                                     "name": "HD",
                                                     "type": "hls",
                                                     "default": false,
@@ -3010,7 +2210,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-eb91c6e2bc2e",
+                                                    "id": "lnk-011dd14c3deb",
                                                     "name": "FullHD",
                                                     "type": "hls",
                                                     "default": false,
@@ -3027,7 +2227,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-4bf5be0559cc",
+                                                    "id": "lnk-b97b2618b961",
                                                     "name": "FLV",
                                                     "type": "flv",
                                                     "default": false,
@@ -3044,7 +2244,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-21796a476273",
+                                                    "id": "lnk-b5199c805aa9",
                                                     "name": "FLV2",
                                                     "type": "flv",
                                                     "default": false,
@@ -3090,19 +2290,19 @@
                     "display": "overlay",
                     "sources": [
                         {
-                            "id": "src-a76242f5a0c8",
+                            "id": "src-8136d445ba92",
                             "name": "Aizawl FC - Real Kashmir",
                             "contents": [
                                 {
-                                    "id": "ct-11ac62873bea",
+                                    "id": "ct-caef727e9d5f",
                                     "name": "Indian League Division 1",
                                     "streams": [
                                         {
-                                            "id": "st-3127f6900fae",
+                                            "id": "st-70c5ed0a5b50",
                                             "name": "Stream",
                                             "stream_links": [
                                                 {
-                                                    "id": "lnk-0e99baa4fca3",
+                                                    "id": "lnk-4b0a16ee64b8",
                                                     "name": "Nhà đài SD",
                                                     "type": "hls",
                                                     "default": true,
@@ -3119,7 +2319,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-a229031bcccc",
+                                                    "id": "lnk-e3a053052e7b",
                                                     "name": "Nhà đài HD",
                                                     "type": "hls",
                                                     "default": false,
@@ -3136,7 +2336,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-59f61951f04a",
+                                                    "id": "lnk-2da33ae365e5",
                                                     "name": "SD",
                                                     "type": "hls",
                                                     "default": false,
@@ -3153,7 +2353,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-19d4b2a71ca3",
+                                                    "id": "lnk-ccb6481cb951",
                                                     "name": "HD",
                                                     "type": "hls",
                                                     "default": false,
@@ -3170,7 +2370,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-08520dd38c50",
+                                                    "id": "lnk-f283e736d64a",
                                                     "name": "FullHD",
                                                     "type": "hls",
                                                     "default": false,
@@ -3187,7 +2387,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-7490f0f78dbd",
+                                                    "id": "lnk-42ddb15f63a2",
                                                     "name": "FLV",
                                                     "type": "flv",
                                                     "default": false,
@@ -3204,7 +2404,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-38febfa1623b",
+                                                    "id": "lnk-dc6adef229e7",
                                                     "name": "FLV2",
                                                     "type": "flv",
                                                     "default": false,
@@ -3250,19 +2450,19 @@
                     "display": "overlay",
                     "sources": [
                         {
-                            "id": "src-aaee5a9eae3e",
+                            "id": "src-2fcf59e6efe2",
                             "name": "Spartak Moscow - Rubin Kazan",
                             "contents": [
                                 {
-                                    "id": "ct-d334a7ff89c5",
+                                    "id": "ct-c9ad21240a78",
                                     "name": "Russian Premier League",
                                     "streams": [
                                         {
-                                            "id": "st-ebb5ae6c591c",
+                                            "id": "st-e60e34313784",
                                             "name": "Stream",
                                             "stream_links": [
                                                 {
-                                                    "id": "lnk-408c5f3f0bc0",
+                                                    "id": "lnk-b1a2af4b2ddd",
                                                     "name": "Nhà đài SD",
                                                     "type": "hls",
                                                     "default": true,
@@ -3279,7 +2479,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-b9ee0ad5021f",
+                                                    "id": "lnk-3e270c84e3a5",
                                                     "name": "Nhà đài HD",
                                                     "type": "hls",
                                                     "default": false,
@@ -3296,7 +2496,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-a096cfffca8a",
+                                                    "id": "lnk-32cbdff746a4",
                                                     "name": "SD",
                                                     "type": "hls",
                                                     "default": false,
@@ -3313,7 +2513,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-cf570f2ab429",
+                                                    "id": "lnk-e0080bb54b56",
                                                     "name": "HD",
                                                     "type": "hls",
                                                     "default": false,
@@ -3330,7 +2530,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-39e2ab5c7a81",
+                                                    "id": "lnk-0b07c9438a4b",
                                                     "name": "FullHD",
                                                     "type": "hls",
                                                     "default": false,
@@ -3347,7 +2547,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-21ef704acbfd",
+                                                    "id": "lnk-b4f91e2e946f",
                                                     "name": "FLV",
                                                     "type": "flv",
                                                     "default": false,
@@ -3364,7 +2564,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-766fac40c94b",
+                                                    "id": "lnk-a1bef87cf198",
                                                     "name": "FLV2",
                                                     "type": "flv",
                                                     "default": false,
@@ -3410,19 +2610,19 @@
                     "display": "overlay",
                     "sources": [
                         {
-                            "id": "src-262343b470ba",
+                            "id": "src-b565d7894a7f",
                             "name": "NEOM Sports Club - Al Shabab FC",
                             "contents": [
                                 {
-                                    "id": "ct-06f29a116b8d",
+                                    "id": "ct-1a5c42bfb583",
                                     "name": "Saudi Professional League",
                                     "streams": [
                                         {
-                                            "id": "st-0931b23f9b2c",
+                                            "id": "st-51fd7b337ecb",
                                             "name": "Stream",
                                             "stream_links": [
                                                 {
-                                                    "id": "lnk-5c3e18fbde9e",
+                                                    "id": "lnk-ff1eba5abe92",
                                                     "name": "Nhà đài SD",
                                                     "type": "hls",
                                                     "default": true,
@@ -3439,7 +2639,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-1020b29e5a59",
+                                                    "id": "lnk-9d02cdbad0b6",
                                                     "name": "Nhà đài HD",
                                                     "type": "hls",
                                                     "default": false,
@@ -3456,7 +2656,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-64f22948be7a",
+                                                    "id": "lnk-147e4d605eee",
                                                     "name": "SD",
                                                     "type": "hls",
                                                     "default": false,
@@ -3473,7 +2673,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-fbadaada00de",
+                                                    "id": "lnk-1674aa50a92d",
                                                     "name": "HD",
                                                     "type": "hls",
                                                     "default": false,
@@ -3490,7 +2690,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-13b73ce337b3",
+                                                    "id": "lnk-b562f0a3c628",
                                                     "name": "FullHD",
                                                     "type": "hls",
                                                     "default": false,
@@ -3507,7 +2707,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-f963c2cfd5a4",
+                                                    "id": "lnk-cc10e43e4fbb",
                                                     "name": "FLV",
                                                     "type": "flv",
                                                     "default": false,
@@ -3524,7 +2724,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-4497c2425324",
+                                                    "id": "lnk-a7f2d0864de4",
                                                     "name": "FLV2",
                                                     "type": "flv",
                                                     "default": false,
