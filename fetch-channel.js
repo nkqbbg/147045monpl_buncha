@@ -29,6 +29,14 @@ function matchText(el, $) {
   return $(el).text().replace(/\s+/g, " ").trim();
 }
 
+function normalizeText(s) {
+  return String(s || "")
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/[đĐ]/g, "d")
+    .toLowerCase();
+}
+
 function findFirstTextMatch(texts, re) {
   for (const t of texts) {
     if (re.test(t)) return t;
@@ -53,9 +61,28 @@ async function scrapeSoccer() {
 
     const $ = cheerio.load(response.data);
 
-    const matchEls = $(
-      ".match-hot-card-container .match-item[data-type='soccer']",
-    ).toArray();
+    const hotSectionEl = $(".match-hot-section-container")
+      .toArray()
+      .find((section) => {
+        const title = matchText($(section).find(".section-title").first(), $);
+        const normalized = normalizeText(title);
+        return normalized.includes("tran hot");
+      });
+
+    if (!hotSectionEl) {
+      console.log(
+        "⚠️ Could not find 'Các Trận Hot' section; falling back to all cards.",
+      );
+    }
+
+    const matchEls = hotSectionEl
+      ? $(hotSectionEl)
+          .find(".match-hot-card-container .match-item[data-type='soccer']")
+          .toArray()
+      : $(
+          ".match-hot-card-container .match-item[data-type='soccer']",
+        ).toArray();
+
     console.log(`✅ Found ${matchEls.length} HOT match cards`);
 
     const matches = [];
@@ -462,7 +489,7 @@ async function main() {
     if (!templateData.groups) templateData.groups = [{}];
     templateData.groups[0].channels = channels;
 
-    const outputPath = path.join(__dirname, "matches_streams.json");
+    const outputPath = path.join(__dirname, "matches-streams.json");
     fs.writeFileSync(outputPath, JSON.stringify(templateData, null, 4));
 
     console.log(`\n🎉 Success! File generated: ${outputPath}`);
