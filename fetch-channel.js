@@ -291,7 +291,7 @@ async function main() {
     let idx = 0;
     const existResults = Array(itemsWithIds.length);
     const { v2: cloudinary } = require("cloudinary");
-    const cloudinaryFolder = process.env.CLOUDINARY_FOLDER || "matches";
+    const cloudinaryFolder = process.env.CLOUDINARY_FOLDER || "phantatv";
 
     async function existWorker() {
       while (idx < itemsWithIds.length) {
