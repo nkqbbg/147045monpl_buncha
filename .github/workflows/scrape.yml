@@ -24,7 +24,7 @@ jobs:
         run: |
           HOUR=$(TZ='Asia/Ho_Chi_Minh' date +%H)
 
-          if [ "$HOUR" -ge 2 ] && [ "$HOUR" -lt 15 ]; then
+          if [ "$HOUR" -ge 2 ] && [ "$HOUR" -lt 13 ]; then
             echo "skip=true" >> $GITHUB_OUTPUT
           else
             echo "skip=false" >> $GITHUB_OUTPUT
