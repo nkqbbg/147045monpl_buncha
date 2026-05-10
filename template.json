@@ -1,12 +1,12 @@
 {
-  "id": "hoadao",
+  "id": "phantatv",
   "url": "https://tt.8share.pro/buncha",
-  "name": "Hoa Đào TV",
+  "name": "Phan Ta TV",
   "color": "#e86281",
   "grid_number": 3,
   "image": {
     "type": "cover",
-    "url": "https://raw.githubusercontent.com/nkqbbg/20251_CNWeb_User_Management/7c0829f097849f9cfc54b5f6f37e2dbddda468c6/hoadaologo.jpg"
+    "url": "https://phantatv.pro/assets/image/favicon2/apple-touch-icon.png"
   },
   "description": "Hoa Đào TV - Trang web phát sóng bóng đá trực tuyến miễn phí hàng đầu tại Việt Nam, mang đến trải nghiệm chất lượng cao với bình luận tiếng Việt sống động.",
   "share": {
