@@ -3,6 +3,8 @@ const { Worker, isMainThread, parentPort } = require("worker_threads");
 const { v2: cloudinary } = require("cloudinary");
 const streamifier = require("streamifier");
 
+const CLOUDINARY_FOLDER = process.env.CLOUDINARY_FOLDER || "matches";
+
 // ===== CONFIG =====
 cloudinary.config({
   cloud_name: "dxfplnfuo",
@@ -29,7 +31,7 @@ function uploadImage(buffer, publicId) {
   return new Promise((resolve, reject) => {
     const stream = cloudinary.uploader.upload_stream(
       {
-        folder: "phantatv",
+        folder: CLOUDINARY_FOLDER,
         public_id: publicId,
         overwrite: true,
       },
@@ -175,7 +177,13 @@ async function uploadMultiThread(tasks, options = {}) {
       const myIdx = idx++;
       const t = tasks[myIdx];
       try {
-        const res = await cloudinary.api.resource("matches/" + t.publicId);
+        const res = await cloudinary.api.resource(
+          `${CLOUDINARY_FOLDER}/${t.publicId}`,
+          {
+            resource_type: "image",
+            type: "upload",
+          },
+        );
         existResults[myIdx] = {
           exists: true,
           url: res.secure_url,
@@ -233,7 +241,7 @@ async function uploadMultiThread(tasks, options = {}) {
 }
 // ===== DELETE OLD IMAGES =====
 async function deleteOldImages(validIds = [], options = {}) {
-  const folder = options.folder || "matches";
+  const folder = options.folder || CLOUDINARY_FOLDER;
   const batchSize = options.batchSize || 100;
 
   if (!Array.isArray(validIds)) {

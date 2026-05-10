@@ -291,13 +291,20 @@ async function main() {
     let idx = 0;
     const existResults = Array(itemsWithIds.length);
     const { v2: cloudinary } = require("cloudinary");
+    const cloudinaryFolder = process.env.CLOUDINARY_FOLDER || "matches";
 
     async function existWorker() {
       while (idx < itemsWithIds.length) {
         const myIdx = idx++;
         const t = itemsWithIds[myIdx];
         try {
-          const res = await cloudinary.api.resource("matches/" + t.publicId);
+          const res = await cloudinary.api.resource(
+            `${cloudinaryFolder}/${t.publicId}`,
+            {
+              resource_type: "image",
+              type: "upload",
+            },
+          );
           existResults[myIdx] = {
             exists: true,
             url: res.secure_url,
@@ -489,7 +496,7 @@ async function main() {
     if (!templateData.groups) templateData.groups = [{}];
     templateData.groups[0].channels = channels;
 
-    const outputPath = path.join(__dirname, "matches-streams.json");
+    const outputPath = path.join(__dirname, "matches_streams.json");
     fs.writeFileSync(outputPath, JSON.stringify(templateData, null, 4));
 
     console.log(`\n🎉 Success! File generated: ${outputPath}`);
