@@ -29,1613 +29,13 @@
             "enable_detail": true,
             "channels": [
                 {
-                    "id": "ch-vietnamu17vssouthkoreau1717782831448472812453988",
-                    "name": "Vietnam U17 vs South Korea U17",
-                    "labels": [
-                        {
-                            "position": "top-left",
-                            "text": "Fulltime",
-                            "color": "#9E9E9E",
-                            "text_color": "#FFFFFF",
-                            "font_size": 6
-                        }
-                    ],
-                    "image": {
-                        "url": "https://res.cloudinary.com/dxfplnfuo/image/upload/v1778348541/phantatv/img-vietnamu17vssouthkoreau1717782831448472812453988.png",
-                        "height": 480,
-                        "width": 640,
-                        "display": "cover"
-                    },
-                    "type": "single",
-                    "display": "overlay",
-                    "sources": [
-                        {
-                            "id": "src-1d37ada45dd0",
-                            "name": "Vietnam U17 - South Korea U17",
-                            "contents": [
-                                {
-                                    "id": "ct-3ff2ddacf033",
-                                    "name": "AFC U17 Asian Cup",
-                                    "streams": [
-                                        {
-                                            "id": "st-4d79d7898457",
-                                            "name": "Stream",
-                                            "stream_links": [
-                                                {
-                                                    "id": "lnk-becc9ed18af8",
-                                                    "name": "Nhà đài SD",
-                                                    "type": "hls",
-                                                    "default": true,
-                                                    "url": "",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://phantatv.pro/vietnam-u17-vs-south-korea-u17-1778283144847-281-2453988"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-5b7386b26dae",
-                                                    "name": "Nhà đài HD",
-                                                    "type": "hls",
-                                                    "default": false,
-                                                    "url": "",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://phantatv.pro/vietnam-u17-vs-south-korea-u17-1778283144847-281-2453988"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-595bb32c6520",
-                                                    "name": "SD",
-                                                    "type": "hls",
-                                                    "default": false,
-                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-chao-quay/index.m3u8",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://phantatv.pro/vietnam-u17-vs-south-korea-u17-1778283144847-281-2453988"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-8745adc26b38",
-                                                    "name": "HD",
-                                                    "type": "hls",
-                                                    "default": false,
-                                                    "url": "",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://phantatv.pro/vietnam-u17-vs-south-korea-u17-1778283144847-281-2453988"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-3b1022c48a1d",
-                                                    "name": "FullHD",
-                                                    "type": "hls",
-                                                    "default": false,
-                                                    "url": "",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://phantatv.pro/vietnam-u17-vs-south-korea-u17-1778283144847-281-2453988"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-6f568df165fb",
-                                                    "name": "FLV",
-                                                    "type": "flv",
-                                                    "default": false,
-                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-chao-quay.flv",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://phantatv.pro/vietnam-u17-vs-south-korea-u17-1778283144847-281-2453988"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-c0d86d93de59",
-                                                    "name": "FLV2",
-                                                    "type": "flv",
-                                                    "default": false,
-                                                    "url": "",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://phantatv.pro/vietnam-u17-vs-south-korea-u17-1778283144847-281-2453988"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                }
-                                            ]
-                                        }
-                                    ]
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "id": "ch-1fsvmainz05vs1fcunionberlin2452244",
-                    "name": "1. FSV Mainz 05 vs 1. FC Union Berlin",
-                    "labels": [
-                        {
-                            "position": "top-left",
-                            "text": "● Live",
-                            "color": "#FF0000",
-                            "text_color": "#FFFFFF",
-                            "font_size": 6
-                        }
-                    ],
-                    "image": {
-                        "url": "https://res.cloudinary.com/dxfplnfuo/image/upload/v1778386163/phantatv/img-1fsvmainz05vs1fcunionberlin2452244.png",
-                        "height": 480,
-                        "width": 640,
-                        "display": "cover"
-                    },
-                    "type": "single",
-                    "display": "overlay",
-                    "sources": [
-                        {
-                            "id": "src-106c6711a1a8",
-                            "name": "1. FSV Mainz 05 - 1. FC Union Berlin",
-                            "contents": [
-                                {
-                                    "id": "ct-8df878b73618",
-                                    "name": "Bundesliga",
-                                    "streams": [
-                                        {
-                                            "id": "st-2c3e50103232",
-                                            "name": "Stream",
-                                            "stream_links": [
-                                                {
-                                                    "id": "lnk-6c720fd57201",
-                                                    "name": "Nhà đài SD",
-                                                    "type": "hls",
-                                                    "default": true,
-                                                    "url": "https://dlqcalr.alilicloud.com/live/b51ed3e6da0d83915170416a8c06c573/playlist.m3u8",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://phantatv.pro/1-fsv-mainz-05-vs-1-fc-union-berlin-2452244"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-6383bc59deb1",
-                                                    "name": "Nhà đài HD",
-                                                    "type": "hls",
-                                                    "default": false,
-                                                    "url": "https://dlqcalr.alilicloud.com/livehd/b51ed3e6da0d83915170416a8c06c573/playlist.m3u8",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://phantatv.pro/1-fsv-mainz-05-vs-1-fc-union-berlin-2452244"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-6a4b7945c8aa",
-                                                    "name": "SD",
-                                                    "type": "hls",
-                                                    "default": false,
-                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-meo-beo/index.m3u8",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://phantatv.pro/1-fsv-mainz-05-vs-1-fc-union-berlin-2452244"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-3aa9da1f7aac",
-                                                    "name": "HD",
-                                                    "type": "hls",
-                                                    "default": false,
-                                                    "url": "",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://phantatv.pro/1-fsv-mainz-05-vs-1-fc-union-berlin-2452244"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-bee8561d4195",
-                                                    "name": "FullHD",
-                                                    "type": "hls",
-                                                    "default": false,
-                                                    "url": "",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://phantatv.pro/1-fsv-mainz-05-vs-1-fc-union-berlin-2452244"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-ac34ea42752e",
-                                                    "name": "FLV",
-                                                    "type": "flv",
-                                                    "default": false,
-                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-meo-beo.flv",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://phantatv.pro/1-fsv-mainz-05-vs-1-fc-union-berlin-2452244"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-ec22b9342a09",
-                                                    "name": "FLV2",
-                                                    "type": "flv",
-                                                    "default": false,
-                                                    "url": "",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://phantatv.pro/1-fsv-mainz-05-vs-1-fc-union-berlin-2452244"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                }
-                                            ]
-                                        }
-                                    ]
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "id": "ch-acmilanvsatalanta2452263",
-                    "name": "AC Milan vs Atalanta",
-                    "labels": [
-                        {
-                            "position": "top-left",
-                            "text": "Upcoming",
-                            "color": "#FF9800",
-                            "text_color": "#FFFFFF",
-                            "font_size": 6
-                        }
-                    ],
-                    "image": {
-                        "url": "https://res.cloudinary.com/dxfplnfuo/image/upload/v1778386164/phantatv/img-acmilanvsatalanta2452263.png",
-                        "height": 480,
-                        "width": 640,
-                        "display": "cover"
-                    },
-                    "type": "single",
-                    "display": "overlay",
-                    "sources": [
-                        {
-                            "id": "src-5ef59330925a",
-                            "name": "AC Milan - Atalanta",
-                            "contents": [
-                                {
-                                    "id": "ct-6d5988822b9b",
-                                    "name": "Italian Serie A",
-                                    "streams": [
-                                        {
-                                            "id": "st-f8e5d6e1991e",
-                                            "name": "Stream",
-                                            "stream_links": [
-                                                {
-                                                    "id": "lnk-2c04f7c517f3",
-                                                    "name": "Nhà đài SD",
-                                                    "type": "hls",
-                                                    "default": true,
-                                                    "url": "https://dlqcalr.alilicloud.com/live/f9acb26173c5dca63bdd8d951fd6ab63/playlist.m3u8",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://phantatv.pro/ac-milan-vs-atalanta-2452263"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-3b334b6d5f82",
-                                                    "name": "Nhà đài HD",
-                                                    "type": "hls",
-                                                    "default": false,
-                                                    "url": "https://dlqcalr.alilicloud.com/livehd/f9acb26173c5dca63bdd8d951fd6ab63/playlist.m3u8",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://phantatv.pro/ac-milan-vs-atalanta-2452263"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-affd919ca953",
-                                                    "name": "SD",
-                                                    "type": "hls",
-                                                    "default": false,
-                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-phao/index.m3u8",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://phantatv.pro/ac-milan-vs-atalanta-2452263"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-4f6647599fa6",
-                                                    "name": "HD",
-                                                    "type": "hls",
-                                                    "default": false,
-                                                    "url": "",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://phantatv.pro/ac-milan-vs-atalanta-2452263"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-f2349c19f436",
-                                                    "name": "FullHD",
-                                                    "type": "hls",
-                                                    "default": false,
-                                                    "url": "",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://phantatv.pro/ac-milan-vs-atalanta-2452263"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-067e6a46e4d7",
-                                                    "name": "FLV",
-                                                    "type": "flv",
-                                                    "default": false,
-                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-phao.flv",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://phantatv.pro/ac-milan-vs-atalanta-2452263"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-b0ceef03ef1c",
-                                                    "name": "FLV2",
-                                                    "type": "flv",
-                                                    "default": false,
-                                                    "url": "",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://phantatv.pro/ac-milan-vs-atalanta-2452263"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                }
-                                            ]
-                                        }
-                                    ]
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "id": "ch-fcbarcelonavsrealmadridmap1778381744308112455588",
-                    "name": "FC Barcelona vs Real Madrid",
-                    "labels": [
-                        {
-                            "position": "top-left",
-                            "text": "Upcoming",
-                            "color": "#FF9800",
-                            "text_color": "#FFFFFF",
-                            "font_size": 6
-                        }
-                    ],
-                    "image": {
-                        "url": "https://res.cloudinary.com/dxfplnfuo/image/upload/v1778386164/phantatv/img-fcbarcelonavsrealmadridmap1778381744308112455588.png",
-                        "height": 480,
-                        "width": 640,
-                        "display": "cover"
-                    },
-                    "type": "single",
-                    "display": "overlay",
-                    "sources": [
-                        {
-                            "id": "src-ff79fcf9540d",
-                            "name": "FC Barcelona - Real Madrid",
-                            "contents": [
-                                {
-                                    "id": "ct-ff15db557170",
-                                    "name": "Trung Lập",
-                                    "streams": [
-                                        {
-                                            "id": "st-c5b1a0708b73",
-                                            "name": "Stream",
-                                            "stream_links": [
-                                                {
-                                                    "id": "lnk-d39b1b96837f",
-                                                    "name": "Nhà đài SD",
-                                                    "type": "hls",
-                                                    "default": true,
-                                                    "url": "",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://phantatv.pro/fc-barcelona-vs-real-madrid-map-1778381744308-11-2455588"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-5055f346c66c",
-                                                    "name": "Nhà đài HD",
-                                                    "type": "hls",
-                                                    "default": false,
-                                                    "url": "",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://phantatv.pro/fc-barcelona-vs-real-madrid-map-1778381744308-11-2455588"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-05b0278b67ef",
-                                                    "name": "SD",
-                                                    "type": "hls",
-                                                    "default": false,
-                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-a-map/index.m3u8",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://phantatv.pro/fc-barcelona-vs-real-madrid-map-1778381744308-11-2455588"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-9d119e65d0a4",
-                                                    "name": "HD",
-                                                    "type": "hls",
-                                                    "default": false,
-                                                    "url": "",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://phantatv.pro/fc-barcelona-vs-real-madrid-map-1778381744308-11-2455588"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-26c91eee1771",
-                                                    "name": "FullHD",
-                                                    "type": "hls",
-                                                    "default": false,
-                                                    "url": "",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://phantatv.pro/fc-barcelona-vs-real-madrid-map-1778381744308-11-2455588"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-2a876e73f71a",
-                                                    "name": "FLV",
-                                                    "type": "flv",
-                                                    "default": false,
-                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-a-map.flv",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://phantatv.pro/fc-barcelona-vs-real-madrid-map-1778381744308-11-2455588"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-4853c6ad2669",
-                                                    "name": "FLV2",
-                                                    "type": "flv",
-                                                    "default": false,
-                                                    "url": "",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://phantatv.pro/fc-barcelona-vs-real-madrid-map-1778381744308-11-2455588"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                }
-                                            ]
-                                        }
-                                    ]
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "id": "ch-fcbarcelonavsrealmadridchimnho17783817443082202455589",
-                    "name": "FC Barcelona vs Real Madrid",
-                    "labels": [
-                        {
-                            "position": "top-left",
-                            "text": "Upcoming",
-                            "color": "#FF9800",
-                            "text_color": "#FFFFFF",
-                            "font_size": 6
-                        }
-                    ],
-                    "image": {
-                        "url": "https://res.cloudinary.com/dxfplnfuo/image/upload/v1778386166/phantatv/img-fcbarcelonavsrealmadridchimnho17783817443082202455589.png",
-                        "height": 480,
-                        "width": 640,
-                        "display": "cover"
-                    },
-                    "type": "single",
-                    "display": "overlay",
-                    "sources": [
-                        {
-                            "id": "src-751ac3f24cc2",
-                            "name": "FC Barcelona - Real Madrid",
-                            "contents": [
-                                {
-                                    "id": "ct-83e08d2775f4",
-                                    "name": "Off Fan Barcelona",
-                                    "streams": [
-                                        {
-                                            "id": "st-1dcc26434ed3",
-                                            "name": "Stream",
-                                            "stream_links": [
-                                                {
-                                                    "id": "lnk-bbb396b6b012",
-                                                    "name": "Nhà đài SD",
-                                                    "type": "hls",
-                                                    "default": true,
-                                                    "url": "",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://phantatv.pro/fc-barcelona-vs-real-madrid-chimnho-1778381744308-220-2455589"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-d736e3e96f3b",
-                                                    "name": "Nhà đài HD",
-                                                    "type": "hls",
-                                                    "default": false,
-                                                    "url": "",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://phantatv.pro/fc-barcelona-vs-real-madrid-chimnho-1778381744308-220-2455589"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-6e950bc710ff",
-                                                    "name": "SD",
-                                                    "type": "hls",
-                                                    "default": false,
-                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-chim-nho/index.m3u8",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://phantatv.pro/fc-barcelona-vs-real-madrid-chimnho-1778381744308-220-2455589"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-0b2997f80bd0",
-                                                    "name": "HD",
-                                                    "type": "hls",
-                                                    "default": false,
-                                                    "url": "",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://phantatv.pro/fc-barcelona-vs-real-madrid-chimnho-1778381744308-220-2455589"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-fdc040bcfafc",
-                                                    "name": "FullHD",
-                                                    "type": "hls",
-                                                    "default": false,
-                                                    "url": "",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://phantatv.pro/fc-barcelona-vs-real-madrid-chimnho-1778381744308-220-2455589"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-aaab2555b25c",
-                                                    "name": "FLV",
-                                                    "type": "flv",
-                                                    "default": false,
-                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-chim-nho.flv",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://phantatv.pro/fc-barcelona-vs-real-madrid-chimnho-1778381744308-220-2455589"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-ca3fa720fe3d",
-                                                    "name": "FLV2",
-                                                    "type": "flv",
-                                                    "default": false,
-                                                    "url": "",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://phantatv.pro/fc-barcelona-vs-real-madrid-chimnho-1778381744308-220-2455589"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                }
-                                            ]
-                                        }
-                                    ]
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "id": "ch-fcbarcelonavsrealmadridfanta17783817443083992455590",
-                    "name": "FC Barcelona vs Real Madrid",
-                    "labels": [
-                        {
-                            "position": "top-left",
-                            "text": "Upcoming",
-                            "color": "#FF9800",
-                            "text_color": "#FFFFFF",
-                            "font_size": 6
-                        }
-                    ],
-                    "image": {
-                        "url": "https://res.cloudinary.com/dxfplnfuo/image/upload/v1778386165/phantatv/img-fcbarcelonavsrealmadridfanta17783817443083992455590.png",
-                        "height": 480,
-                        "width": 640,
-                        "display": "cover"
-                    },
-                    "type": "single",
-                    "display": "overlay",
-                    "sources": [
-                        {
-                            "id": "src-2dbc1eb92128",
-                            "name": "FC Barcelona - Real Madrid",
-                            "contents": [
-                                {
-                                    "id": "ct-76ea83a66352",
-                                    "name": "Luồng Doanh Nhân",
-                                    "streams": [
-                                        {
-                                            "id": "st-5271e0cdb25c",
-                                            "name": "Stream",
-                                            "stream_links": [
-                                                {
-                                                    "id": "lnk-e77f6b296898",
-                                                    "name": "Nhà đài SD",
-                                                    "type": "hls",
-                                                    "default": true,
-                                                    "url": "",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://phantatv.pro/fc-barcelona-vs-real-madrid-fanta-1778381744308-399-2455590"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-c940f4741697",
-                                                    "name": "Nhà đài HD",
-                                                    "type": "hls",
-                                                    "default": false,
-                                                    "url": "",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://phantatv.pro/fc-barcelona-vs-real-madrid-fanta-1778381744308-399-2455590"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-895fa76f7d4d",
-                                                    "name": "SD",
-                                                    "type": "hls",
-                                                    "default": false,
-                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-fanta/index.m3u8",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://phantatv.pro/fc-barcelona-vs-real-madrid-fanta-1778381744308-399-2455590"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-5ea53e087453",
-                                                    "name": "HD",
-                                                    "type": "hls",
-                                                    "default": false,
-                                                    "url": "",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://phantatv.pro/fc-barcelona-vs-real-madrid-fanta-1778381744308-399-2455590"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-c061ab7b6aae",
-                                                    "name": "FullHD",
-                                                    "type": "hls",
-                                                    "default": false,
-                                                    "url": "",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://phantatv.pro/fc-barcelona-vs-real-madrid-fanta-1778381744308-399-2455590"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-5cf02e6f279b",
-                                                    "name": "FLV",
-                                                    "type": "flv",
-                                                    "default": false,
-                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-fanta.flv",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://phantatv.pro/fc-barcelona-vs-real-madrid-fanta-1778381744308-399-2455590"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-9c98d161b113",
-                                                    "name": "FLV2",
-                                                    "type": "flv",
-                                                    "default": false,
-                                                    "url": "",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://phantatv.pro/fc-barcelona-vs-real-madrid-fanta-1778381744308-399-2455590"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                }
-                                            ]
-                                        }
-                                    ]
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "id": "ch-fcbarcelonavsrealmadridquay17783817443082572455591",
-                    "name": "FC Barcelona vs Real Madrid",
-                    "labels": [
-                        {
-                            "position": "top-left",
-                            "text": "Upcoming",
-                            "color": "#FF9800",
-                            "text_color": "#FFFFFF",
-                            "font_size": 6
-                        }
-                    ],
-                    "image": {
-                        "url": "https://res.cloudinary.com/dxfplnfuo/image/upload/v1778386165/phantatv/img-fcbarcelonavsrealmadridquay17783817443082572455591.png",
-                        "height": 480,
-                        "width": 640,
-                        "display": "cover"
-                    },
-                    "type": "single",
-                    "display": "overlay",
-                    "sources": [
-                        {
-                            "id": "src-ea53a28ecf5c",
-                            "name": "FC Barcelona - Real Madrid",
-                            "contents": [
-                                {
-                                    "id": "ct-0dc1f327149b",
-                                    "name": "Trung Lập",
-                                    "streams": [
-                                        {
-                                            "id": "st-b96271826930",
-                                            "name": "Stream",
-                                            "stream_links": [
-                                                {
-                                                    "id": "lnk-8c29c7c620be",
-                                                    "name": "Nhà đài SD",
-                                                    "type": "hls",
-                                                    "default": true,
-                                                    "url": "",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://phantatv.pro/fc-barcelona-vs-real-madrid-quay-1778381744308-257-2455591"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-e014550f8075",
-                                                    "name": "Nhà đài HD",
-                                                    "type": "hls",
-                                                    "default": false,
-                                                    "url": "",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://phantatv.pro/fc-barcelona-vs-real-madrid-quay-1778381744308-257-2455591"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-fa90baf66fac",
-                                                    "name": "SD",
-                                                    "type": "hls",
-                                                    "default": false,
-                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-chao-quay/index.m3u8",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://phantatv.pro/fc-barcelona-vs-real-madrid-quay-1778381744308-257-2455591"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-f6d295ff11e1",
-                                                    "name": "HD",
-                                                    "type": "hls",
-                                                    "default": false,
-                                                    "url": "",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://phantatv.pro/fc-barcelona-vs-real-madrid-quay-1778381744308-257-2455591"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-9885167c2bbf",
-                                                    "name": "FullHD",
-                                                    "type": "hls",
-                                                    "default": false,
-                                                    "url": "",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://phantatv.pro/fc-barcelona-vs-real-madrid-quay-1778381744308-257-2455591"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-3a33ea69d051",
-                                                    "name": "FLV",
-                                                    "type": "flv",
-                                                    "default": false,
-                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-chao-quay.flv",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://phantatv.pro/fc-barcelona-vs-real-madrid-quay-1778381744308-257-2455591"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-dfceb1cd4943",
-                                                    "name": "FLV2",
-                                                    "type": "flv",
-                                                    "default": false,
-                                                    "url": "",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://phantatv.pro/fc-barcelona-vs-real-madrid-quay-1778381744308-257-2455591"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                }
-                                            ]
-                                        }
-                                    ]
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "id": "ch-parissaintgermainvsstadebrestois292452291",
-                    "name": "Paris Saint Germain vs Stade Brestois 29",
-                    "labels": [
-                        {
-                            "position": "top-left",
-                            "text": "Upcoming",
-                            "color": "#FF9800",
-                            "text_color": "#FFFFFF",
-                            "font_size": 6
-                        }
-                    ],
-                    "image": {
-                        "url": "https://res.cloudinary.com/dxfplnfuo/image/upload/v1778386166/phantatv/img-parissaintgermainvsstadebrestois292452291.png",
-                        "height": 480,
-                        "width": 640,
-                        "display": "cover"
-                    },
-                    "type": "single",
-                    "display": "overlay",
-                    "sources": [
-                        {
-                            "id": "src-942e2a7348cb",
-                            "name": "Paris Saint Germain - Stade Brestois 29",
-                            "contents": [
-                                {
-                                    "id": "ct-7d2ac608a812",
-                                    "name": "French Ligue 1",
-                                    "streams": [
-                                        {
-                                            "id": "st-3d5e3497c2d9",
-                                            "name": "Stream",
-                                            "stream_links": [
-                                                {
-                                                    "id": "lnk-98759b54cab5",
-                                                    "name": "Nhà đài SD",
-                                                    "type": "hls",
-                                                    "default": true,
-                                                    "url": "https://dlqcalr.alilicloud.com/live/4bb9bfa847f660a035f0a036efee5a5b/playlist.m3u8",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://phantatv.pro/paris-saint-germain-vs-stade-brestois-29-2452291"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-c5ede02684c1",
-                                                    "name": "Nhà đài HD",
-                                                    "type": "hls",
-                                                    "default": false,
-                                                    "url": "https://dlqcalr.alilicloud.com/livehd/4bb9bfa847f660a035f0a036efee5a5b/playlist.m3u8",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://phantatv.pro/paris-saint-germain-vs-stade-brestois-29-2452291"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-206b112fe33c",
-                                                    "name": "SD",
-                                                    "type": "hls",
-                                                    "default": false,
-                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-dylan/index.m3u8",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://phantatv.pro/paris-saint-germain-vs-stade-brestois-29-2452291"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-78e0594ba849",
-                                                    "name": "HD",
-                                                    "type": "hls",
-                                                    "default": false,
-                                                    "url": "",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://phantatv.pro/paris-saint-germain-vs-stade-brestois-29-2452291"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-4b0e80f540bf",
-                                                    "name": "FullHD",
-                                                    "type": "hls",
-                                                    "default": false,
-                                                    "url": "",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://phantatv.pro/paris-saint-germain-vs-stade-brestois-29-2452291"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-4b9b48e73db0",
-                                                    "name": "FLV",
-                                                    "type": "flv",
-                                                    "default": false,
-                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-dylan.flv",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://phantatv.pro/paris-saint-germain-vs-stade-brestois-29-2452291"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-4bf7daee5643",
-                                                    "name": "FLV2",
-                                                    "type": "flv",
-                                                    "default": false,
-                                                    "url": "",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://phantatv.pro/paris-saint-germain-vs-stade-brestois-29-2452291"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                }
-                                            ]
-                                        }
-                                    ]
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "id": "ch-santosfcspvsredbullbragantino2452360",
-                    "name": "Santos Fc - SP vs Red Bull Bragantino",
-                    "labels": [
-                        {
-                            "position": "top-left",
-                            "text": "Upcoming",
-                            "color": "#FF9800",
-                            "text_color": "#FFFFFF",
-                            "font_size": 6
-                        }
-                    ],
-                    "image": {
-                        "url": "https://res.cloudinary.com/dxfplnfuo/image/upload/v1778386166/phantatv/img-santosfcspvsredbullbragantino2452360.png",
-                        "height": 480,
-                        "width": 640,
-                        "display": "cover"
-                    },
-                    "type": "single",
-                    "display": "overlay",
-                    "sources": [
-                        {
-                            "id": "src-2d4a608654d6",
-                            "name": "Santos Fc - SP - Red Bull Bragantino",
-                            "contents": [
-                                {
-                                    "id": "ct-a859385168d8",
-                                    "name": "Brazilian Serie A",
-                                    "streams": [
-                                        {
-                                            "id": "st-4080f98bfb99",
-                                            "name": "Stream",
-                                            "stream_links": [
-                                                {
-                                                    "id": "lnk-b048775482e8",
-                                                    "name": "Nhà đài SD",
-                                                    "type": "hls",
-                                                    "default": true,
-                                                    "url": "",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://phantatv.pro/santos-fc-sp-vs-red-bull-bragantino-2452360"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-3270c97fb70c",
-                                                    "name": "Nhà đài HD",
-                                                    "type": "hls",
-                                                    "default": false,
-                                                    "url": "",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://phantatv.pro/santos-fc-sp-vs-red-bull-bragantino-2452360"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-e6e994fb374e",
-                                                    "name": "SD",
-                                                    "type": "hls",
-                                                    "default": false,
-                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-tao/index.m3u8",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://phantatv.pro/santos-fc-sp-vs-red-bull-bragantino-2452360"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-8860416d82e8",
-                                                    "name": "HD",
-                                                    "type": "hls",
-                                                    "default": false,
-                                                    "url": "",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://phantatv.pro/santos-fc-sp-vs-red-bull-bragantino-2452360"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-27ca1a209425",
-                                                    "name": "FullHD",
-                                                    "type": "hls",
-                                                    "default": false,
-                                                    "url": "",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://phantatv.pro/santos-fc-sp-vs-red-bull-bragantino-2452360"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-d08de8a148cf",
-                                                    "name": "FLV",
-                                                    "type": "flv",
-                                                    "default": false,
-                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-tao.flv",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://phantatv.pro/santos-fc-sp-vs-red-bull-bragantino-2452360"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-920a3b386d98",
-                                                    "name": "FLV2",
-                                                    "type": "flv",
-                                                    "default": false,
-                                                    "url": "",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://phantatv.pro/santos-fc-sp-vs-red-bull-bragantino-2452360"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                }
-                                            ]
-                                        }
-                                    ]
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "id": "ch-losangelesfcvshoustondynamo2452388",
-                    "name": "Los Angeles FC vs Houston Dynamo",
-                    "labels": [
-                        {
-                            "position": "top-left",
-                            "text": "Upcoming",
-                            "color": "#FF9800",
-                            "text_color": "#FFFFFF",
-                            "font_size": 6
-                        }
-                    ],
-                    "image": {
-                        "url": "https://res.cloudinary.com/dxfplnfuo/image/upload/v1778386166/phantatv/img-losangelesfcvshoustondynamo2452388.png",
-                        "height": 480,
-                        "width": 640,
-                        "display": "cover"
-                    },
-                    "type": "single",
-                    "display": "overlay",
-                    "sources": [
-                        {
-                            "id": "src-a8f93b7549c1",
-                            "name": "Los Angeles FC - Houston Dynamo",
-                            "contents": [
-                                {
-                                    "id": "ct-139e4fd62a09",
-                                    "name": "United States Major League Soccer",
-                                    "streams": [
-                                        {
-                                            "id": "st-7d1e73c2866f",
-                                            "name": "Stream",
-                                            "stream_links": [
-                                                {
-                                                    "id": "lnk-7bf3c60ec29c",
-                                                    "name": "Nhà đài SD",
-                                                    "type": "hls",
-                                                    "default": true,
-                                                    "url": "",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://phantatv.pro/los-angeles-fc-vs-houston-dynamo-2452388"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-452142630844",
-                                                    "name": "Nhà đài HD",
-                                                    "type": "hls",
-                                                    "default": false,
-                                                    "url": "",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://phantatv.pro/los-angeles-fc-vs-houston-dynamo-2452388"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-bb69b0e70465",
-                                                    "name": "SD",
-                                                    "type": "hls",
-                                                    "default": false,
-                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-van-chuan/index.m3u8",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://phantatv.pro/los-angeles-fc-vs-houston-dynamo-2452388"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-3970530a0843",
-                                                    "name": "HD",
-                                                    "type": "hls",
-                                                    "default": false,
-                                                    "url": "",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://phantatv.pro/los-angeles-fc-vs-houston-dynamo-2452388"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-98e25ea9e682",
-                                                    "name": "FullHD",
-                                                    "type": "hls",
-                                                    "default": false,
-                                                    "url": "",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://phantatv.pro/los-angeles-fc-vs-houston-dynamo-2452388"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-cbf426ed287c",
-                                                    "name": "FLV",
-                                                    "type": "flv",
-                                                    "default": false,
-                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-van-chuan.flv",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://phantatv.pro/los-angeles-fc-vs-houston-dynamo-2452388"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-93e68dff44c5",
-                                                    "name": "FLV2",
-                                                    "type": "flv",
-                                                    "default": false,
-                                                    "url": "",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://phantatv.pro/los-angeles-fc-vs-houston-dynamo-2452388"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                }
-                                            ]
-                                        }
-                                    ]
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
                     "id": "ch-vietnamu17womenvsaustraliawomenu1717783817443083422455593",
                     "name": "Vietnam U17 Women vs Australia Women U17",
                     "labels": [
                         {
                             "position": "top-left",
-                            "text": "Upcoming",
-                            "color": "#FF9800",
+                            "text": "● Live",
+                            "color": "#FF0000",
                             "text_color": "#FFFFFF",
                             "font_size": 6
                         }
@@ -1650,19 +50,19 @@
                     "display": "overlay",
                     "sources": [
                         {
-                            "id": "src-983bf939abc8",
+                            "id": "src-43e2e013159b",
                             "name": "Vietnam U17 Women - Australia Women U17",
                             "contents": [
                                 {
-                                    "id": "ct-9134a29b309b",
+                                    "id": "ct-b8bb7df2fe05",
                                     "name": "AFC U17 Women's Asian Cup",
                                     "streams": [
                                         {
-                                            "id": "st-965f2e89bfe4",
+                                            "id": "st-3fd0ccd7f671",
                                             "name": "Stream",
                                             "stream_links": [
                                                 {
-                                                    "id": "lnk-99316d4f00cf",
+                                                    "id": "lnk-54785bf0ddfd",
                                                     "name": "Nhà đài SD",
                                                     "type": "hls",
                                                     "default": true,
@@ -1679,7 +79,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-8f83c3a1fe85",
+                                                    "id": "lnk-e8ca5165f965",
                                                     "name": "Nhà đài HD",
                                                     "type": "hls",
                                                     "default": false,
@@ -1696,7 +96,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-84bfe3fc4707",
+                                                    "id": "lnk-684e0f596a32",
                                                     "name": "SD",
                                                     "type": "hls",
                                                     "default": false,
@@ -1713,7 +113,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-7577cb82d5c0",
+                                                    "id": "lnk-ba933a13d321",
                                                     "name": "HD",
                                                     "type": "hls",
                                                     "default": false,
@@ -1730,7 +130,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-a07173e44c36",
+                                                    "id": "lnk-d3e508fb5fa3",
                                                     "name": "FullHD",
                                                     "type": "hls",
                                                     "default": false,
@@ -1747,7 +147,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-fd0c0894ce9c",
+                                                    "id": "lnk-156f05b30964",
                                                     "name": "FLV",
                                                     "type": "flv",
                                                     "default": false,
@@ -1764,7 +164,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-09fd0a4ad631",
+                                                    "id": "lnk-a90ec192027b",
                                                     "name": "FLV2",
                                                     "type": "flv",
                                                     "default": false,
@@ -1810,19 +210,19 @@
                     "display": "overlay",
                     "sources": [
                         {
-                            "id": "src-c4b6b43b4e12",
+                            "id": "src-d184bd574281",
                             "name": "Akron Togliatti - FK Rostov",
                             "contents": [
                                 {
-                                    "id": "ct-f698093a56c3",
+                                    "id": "ct-df6b3ed07ae0",
                                     "name": "Russian Premier League",
                                     "streams": [
                                         {
-                                            "id": "st-01a52fdf6a8b",
+                                            "id": "st-a880222732fa",
                                             "name": "Stream",
                                             "stream_links": [
                                                 {
-                                                    "id": "lnk-327485de2333",
+                                                    "id": "lnk-aa7d40d73dc6",
                                                     "name": "Nhà đài SD",
                                                     "type": "hls",
                                                     "default": true,
@@ -1839,7 +239,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-5a309e239330",
+                                                    "id": "lnk-510642e34e9a",
                                                     "name": "Nhà đài HD",
                                                     "type": "hls",
                                                     "default": false,
@@ -1856,7 +256,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-04f47edb584c",
+                                                    "id": "lnk-916d4399b344",
                                                     "name": "SD",
                                                     "type": "hls",
                                                     "default": false,
@@ -1873,7 +273,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-2c61cbe6e7a7",
+                                                    "id": "lnk-776c81913d25",
                                                     "name": "HD",
                                                     "type": "hls",
                                                     "default": false,
@@ -1890,7 +290,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-c30a092ca3ec",
+                                                    "id": "lnk-1231d7d16179",
                                                     "name": "FullHD",
                                                     "type": "hls",
                                                     "default": false,
@@ -1907,7 +307,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-94a6a7245462",
+                                                    "id": "lnk-59f76097a5cc",
                                                     "name": "FLV",
                                                     "type": "flv",
                                                     "default": false,
@@ -1924,7 +324,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-e0d62b2b37b0",
+                                                    "id": "lnk-30ddb182d4af",
                                                     "name": "FLV2",
                                                     "type": "flv",
                                                     "default": false,
@@ -1970,19 +370,19 @@
                     "display": "overlay",
                     "sources": [
                         {
-                            "id": "src-ad53c978615c",
+                            "id": "src-878f0731ef37",
                             "name": "North Korea U17 Women - Thailand U17 Women",
                             "contents": [
                                 {
-                                    "id": "ct-8df177a1e4a2",
+                                    "id": "ct-6a1e9f27901c",
                                     "name": "AFC U17 Women's Asian Cup",
                                     "streams": [
                                         {
-                                            "id": "st-805417592aec",
+                                            "id": "st-9b1493bebb6a",
                                             "name": "Stream",
                                             "stream_links": [
                                                 {
-                                                    "id": "lnk-b4098b8a7a3d",
+                                                    "id": "lnk-f74e61c92ca1",
                                                     "name": "Nhà đài SD",
                                                     "type": "hls",
                                                     "default": true,
@@ -1999,7 +399,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-f3286a983148",
+                                                    "id": "lnk-a24b87b71029",
                                                     "name": "Nhà đài HD",
                                                     "type": "hls",
                                                     "default": false,
@@ -2016,7 +416,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-0ea14f9bc1d2",
+                                                    "id": "lnk-079df037782a",
                                                     "name": "SD",
                                                     "type": "hls",
                                                     "default": false,
@@ -2033,7 +433,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-68af1956eaa2",
+                                                    "id": "lnk-54a5ef106952",
                                                     "name": "HD",
                                                     "type": "hls",
                                                     "default": false,
@@ -2050,7 +450,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-e61ee5eca4a1",
+                                                    "id": "lnk-aebaa5461a5b",
                                                     "name": "FullHD",
                                                     "type": "hls",
                                                     "default": false,
@@ -2067,7 +467,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-44d263a91605",
+                                                    "id": "lnk-0bdc7b02e421",
                                                     "name": "FLV",
                                                     "type": "flv",
                                                     "default": false,
@@ -2084,7 +484,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-9737bcf4befc",
+                                                    "id": "lnk-38953f5524d5",
                                                     "name": "FLV2",
                                                     "type": "flv",
                                                     "default": false,
@@ -2130,19 +530,19 @@
                     "display": "overlay",
                     "sources": [
                         {
-                            "id": "src-f30455e352dd",
+                            "id": "src-370613b599ba",
                             "name": "Bali United - Borneo FC",
                             "contents": [
                                 {
-                                    "id": "ct-9aeb985b3983",
+                                    "id": "ct-1d822d0dfb94",
                                     "name": "Indonesian Super League",
                                     "streams": [
                                         {
-                                            "id": "st-c7a3c670ffa8",
+                                            "id": "st-7b5fe974d7bc",
                                             "name": "Stream",
                                             "stream_links": [
                                                 {
-                                                    "id": "lnk-336f7c08eaa3",
+                                                    "id": "lnk-5187d083ffa1",
                                                     "name": "Nhà đài SD",
                                                     "type": "hls",
                                                     "default": true,
@@ -2159,7 +559,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-24a8973aa54f",
+                                                    "id": "lnk-6d7673ec072a",
                                                     "name": "Nhà đài HD",
                                                     "type": "hls",
                                                     "default": false,
@@ -2176,7 +576,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-ee13cc6302f6",
+                                                    "id": "lnk-73f5e2c6205b",
                                                     "name": "SD",
                                                     "type": "hls",
                                                     "default": false,
@@ -2193,7 +593,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-b2c332073da1",
+                                                    "id": "lnk-8ad91db60801",
                                                     "name": "HD",
                                                     "type": "hls",
                                                     "default": false,
@@ -2210,7 +610,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-011dd14c3deb",
+                                                    "id": "lnk-5b6db87f6d5b",
                                                     "name": "FullHD",
                                                     "type": "hls",
                                                     "default": false,
@@ -2227,7 +627,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-b97b2618b961",
+                                                    "id": "lnk-ef18bc5f2599",
                                                     "name": "FLV",
                                                     "type": "flv",
                                                     "default": false,
@@ -2244,7 +644,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-b5199c805aa9",
+                                                    "id": "lnk-6e7986c7b4b2",
                                                     "name": "FLV2",
                                                     "type": "flv",
                                                     "default": false,
@@ -2290,19 +690,19 @@
                     "display": "overlay",
                     "sources": [
                         {
-                            "id": "src-8136d445ba92",
+                            "id": "src-d7b74d6f9f8c",
                             "name": "Aizawl FC - Real Kashmir",
                             "contents": [
                                 {
-                                    "id": "ct-caef727e9d5f",
+                                    "id": "ct-7c6c24c352dc",
                                     "name": "Indian League Division 1",
                                     "streams": [
                                         {
-                                            "id": "st-70c5ed0a5b50",
+                                            "id": "st-a7cb53c75069",
                                             "name": "Stream",
                                             "stream_links": [
                                                 {
-                                                    "id": "lnk-4b0a16ee64b8",
+                                                    "id": "lnk-fea020b1719f",
                                                     "name": "Nhà đài SD",
                                                     "type": "hls",
                                                     "default": true,
@@ -2319,7 +719,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-e3a053052e7b",
+                                                    "id": "lnk-7e521600a9ee",
                                                     "name": "Nhà đài HD",
                                                     "type": "hls",
                                                     "default": false,
@@ -2336,7 +736,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-2da33ae365e5",
+                                                    "id": "lnk-a506d4f54a45",
                                                     "name": "SD",
                                                     "type": "hls",
                                                     "default": false,
@@ -2353,7 +753,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-ccb6481cb951",
+                                                    "id": "lnk-7d5f881315a3",
                                                     "name": "HD",
                                                     "type": "hls",
                                                     "default": false,
@@ -2370,7 +770,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-f283e736d64a",
+                                                    "id": "lnk-ae404dae4aed",
                                                     "name": "FullHD",
                                                     "type": "hls",
                                                     "default": false,
@@ -2387,7 +787,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-42ddb15f63a2",
+                                                    "id": "lnk-46070fb6a611",
                                                     "name": "FLV",
                                                     "type": "flv",
                                                     "default": false,
@@ -2404,7 +804,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-dc6adef229e7",
+                                                    "id": "lnk-8a8986d9ae72",
                                                     "name": "FLV2",
                                                     "type": "flv",
                                                     "default": false,
@@ -2450,19 +850,19 @@
                     "display": "overlay",
                     "sources": [
                         {
-                            "id": "src-2fcf59e6efe2",
+                            "id": "src-52514cbe6f77",
                             "name": "Spartak Moscow - Rubin Kazan",
                             "contents": [
                                 {
-                                    "id": "ct-c9ad21240a78",
+                                    "id": "ct-a933290b6378",
                                     "name": "Russian Premier League",
                                     "streams": [
                                         {
-                                            "id": "st-e60e34313784",
+                                            "id": "st-d1a7dbe1d51f",
                                             "name": "Stream",
                                             "stream_links": [
                                                 {
-                                                    "id": "lnk-b1a2af4b2ddd",
+                                                    "id": "lnk-ec7c3ceac8c3",
                                                     "name": "Nhà đài SD",
                                                     "type": "hls",
                                                     "default": true,
@@ -2479,7 +879,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-3e270c84e3a5",
+                                                    "id": "lnk-f8a6517feac9",
                                                     "name": "Nhà đài HD",
                                                     "type": "hls",
                                                     "default": false,
@@ -2496,7 +896,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-32cbdff746a4",
+                                                    "id": "lnk-9128095f372a",
                                                     "name": "SD",
                                                     "type": "hls",
                                                     "default": false,
@@ -2513,7 +913,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-e0080bb54b56",
+                                                    "id": "lnk-cd09bf091a6e",
                                                     "name": "HD",
                                                     "type": "hls",
                                                     "default": false,
@@ -2530,7 +930,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-0b07c9438a4b",
+                                                    "id": "lnk-cade078f1674",
                                                     "name": "FullHD",
                                                     "type": "hls",
                                                     "default": false,
@@ -2547,7 +947,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-b4f91e2e946f",
+                                                    "id": "lnk-cb7e16ddff25",
                                                     "name": "FLV",
                                                     "type": "flv",
                                                     "default": false,
@@ -2564,7 +964,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-a1bef87cf198",
+                                                    "id": "lnk-3ffe3763c3c1",
                                                     "name": "FLV2",
                                                     "type": "flv",
                                                     "default": false,
@@ -2610,19 +1010,19 @@
                     "display": "overlay",
                     "sources": [
                         {
-                            "id": "src-b565d7894a7f",
+                            "id": "src-5e61219a1ab7",
                             "name": "NEOM Sports Club - Al Shabab FC",
                             "contents": [
                                 {
-                                    "id": "ct-1a5c42bfb583",
+                                    "id": "ct-47918aeed5aa",
                                     "name": "Saudi Professional League",
                                     "streams": [
                                         {
-                                            "id": "st-51fd7b337ecb",
+                                            "id": "st-44672d641528",
                                             "name": "Stream",
                                             "stream_links": [
                                                 {
-                                                    "id": "lnk-ff1eba5abe92",
+                                                    "id": "lnk-9b848f9e8c57",
                                                     "name": "Nhà đài SD",
                                                     "type": "hls",
                                                     "default": true,
@@ -2639,7 +1039,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-9d02cdbad0b6",
+                                                    "id": "lnk-2baf16ecd92b",
                                                     "name": "Nhà đài HD",
                                                     "type": "hls",
                                                     "default": false,
@@ -2656,7 +1056,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-147e4d605eee",
+                                                    "id": "lnk-25e2ea05125b",
                                                     "name": "SD",
                                                     "type": "hls",
                                                     "default": false,
@@ -2673,7 +1073,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-1674aa50a92d",
+                                                    "id": "lnk-e42ee8ec6217",
                                                     "name": "HD",
                                                     "type": "hls",
                                                     "default": false,
@@ -2690,7 +1090,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-b562f0a3c628",
+                                                    "id": "lnk-7699ec01e668",
                                                     "name": "FullHD",
                                                     "type": "hls",
                                                     "default": false,
@@ -2707,7 +1107,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-cc10e43e4fbb",
+                                                    "id": "lnk-248f27ceb2c1",
                                                     "name": "FLV",
                                                     "type": "flv",
                                                     "default": false,
@@ -2724,7 +1124,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-a7f2d0864de4",
+                                                    "id": "lnk-e7587049582a",
                                                     "name": "FLV2",
                                                     "type": "flv",
                                                     "default": false,
