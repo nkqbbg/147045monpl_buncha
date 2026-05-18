@@ -45,7 +45,7 @@ function findFirstTextMatch(texts, re) {
 }
 
 async function scrapeSoccer() {
-  const origin = "https://phantatv.pro";
+  const origin = "https://phantatv.one";
   const url = `${origin}/soccer`;
   console.log(`🚀 Fetching data from ${url}...`);
 
