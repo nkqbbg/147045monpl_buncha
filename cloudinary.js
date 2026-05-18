@@ -3,7 +3,7 @@ const { Worker, isMainThread, parentPort } = require("worker_threads");
 const { v2: cloudinary } = require("cloudinary");
 const streamifier = require("streamifier");
 
-const CLOUDINARY_FOLDER = process.env.CLOUDINARY_FOLDER || "phantatv";
+const CLOUDINARY_FOLDER = "phantatv";
 
 // ===== CONFIG =====
 cloudinary.config({
